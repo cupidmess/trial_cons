@@ -276,7 +276,7 @@ const Pg3 = () => {
                 </div>
               </div>
               <div className = {style.righttxt3}>
-                  <div className = {style.rimg}><Image src = {g1} alt = "mail" height={35}/></div>
+                  <div className = {style.rimg}><Image src = {g1} alt = "mail" height={35} className={style.rimg1}/></div>
                   <div className = {style.rt1}>info@consennse.com</div>
                 </div>
             </div>

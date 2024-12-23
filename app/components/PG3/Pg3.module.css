@@ -228,9 +228,10 @@
   }
   .maintop{
     color: #433878;
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 600;
     margin-top: 2rem;
+    margin-bottom: 1.5rem;
   }
   .form {
     display: flex;
