@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+.main9 {
+  font-family: 'Font', sans-serif;
+  display: flex;
+  flex-direction: row;
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.left9{
+  width: 55%;
+}
+.lefttop9{ 
+  color: #433878;
+  text-transform: uppercase;
+  font-stretch: condensed;
+  font-weight: 1000;
+  font-size: 17px;
+  margin-bottom: 0.8rem;
+}
+.lefttit9 {
+  font-size:60px;
+  font-weight: 800;
+  color: #433878;
+  margin-bottom: 2.5rem;
+}
+.right9{
+  margin-top: 10rem;
+  margin-left: 3.5rem;
+}
+.righttop9{
+  color: #433878;
+  text-transform: uppercase;
+  font-stretch: condensed;
+  font-weight: 1000;
+  font-size: 17px;
+  margin-bottom: 0.8rem;
+}
+.righttit9 {
+  font-size:43px;
+  font-weight: 800;
+  color: #433878;
+  margin-bottom: 1rem;
+}
+.rightmc {
+  font-size: 17px;
+  width: 85%;
+  opacity: 0.75;
+  margin-bottom: 5rem;
+}
+.rightbut9{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #433878;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+  padding-left: 2.5rem;
+  border-radius: 5px;
+}
+@media (max-width: 768px){
+  .main9 {
+    font-family: 'Font', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    margin-top: 19rem;
+  }
+  .left9{
+    width: 100%;
+  }
+  .lefttop9{ 
+    color: #433878;
+    text-transform: uppercase;
+    font-stretch: condensed;
+    font-weight: 1000;
+    font-size: 13px;
+    margin-bottom: 0.8rem;
+  }
+  .lefttit9 {
+    font-size:30px;
+    font-weight: 800;
+    color: #433878;
+    margin-bottom: 1rem;
+  }
+  .right9{
+   margin-top: 1rem;
+   margin-left: 0;
+  }
+  .righttop9{
+    color: #433878;
+    text-transform: uppercase;
+    font-stretch: condensed;
+    font-weight: 1000;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+  }
+  .righttit9 {
+    font-size:24px;
+    font-weight: 800;
+    color: #433878;
+    margin-bottom: 0.6rem;
+  }
+  .rightmc {
+    font-size: 17px;
+    width: 85%;
+    opacity: 0.75;
+    margin-bottom: 3rem;
+  }
+  .rightbut9{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #433878;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    width: max-content;
+    height: 32px;
+    padding-left: 1.5rem;
+    border-radius: 5px;
+  }
+}

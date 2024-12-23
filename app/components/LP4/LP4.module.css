@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+.m {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  height: 100vh;
+  align-items: center;
+  font-family: 'Font', sans-serif;
+}
+.r { 
+  background-image: url('/images/Rectangle2686.svg');
+  width: 50%;
+  height: 88%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.l{
+  width: 50%;
+  height: 88%;
+}
+.lbox{
+  height: 55%;
+  width: 45%;
+  background-color: #433878;
+  border-radius: 5px;
+}
+.lboxt{
+  width: 65%;
+  /* height: 40%; */
+  border-radius: 5px;
+  border-color:#E0DEF7; 
+  border: 0.2px;
+  border-style: solid;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  position: absolute;
+  background-color: white;
+}
+.lb1 {
+  font-size: 16px;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.lbline {
+  border: 0.5px;
+  opacity: 0.5;
+  border-style: solid;
+  border-color: #433878;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  margin-left: 2.5rem;
+  margin-right: 6.5rem
+}
+.lb2{ 
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-bottom: 3.5rem;
+}
+.im1{ 
+  margin-top: 2.5rem;
+  margin-left : 2.5rem
+}
+.im2{ 
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  .m {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Font', sans-serif;
+    margin: 0;
+  }
+  .r { 
+    background-image: url('/images/Rectangle2686.svg');
+    width: 90%;
+    height: 88%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .l{
+    width: 30%;
+    height: 88%;
+  }
+  .lbox{
+    height: 55%;
+    width: 45%;
+    background-color: #433878;
+    border-radius: 5px;
+  }
+  .lboxt{
+    width: 85%;
+    /* height: 40%; */
+    border-radius: 5px;
+    border-color:#E0DEF7; 
+    border: 0.2px;
+    border-style: solid;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    position: absolute;
+    background-color: white;
+  }
+  .lb1 {
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  .lbline {
+    border: 0.5px;
+    opacity: 0.5;
+    border-style: solid;
+    border-color: #433878;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 6.5rem
+  }
+  .lb2{ 
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 3.5rem;
+  }
+  .im1{ 
+    margin-top: 2.5rem;
+    margin-left : 2.5rem
+  }
+  .im2{ 
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+}

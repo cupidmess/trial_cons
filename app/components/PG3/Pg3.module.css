@@ -1,0 +1,442 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+.maincon{
+  font-family: 'Font', sans-serif;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60rem;
+}
+.maintop{
+  color: #433878;
+  font-size: 46px;
+  font-weight: 600;
+}
+.form {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  background-color: white;
+  margin-top: 6rem;
+  border-radius: 32px;
+  width: 85%;
+  
+}
+.leftf{
+  padding: 3.3rem;
+  display: flex;
+  flex-direction: column;
+}
+.rightf{ 
+  padding: 0;
+}
+.img1{
+  /* margin-top: 3.3rem; */
+  height:auto;
+  width: 430px;
+}
+.l1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.pat {
+  position: absolute;
+  width: 83%;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+.fnametxt, .comp{ 
+  font-size: 18px;
+}
+.comp { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.op {
+  font-size: 14px;
+}
+.finput1 {
+  margin-top: 0.5rem;
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #8B8B8B;
+  font-size: 16px;
+  color: #414141;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.8rem;
+}
+.l2,.l3,.l5,.l4 { 
+  margin-top: 1.5rem;
+}
+.l3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.finput2{
+  height: 7.5rem;
+  margin-top: 0.5rem;
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #8B8B8B;
+  font-size: 16px;
+  color: #414141;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+  padding-left: 0.8rem;
+}
+.lbutt1{
+  margin-top: 2rem;
+  width: 100%;
+  background-color:#433878;
+  color: white;
+  font-size: 18px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 8px;
+}
+.rightbox1{
+  position: absolute;
+  background-color: #433878;
+  border-top-right-radius: 32px;
+  height: 55vh;
+  width: 24.4%;
+  margin-left: 20rem;
+}
+.rightimg{
+  position: absolute;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+.img1{
+  border-radius: 10px;
+}
+.right2{
+  margin-top: 115%;
+  margin-left: 3rem;
+  padding-bottom: 3rem;
+}
+.righttxt{
+  display: flex;
+  flex-direction: row; 
+  font-size: 12px;
+  align-items: center;
+}
+.righttxt2,.righttxt1,.righttxt3{
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  align-items: center;
+}
+.rt1,.rt2,.rt3{
+  margin-left: 0.5rem;
+}
+.righttxt2{
+  margin-left: 2rem;
+}
+.righttxt3{
+  margin-top: 1.5rem;
+}
+.compi1{
+  width: 100%;
+  margin-top: 0.5rem;
+  font-size: 12px;
+  display:flex;
+  flex-direction: row;
+
+}
+.compi2{
+  display:flex;
+  flex-direction: row;
+  font-size: 12.5px;
+  margin-top: 0.7rem;
+
+}
+.radioInput {
+  margin-right: 0.3rem;
+}
+.option2{
+  margin-left:3.2rem;
+}
+.option4{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.option1,.option2,.option3,.option4,.option5{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.arrow {
+  border: 1px solid black;
+  border-radius: 50%; /* Makes it circular */
+  height: 20px; /* Adjust size */
+  width: 20px;
+  margin-right: 0.4rem;
+  cursor: pointer;
+  display: inline-block;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.arrow.change {
+  border: 3px solid #433878; /* Highlighted border */
+  background-color: #433878; /* Filled color when selected */
+}
+
+.radioInput {
+  display: none; /* Hide the default radio button */
+}
+
+.option {
+  margin-left: 0.6rem;
+  display: flex; /* Align the circle and text */
+  align-items: center;
+  margin-bottom: 0.5rem; /* Add spacing between options */
+  cursor: pointer;
+}
+
+.option:hover .arrow {
+  border-color: #433878; /* Optional: Change color on hover */
+}
+
+@media (max-width: 768px){
+  @font-face {
+    font-family: 'Font';
+    src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+    font-weight: normal;
+    font-style: normal;
+  } 
+  .maincon{
+    font-family: 'Font', sans-serif;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80rem;
+  }
+  .maintop{
+    color: #433878;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    margin-top: 8rem;
+    border-radius: 32px;
+    width: 79%;
+    
+  }
+  .leftf{
+    padding: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .rightf{ 
+    padding: 0;
+  }
+  .img1{
+    margin-top:0;
+    height:300px;
+    width: auto;
+  }
+  .l1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .pat {
+    display: none;
+  }
+  .fnametxt, .comp{ 
+    font-size: 18px;
+  }
+  .comp { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .op {
+    font-size: 14px;
+  }
+  .finput1 {
+    margin-top: 0.5rem;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #8B8B8B;
+    font-size: 16px;
+    color: #414141;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+  }
+  .l2,.l3,.l5,.l4 { 
+    margin-top: 1.5rem;
+  }
+  .l3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .finput2{
+    height: 7.5rem;
+    margin-top: 0.5rem;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #8B8B8B;
+    font-size: 16px;
+    color: #414141;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+  }
+  .lbutt1{
+    margin-top: 2rem;
+    width: 100%;
+    background-color:#433878;
+    color: white;
+    font-size: 18px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 8px;
+  }
+  .rightbox1{
+    display: none;
+    position: absolute;
+    background-color: #433878;
+    border-top-right-radius: 32px;
+    height: 20vh;
+    width: 14.4%;
+    margin-left: 0rem;
+  }
+  .rightimg{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .img1{
+    display: none;
+    border-radius: 10px;
+  }
+  .right2{
+    display: flex;
+    flex-direction: column;
+    margin-top:0%;
+    margin-left: 0rem;
+    padding-bottom: 3rem;
+  }
+  .righttxt{
+    display: flex;
+    flex-direction: column; 
+    font-size: 8px;
+    margin-left: 0;
+    width: 80%;
+  }
+  .righttxt2,.righttxt1,.righttxt3{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+
+  }
+  .rt1,.rt2,.rt3{
+    margin-left: 0rem;
+    width: 70%;
+    word-wrap: break-word;
+  }
+  .righttxt2{
+    margin-top: 0.7rem;
+    margin-left: 6.4rem;
+  }
+  .righttxt3{
+    margin-top: 0.7rem;
+    margin-left: 4rem;
+  }
+  .rimg1{
+    height: 20px;
+  }
+  .compi1{
+    width: 100%;
+    margin-top: 0rem;
+    font-size: 12px;
+    display:flex;
+    flex-direction: column;
+  
+  }
+  .compi2{
+    display:flex;
+    flex-direction: column;
+    font-size: 12.5px;
+    margin-top: 0;
+  
+  }
+  .radioInput {
+    margin-right: 0.3rem;
+  }
+  .option2{
+    margin-left:3.2rem;
+  }
+  .option4{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .option1,.option2,.option3,.option4,.option5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .arrow {
+    border: 1px solid black;
+    border-radius: 50%; /* Makes it circular */
+    height: 20px; /* Adjust size */
+    width: 20px;
+    margin-right: 0.4rem;
+    cursor: pointer;
+    display: inline-block;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .arrow.change {
+    border: 3px solid #433878; /* Highlighted border */
+    background-color: #433878; /* Filled color when selected */
+  }
+  
+  .radioInput {
+    display: none; /* Hide the default radio button */
+  }
+  
+  .option {
+    margin-left: 0.6rem;
+    display: flex; /* Align the circle and text */
+    align-items: center;
+    margin-bottom: 0.5rem; /* Add spacing between options */
+    cursor: pointer;
+  }
+  
+  .option:hover .arrow {
+    border-color: #433878; /* Optional: Change color on hover */
+  }
+}

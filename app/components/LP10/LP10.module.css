@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+.main10{
+  font-family: 'Font', sans-serif;
+  display: flex;
+  flex-direction: row;
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.left10{
+  width: 120%;
+  margin-right: 2rem;
+}
+.righttop10{
+  color: #433878;
+  text-transform: uppercase;
+  font-stretch: condensed;
+  font-weight: 1000;
+  font-size: 17px;
+  margin-bottom: 0.8rem;
+}
+.righttit10 {
+  font-size:43px;
+  font-weight: 800;
+  color: #433878;
+  margin-bottom: 1rem;
+}
+.rightmc10 {
+  font-size: 17px;
+  width: 85%;
+  opacity: 0.75;
+  margin-bottom: 5rem;
+}
+.rightbut10{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #433878;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+  padding-left: 2.5rem;
+  border-radius: 5px;
+}
+@media (max-width: 768px){
+  .main10{
+    font-family: 'Font', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .left10{
+    width: 100%;
+  }
+  .righttop10{
+    color: #433878;
+    text-transform: uppercase;
+    font-stretch: condensed;
+    font-weight: 1000;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+  }
+  .righttit10 {
+    font-size:24px;
+    font-weight: 800;
+    color: #433878;
+    margin-bottom: 0.6rem;
+  }
+  .rightmc10 {
+    font-size: 17px;
+    width: 85%;
+    opacity: 0.75;
+    margin-bottom: 3rem;
+  }
+  .rightbut10{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #433878;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    width: max-content;
+    height: 32px;
+    padding-left: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+  }
+}

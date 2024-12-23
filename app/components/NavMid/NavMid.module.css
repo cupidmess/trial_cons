@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+.t {
+  font-family: 'Font', sans-serif;
+  color:#FDFDFD ;
+  padding: 2.5rem;
+}
+.t1{ 
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 6%;
+  width: 80%;
+}
+.t2{
+  font-size: 25px;
+  width: 55%;
+}
+@media (max-width: 768px) {
+  .t {
+    font-family: 'Noto Sans', sans-serif;
+    color:#FDFDFD ;
+
+  }
+  .t1{ 
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 25%;
+    width: 70%;
+  }
+  .t2{
+    font-size: 17px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
