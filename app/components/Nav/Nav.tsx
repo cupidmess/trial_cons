@@ -18,9 +18,10 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleLanguageChange = (lang: string) => {
-    i18n.changeLanguage(lang);
-    setIsOpen(false);  // Close dropdown after language selection
+  const changeLanguage = (lang: string) => {
+    i18n.changeLanguage(lang); // Change the language in i18next
+    setLanguage(lang); // Update the state to track the selected language
+    setIsOpen(false); // Close the dropdown after selection
   };
   
 
