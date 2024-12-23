@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import { useState } from 'react'
 import Nav2 from '../Nav2/Nav2'
 import Image from 'next/image'
 import F1 from "./Frame1.svg"
