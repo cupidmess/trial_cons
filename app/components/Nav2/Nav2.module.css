@@ -4,6 +4,9 @@
   font-weight: normal;
   font-style: normal;
 }
+body{
+  cursor: pointer;
+}
 .top { 
   display: flex;
   flex-direction: row;
@@ -14,6 +17,7 @@
   padding-right: 2.5rem;
   font-weight: 500;
   padding-bottom: 2.5rem;
+  cursor: pointer;
 }
 .ic {
   font-size: 6px;
@@ -43,14 +47,17 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 .serv {
   -webkit-text-stroke: 0.05px black; 
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); 
   width:60px;
   overflow-wrap: break-word;
+  cursor: pointer;
 }
 .serv,.home,.sup,.sol {
+  cursor: pointer;
   margin-right: 3rem;
   width:70px;
   overflow-wrap: break-word;
@@ -58,6 +65,7 @@
 .con {
   width:86px;
   margin-right: 5rem;
+  cursor: pointer;
   overflow-wrap: break-word;
 }
 .but {
