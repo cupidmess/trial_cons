@@ -45,7 +45,6 @@ const Pg2 = () => {
       });
 
       if (response.ok) {
-        const data = await response.json();
         console.log("Form submitted successfully!");
         setPopupVisible(true);
       } else {

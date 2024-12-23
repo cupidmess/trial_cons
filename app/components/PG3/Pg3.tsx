@@ -14,9 +14,6 @@ import Footer from '../Footer/Footer';
 import { useTranslation } from 'react-i18next'
 const Pg3 = () => {
   const [selectedOption, setSelectedOption] = useState('');
-  const handleRadioChange = (event) => {
-    setSelectedOption(event.target.id);
-  };
   const [isPopupVisible, setPopupVisible] = useState(false);
   const [formData, setFormData] = useState({
     fname: '',

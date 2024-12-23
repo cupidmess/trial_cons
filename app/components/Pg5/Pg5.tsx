@@ -9,7 +9,6 @@ import m2 from "./Frame 1249186694.svg"
 import m3 from "./Frame 1249186695.svg"
 import m4 from "./Frame 1249186698.svg"
 import m5 from "./Frame 1249186699-1.svg"
-import { FaChevronCircleUp } from 'react-icons/fa';
 import m6 from "./Frame 1249186699.svg"
 import man from "./young-man-brown-bob-hair-team-leader-celebrate-victory-competition-purple-background-Photoroom 1.svg"
 import tick from "./Union.svg"
@@ -19,9 +18,6 @@ import { useState } from 'react'
 const Pg5 = () => {
   const [selectedOption, setSelectedOption] = useState('first');
   const {t} = useTranslation();
-  const handleRadioChange = (event) => {
-    setSelectedOption(event.target.id);
-  };
 
   return (
     <div className = {style.bod}>

@@ -12,8 +12,6 @@ import LP9 from '@/app/components/LP9/LP9'
 import LP10 from '@/app/components/LP10/LP10'
 import LP11 from '@/app/components/LP11/LP11'
 import LP12 from '@/app/components/LP12/LP12'
-import initTranslations from '@/app/i18n'
-import TranslationsProvider from '@/app/components/TranslationProvider'
 export default async function page () {
   return (
     <div>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Name from "./Name.svg"
 import { FaCircle } from 'react-icons/fa'
 import { FaChevronDown } from 'react-icons/fa'
-import NavMid from '../NavMid/NavMid'
+
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react'
 const Nav2 = () => {

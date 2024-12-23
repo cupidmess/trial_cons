@@ -15,7 +15,7 @@ import g1 from "./Frame.svg";
 import { useTranslation } from 'react-i18next'
 const Pg4 = () => {
   const {t} = useTranslation();
-  const [language, setLanguage] = useState('en'); 
+  
   return (
     <div>
       <Nav2/>
