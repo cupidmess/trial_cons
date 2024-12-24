@@ -62,7 +62,7 @@ const Pg2 = () => {
   const {t} = useTranslation(); 
   return (
     <div>
-      <div>
+      <div className={style.bod}>
         <div className={style.patimg}>
       <Image src = {pattern} alt = "pattern" className = {style.pat} /> 
       </div>

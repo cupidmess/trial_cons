@@ -3,9 +3,12 @@
   src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
   font-weight: normal;
   font-style: normal;
+}
+.bod{
+  background-color: #F7F4FA;
 } 
 .maincon{
-  background-color: #F7F4FA;
+  
   font-family: 'Font', sans-serif;
   padding-left: 7rem;
   padding-right: 7rem;
