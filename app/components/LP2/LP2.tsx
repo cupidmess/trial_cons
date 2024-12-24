@@ -41,7 +41,7 @@ const LP2 = () => {
       </div>
       <div className={st.rbottom}>
         <div className = {st.rbi1}> <Image src = {shake} alt ="shake" height={275} /> </div>
-        <div className = {st.rbi2}> <Image src = {group} alt = "statistics" height={275} /></div>
+        <div className = {st.rbi2}> <Image src = {group} alt = "statistics" height={285} /></div>
       </div>
      </div>
     </div>

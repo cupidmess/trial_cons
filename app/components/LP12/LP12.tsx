@@ -21,9 +21,9 @@ const LP12 = () => {
       <div className = {st12.bot12}>
         <div className = {st12.bott}>
       <div className = {st12.bot1}>
-      <div className = {st12.bottext12}>Consennse GmbH  </div>
+      <div className = {st12.bottext12}>Consennse GmbH</div>
       <div className = {st12.bots1}>
-      Ringwilerstrasse 48620 Wetzikon ZH Switzerland
+      Ringwilerstrasse 4 8620 Wetzikon ZH Switzerland
       </div>
       <div className = {st12.bots2}>info@consennse.com</div>
       <div className = {st12.img12} > <Image src ={lin} alt = "linkedin" height={35} className ={st12.img123}/></div>
@@ -31,19 +31,17 @@ const LP12 = () => {
       <div className = {st12.bottombox2}>
       <div className={st12.bot2}>
         <div className = {st12.bots21}>{t('81')}</div>
-        <div className = {st12.bots22}>{t('82')}</div>
+        <div className = {st12.bots223}>{t('82')}</div>
+        <div className = {st12.bots224}>{t('81A')}</div>
       </div>
       <div className={st12.bot22}>
         <div className = {st12.bots21}>{t('83')}</div>
         <div className = {st12.bots22}>{t('84')}</div>
+        <div className = {st12.bots22}>EXPOSE for Propertybase</div>
       </div>
       <div className={st12.bot2}>
         <div className = {st12.bots21}>{t('85')}</div>
         <div className = {st12.bots22}>{t('86')}</div>
-      </div>
-      <div className={st12.bot23}>
-        <div className = {st12.bots21}>{t('87')}</div>
-        <div className = {st12.bots22}>{t('88')}k</div>
       </div>
       </div>
       </div>

@@ -18,12 +18,12 @@ const LP3 = () => {
         <div className = {st1.lpright3}>
           <div className = {st1.lpbox}>
             <div className={st1.boxtext}>
-              <div className = {st1.boxst}>{t('108')}+</div>
+              <div className = {st1.boxst}>{t('180')}+</div>
               <div className = {st1.boxlt}>{t('16')}</div>
             </div>
             <div className = {st1.boxline}></div>
             <div className={st1.boxtext}>
-              <div className = {st1.boxst}>{t('109')}+</div>
+              <div className = {st1.boxst}>{t('181')}+</div>
               <div className = {st1.boxlt}>{t('17')}</div>
             </div>
             <div className = {st1.boxline}></div>

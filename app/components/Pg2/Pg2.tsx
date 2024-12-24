@@ -63,7 +63,9 @@ const Pg2 = () => {
   return (
     <div>
       <div>
+        <div className={style.patimg}>
       <Image src = {pattern} alt = "pattern" className = {style.pat} /> 
+      </div>
       <Nav2/>
       </div>
       <div className = {style.maincon}>

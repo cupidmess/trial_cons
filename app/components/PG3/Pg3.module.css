@@ -19,15 +19,15 @@
 }
 .form {
   position: absolute;
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  display: flex;
+  flex-direction: row;
   background-color: white;
   margin-top: 6rem;
   border-radius: 32px;
-  width: 85%;
-  
+  width: 85%; 
 }
 .leftf{
+  
   padding: 3.3rem;
   display: flex;
   flex-direction: column;
@@ -113,7 +113,7 @@
   border-top-right-radius: 32px;
   height: 55vh;
   width: 24.4%;
-  margin-left: 20rem;
+  margin-left: 21.5rem;
 }
 .rightimg{
   position: absolute;
@@ -124,7 +124,7 @@
   border-radius: 10px;
 }
 .right2{
-  margin-top: 115%;
+  margin-top: 125%;
   margin-left: 3rem;
   padding-bottom: 3rem;
 }

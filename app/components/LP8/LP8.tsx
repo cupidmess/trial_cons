@@ -48,7 +48,7 @@ const LP8 = () => {
         <div className = {st8.rightbox8}>
           hi here is the purple box         </div>
           <div className = {st8.imgbox8}>
-          <Image src = {rectx} alt = 'sure' width={700}>
+          <Image src = {rectx} alt = 'sure' width={700} className={st8.img1}>
           </Image>
         </div>
         </div>

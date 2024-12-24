@@ -1,0 +1,408 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.mainbody {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.top1{ 
+  font-family: "BoldFont", sans-serif;
+  font-size: 40px;
+  color: #433878;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.line1{
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  margin-bottom: 1rem;
+  width: 34%;
+}
+.topcont{
+  font-family: "Font", sans-serif;
+  font-size: 16px;
+  width: 74%;
+  margin-bottom: 3.5rem;
+}
+.topbox1,.topbox2{
+  background-color: #433878;
+  color: white;
+  border-radius: 16px;
+  gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+}
+.box1right{
+  padding-top: 2rem;
+  padding-right: 2rem;
+}
+.box2right{
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.box1tit,.box2tit{
+  font-family: "BoldFont", sans-serif;
+  font-size: 45px;
+  margin-bottom: 1.5rem;
+}
+.box1line,.box2line{
+  border: 0.5px;
+  border-color: white;
+  border-style: solid;
+  width: 60%;
+  opacity: 0.7;
+  margin-bottom: 1.5rem;
+}
+.box1main,.box2main{
+  width: 85%;
+  font-family:"ConThin", sans-serif;
+  font-weight: 600;
+}
+.stress{
+  margin-left: 3.4rem;
+}
+.top2{
+  background-color: white;
+  height:43.5rem ;
+}
+.boxes2,.boxes22{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.box21,.box211{
+  border-radius: 30px;
+  background-color: #ECEBFF;
+  margin-top: 0.8rem;
+  position: absolute;
+  width: 43%;
+  height: 35%;
+  padding: 2rem;
+}
+.behindbox,.behindbox21{
+  border-top-right-radius:40px ;
+  background-color: #433878;
+  height: 100px;
+  width: 165px;
+  margin-left: 30rem;
+}
+
+.fboxtop,.fboxtop21{
+  font-family: "ConBoldFont", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.htxt,.htxt21{
+  margin-left: 2rem;
+  font-size: 16px;
+}
+.fboxl,.fboxl21{
+  width: 55%;
+  margin-top: 1rem;
+  margin-bottom: 1.3rem;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+}
+.fboxtit,.fboxtit21{
+  font-family: "BoldFont", sans-serif;
+  color: #433878;
+  font-size: 23px;
+  margin-bottom: 0.5rem;
+}
+.fboxmaincon,.fboxmaincon21{
+  width: 82%;
+  font-size: 13px;
+}
+.box22{
+  border-radius: 30px;
+  background-color: #433878;
+  color: white;
+  margin-top: 0.8rem;
+  position: absolute;
+  width: 43%;
+  height: 35%;
+  padding: 2rem;
+  margin-left: 41rem;
+}
+.behindbox2{
+  border-top-right-radius:40px ;
+  background-color: #CBC7FA;
+  height: 100px;
+  width: 165px;
+  margin-left: 28rem;
+}
+
+.fboxtop2{
+  font-family: "ConBoldFont", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.htxt2{
+  margin-left: 2rem;
+  font-size: 16px;
+}
+.fboxl2{
+  width: 55%;
+  margin-top: 1rem;
+  margin-bottom: 1.3rem;
+  border: 0.5px;
+  border-style: solid;
+  border-color: white;
+}
+.fboxtit2{
+  font-family: "BoldFont", sans-serif;
+  color: white;
+  font-size: 23px;
+  margin-bottom: 0.5rem;
+}
+.fboxmaincon2{
+  width: 82%;
+  font-size: 13px;
+}
+.boxes22{
+  margin-top: 14rem;
+}
+.box222{
+  border-radius: 30px;
+  background-color: #ECEBFF;
+  margin-top: 0.8rem;
+  position: absolute;
+  width: 43%;
+  height: 35%;
+  padding: 2rem;
+  margin-left: 41rem;
+}
+.behindbox22{
+  border-top-right-radius:40px ;
+  background-color: #433878;
+  height: 100px;
+  width: 165px;
+  margin-left: 28rem;
+}
+
+.fboxtop22{
+  font-family: "ConBoldFont", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.htxt22{
+  margin-left: 2rem;
+  font-size: 16px;
+}
+.fboxl22{
+  width: 55%;
+  margin-top: 1rem;
+  margin-bottom: 1.3rem;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+}
+.fboxtit22{
+  font-family: "BoldFont", sans-serif;
+  color: #433878;
+  font-size: 23px;
+  margin-bottom: 0.5rem;
+}
+.fboxmaincon22{
+  width: 82%;
+  font-size: 13px;
+}
+.maintop2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+  height: 21.5rem;
+  border-radius: 16px;
+  background-color: #433878;
+}
+.right2{
+  padding: 2rem;
+  padding-right: 4rem;
+  color: white;
+}
+.unionimg{
+  position: absolute;
+}
+.shiny{
+  position: absolute;
+}
+.unimg{
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+.right2tit{
+  font-family: "BoldFont", sans-serif;
+  font-size: 44px;
+}
+.right2line{
+  border: 0.5px;
+  border-style: solid;
+  border-color: white;
+  width: 74%;
+  opacity: 0.7;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.right2maincon{
+  font-family: "ConBoldFont", sans-serif;
+  width: 75%;
+  font-size: 13px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+.page3{
+  margin-top: 1rem;
+  background-color: white;
+  margin-bottom: 10rem;
+  height: 80rem;
+}
+.box3{
+  border-radius: 30px;
+  background-color: #ECEBFF;
+  color: #433878;
+  margin-top: 0.8rem;
+  position: absolute;
+  width: 38.5%;
+  height: 35%;
+  padding: 2rem;
+  margin-left: 1rem;
+}
+.boxes3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  margin-bottom: 14rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.behindbox3{
+  border-top-left-radius:40px ;
+  background-color: #CBC7FA;
+  height: 100px;
+  width: 165px;
+}
+
+.fboxtop3{
+  font-family: "ConBoldFont", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.htxt3{
+  margin-left: 2rem;
+  font-size: 16px;
+}
+.fboxl3{
+  width: 55%;
+  margin-top: 1rem;
+  margin-bottom: 1.3rem;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+}
+.fboxtit3{
+  font-family: "BoldFont", sans-serif;
+  color: #433878;
+  font-size: 23px;
+  margin-bottom: 0.5rem;
+}
+.fboxmaincon3{
+  width: 82%;
+  font-size: 13px;
+}
+
+.box32{
+  border-radius: 30px;
+  background-color: #ECEBFF;
+  color: #433878;
+  margin-top: 0.8rem;
+  position: absolute;
+  width: 38.5%;
+  height: 35%;
+  padding: 2rem;
+  margin-left: 44rem;
+}
+.behindbox32{
+  border-top-left-radius:40px ;
+  background-color: #CBC7FA;
+  height: 100px;
+  width: 165px;
+  margin-left: 1.2rem;
+}
+
+.fboxtop32{
+  font-family: "ConBoldFont", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.htxt32{
+  margin-left: 2rem;
+  font-size: 16px;
+}
+.fboxl32{
+  width: 55%;
+  margin-top: 1rem;
+  margin-bottom: 1.3rem;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+}
+.fboxtit32{
+  font-family: "BoldFont", sans-serif;
+  color: #433878;
+  font-size: 23px;
+  margin-bottom: 0.5rem;
+}
+.fboxmaincon32{
+  width: 82%;
+  font-size: 13px;
+}

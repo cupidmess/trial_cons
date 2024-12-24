@@ -18,6 +18,7 @@ export default async function page () {
     <div className={style.body}>
       <Nav/>
       </div>
+      <div className={style.content}>
       <LP2/>
       <LP3/>
       <LP4/>
@@ -29,6 +30,7 @@ export default async function page () {
       <LP10/>
       <LP11/>
       <LP12/>
+      </div>
     </div>
   )
 }

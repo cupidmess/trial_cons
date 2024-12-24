@@ -27,7 +27,7 @@ const LP7 = () => {
         <div className = {st7.rightbox}>
           hi here is the purple box         </div>
           <div className = {st7.imgbox}>
-          <Image src = {rext} alt = 'collegues'>
+          <Image src = {rext} alt = 'collegues' className={st7.brimg}>
           </Image>
         </div>
 

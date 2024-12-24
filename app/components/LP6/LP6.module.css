@@ -3,6 +3,51 @@
   src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
   font-weight: normal;
   font-style: normal;
+} 
+
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ShortBold';
+  src: url('/fonts/NotoSans-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: normal;
 }
 .body6{
   font-family: 'Font' , sans-serif;
@@ -16,12 +61,11 @@
   padding-top: 2.5rem;
   padding-left: 2.5rem;
   background-color: #433878;
-  height:max-content;
+  height:38rem;
   width: 95%;
   border-radius: 7px;
   color: white;
-  margin-right: 2.5rem;
-  
+  margin-right: 2.5rem; 
 }
 .lt1{
   text-transform: uppercase;
@@ -32,7 +76,7 @@
   width: 80%;
 }
 .lt2{
-  font-weight: 700;
+  font-family: "BoldFont", sans-serif;
   font-size: 44px;
   line-height: 0.6in;
   width: 80%;
@@ -48,7 +92,7 @@
 .lt3{
   width: 70%;
   font-size: 16px;
-  opacity: 0.6;
+  opacity: 0.8;
   margin-bottom: 3rem;
 }
 .but12{
@@ -63,6 +107,7 @@
   height: 50px;
   padding-left: 2.5rem;
   border-radius: 5px;
+  margin-top: 3rem;
 }
 .but1{
   margin-bottom: 7rem;
@@ -124,6 +169,7 @@
     width: 80%;
   }
   .lt2{
+    font-family: "BoldFont", sans-serif;
     font-weight: 700;
     font-size: 28px;
     line-height: 0.4in;

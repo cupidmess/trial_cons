@@ -53,7 +53,7 @@ const Pg3 = () => {
       <div className = {style.maincon}>
         <div className = {style.maintop}>{t('118')}</div>
         <div className = {style.form}>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className={style.form12}>
           <div className = {style.leftf}>
             <div className = {style.l1}> 
             <div className = {style.fname1}>
