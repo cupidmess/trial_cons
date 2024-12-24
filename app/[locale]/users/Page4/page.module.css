@@ -1,14 +1,14 @@
-body {
+.body {
   height: max-content;
-  background-color: #F7F4FA;
+
 }
 @media (min-width: 2000px) {
-  body {
+  .body {
     background-color: white; /* Light gray background */
     overflow-x: hidden;
   }
   .body{
-    background-color: #F7F4FA;
+
     width: 1440px; /* Keep the original size */
     margin: auto; /* Center the content */
     overflow-x: hidden;

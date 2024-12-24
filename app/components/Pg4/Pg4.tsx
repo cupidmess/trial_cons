@@ -16,7 +16,7 @@ const Pg4 = () => {
   const {t} = useTranslation();
   
   return (
-    <div>
+    <div className={style.mainbod}>
       <Nav2/>
       <div className = {style.maincon}>
       <div className = {style.top}>

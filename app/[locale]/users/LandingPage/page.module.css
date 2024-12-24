@@ -22,7 +22,7 @@
 }
 /* Media query for screens 1440px or wider */
 @media (min-width: 2000px) {
-  body {
+  .body {
     background-color: white; /* Light gray background */
   }
   .body{

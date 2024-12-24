@@ -30,6 +30,9 @@
   font-weight: normal;
   font-style: normal;
 }
+.bod{
+  background-color: #F7F4FA;
+}
 .top {
   margin-top: 2rem;
 }
