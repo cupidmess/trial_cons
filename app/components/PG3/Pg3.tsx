@@ -45,7 +45,7 @@ const Pg3 = () => {
   };
   const {t} = useTranslation(); 
   return (
-    <div>
+    <div className={style.bod}>
       <div>
       <Image src = {pattern} alt = "pattern" className = {style.pat} /> 
       <Nav2/>

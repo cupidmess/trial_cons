@@ -8,7 +8,6 @@
   background-color: #F7F4FA;
 } 
 .maincon{
-  
   font-family: 'Font', sans-serif;
   padding-left: 7rem;
   padding-right: 7rem;
@@ -39,6 +38,9 @@
   .rightf{
     width: 50%;
   }
+  .maincon{
+   background-color: #F7F4FA;
+  }
   .form{
     width: 60%;
     height: max-content;
@@ -62,7 +64,6 @@
     padding-left: 0;
     padding-right: 0;
   }
-
 }
 .rightf{ 
   padding: 0;
