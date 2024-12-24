@@ -14,15 +14,13 @@ import img7 from "./Frame 1249186730-7.svg"
 import img8 from "./Frame 1249186730-8.svg"
 import img9 from "./Frame 1249186730-9.svg"
 import img10 from "./Frame 1249186730-10.svg"
-import img11 from "./Frame 1249186730-11.svg"
 import stress from "./f0454ac29027a934d95f4ba9475dcc45.jpeg"
 import works from "./Rectangle 34625456-2.svg";
 import Foot from "../Footer/Footer"
 import union from "./Union.svg"
 import shiny from "./shiny-circles-lit-tablet 1.svg"
-import { useTranslation } from 'react-i18next';
 const Pg6 = () => {
-  const {t} = useTranslation(); 
+
   return (
     <div>
       <Nav2/>
