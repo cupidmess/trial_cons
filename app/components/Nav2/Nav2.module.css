@@ -106,7 +106,10 @@
   transition: transform 5s ease;
 }
 @media (max-width: 768px) {
-
+.broimg{
+  height: auto;
+  width: 122px;
+}
 .top { 
   display: flex;
   flex-direction: row;
@@ -166,7 +169,7 @@
   height: 2rem;
   border-radius: 0.5rem;
   margin-top: 2rem;
-  margin-left: 4rem;
+  margin-left: 6rem;
 }
 .drop {
   margin-left: 0.8rem;

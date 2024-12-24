@@ -26,7 +26,7 @@ const Nav2 = () => {
     <div>
       <div className={styles.top}>
         <div className={styles.img}>
-          <Image src={Name} alt="logo" height={27} />
+          <Image src={Name} alt="logo" height={27} className = {styles.broimg} />
         </div>
         <div className={styles.right}>
           <Link href="/">
