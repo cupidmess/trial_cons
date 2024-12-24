@@ -205,5 +205,11 @@
 @media (min-width: 2000px) {
 .brimg{
   width: 70%;
+  margin-right: 0;
+}
+.imgbox{
+  margin: 0;
+  width: 6px;
+  width:max-content ;
 }
 }
