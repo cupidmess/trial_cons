@@ -445,7 +445,7 @@
     border-color: #433878; /* Optional: Change color on hover */
   }
 }
-@media (min-width: 2000px){ 
+@media (min-width: 1600px){ 
 
   @font-face {
     font-family: 'Font';

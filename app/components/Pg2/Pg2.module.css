@@ -13,7 +13,7 @@
   padding-right: 7rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 60rem;
+  margin-bottom: 66rem;
 }
 .maintop{
   color: #433878;
@@ -34,7 +34,7 @@
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 2000px) { 
+@media (min-width: 1600px) { 
   .rightf{
     width: 50%;
   }
@@ -42,7 +42,7 @@
    background-color: #F7F4FA;
   }
   .form{
-    width: 48%;
+    width: 75%;
     height: max-content;
   }
   .righttxt1,.righttxt,.righttxt2,.righttxt3{

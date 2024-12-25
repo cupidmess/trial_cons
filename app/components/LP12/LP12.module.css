@@ -126,8 +126,9 @@ line-height: 0.25in;
   .ttext12{
     font-family: 'DM Sans' , sans-serif;
     margin-bottom: 2rem;
-    width: 75%;
+    width: 80%;
     font-size: 10px;
+    text-align: center;
   }
   .bot12{
     background-color: #433878;
@@ -162,6 +163,9 @@ line-height: 0.25in;
   }
   .bots1,.bots2 {
     font-size: 10px;
+  }
+  .bots1{
+    width: 36%;
   }
   .bots2{
     margin-top: 0.5rem;

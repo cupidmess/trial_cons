@@ -412,30 +412,29 @@
     margin-top: 1rem;
     border-radius: 16px;
     margin-bottom: 4rem;
-    height: 34.9rem;
+    height: 35.1rem;
   }
   .midbl {
     width: 100%;
     height: max-content;
     padding: 2rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0rem;
   }
   .midbimg{
     width: 0;
   }
   .mg1,.mg2{
-    width: 70%;
-    height:25%;
+    width: 78%;
     position: absolute;
     margin-left: 0rem;
   }
   .mg2{
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
   .mg1{
-    width: 60%;
+    width: 70%;
     margin-top: 0;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
   .s1{
     font-family: "ConLight", sans-serif;

@@ -114,8 +114,7 @@
   padding-bottom: 0rem;
 }
 .ic {
-  font-size: 3px;
-  
+  font-size: 3px;  
 }
 
 .img:hover{
@@ -166,7 +165,7 @@
   margin-left: 6.5rem;
 }
 .drop {
-  margin-left: 0.8rem;
+  margin-left: 0.6rem;
 }
 .but:hover {
   cursor: pointer;

@@ -1,7 +1,7 @@
 .body {
   height: max-content;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1600px) {
   .body {
     background-color: white; /* Light gray background */
     overflow-x: hidden;
