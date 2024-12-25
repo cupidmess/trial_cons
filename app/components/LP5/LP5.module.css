@@ -242,7 +242,7 @@
   .mainl {
     width: 60%;
     height: max-content;
-    padding-right: 0rem; /* change if needed */ 
+    padding-right: 3.5rem; /* change if needed */ 
   }
   .maingrid1{ 
     display: grid;
@@ -272,9 +272,9 @@
     flex-direction: row;
     align-items:flex-start;
   }
+
   .mainl1{ 
-    padding-right: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     color: #433878;
     font-size: 60px;
     font-weight: 700;

@@ -153,6 +153,7 @@
     height: 100vh;
     align-items: center;
     font-family: 'Font', sans-serif;
+    margin-bottom: 5rem;
   }
   .r { 
     background-image: url('/images/Rectangle2686.svg');
@@ -173,7 +174,7 @@
   }
   .lboxt{
     width: 45%;
-    height: 50%;
+    height: max-content;
     border-radius: 5px;
     border-color:#E0DEF7; 
     border: 0.2px;
@@ -185,7 +186,7 @@
   }
   .lb1 {
     width: 80%;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 1rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -202,7 +203,7 @@
   }
   .lb2{ 
     width: 80%;
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     margin-bottom: 3.5rem;
