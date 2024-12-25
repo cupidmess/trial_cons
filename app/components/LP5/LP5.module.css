@@ -8,16 +8,17 @@
   width: 40%;
   background-image: url('/images/imgg.svg');
   background-size: cover;
-  height: 105vh;
+  height: 80vh;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
 
 }
 .mbody { 
+
   font-family: 'Font', sans-serif;
-  height: 100vh;
+  height: max-content;
   margin-top: 1.5rem;
-  margin-bottom: 15rem;
+  margin-bottom: 0rem;
 }
 .top5{ 
   color: #433878;
@@ -53,6 +54,7 @@
   
 }
 .mainl2{
+  width: 80%;
   display: flex;
   flex-direction: row;
 }

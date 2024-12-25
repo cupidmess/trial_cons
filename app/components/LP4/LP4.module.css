@@ -32,18 +32,18 @@
 }
 .lboxt{
   width: 65%;
-  height: 57%;
+  height: max-content;
   border-radius: 5px;
   border-color:#E0DEF7; 
   border: 0.2px;
   border-style: solid;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: 2.5rem;
   position: absolute;
   background-color: white;
 }
 .lb1 {
-  font-size: 24px;
+  font-size: 18px;
   width: 80%;
   margin-top: 1rem;
   margin-left: 2.5rem;
@@ -60,7 +60,7 @@
   margin-right: 6.5rem
 }
 .lb2{ 
-  font-size: 24px;
+  font-size: 18px;
   width: 85%;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
