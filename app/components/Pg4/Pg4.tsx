@@ -9,7 +9,6 @@ import F4 from "./Frame4.svg"
 import F5 from "./Frame5.svg"
 import Foot from "../Footer/Footer"
 import style from "./Pg4.module.css"
-import F6 from "./check-circle-1.svg"
 import g1 from "./Frame.svg"; 
 import { useTranslation } from 'react-i18next'
 const Pg4 = () => {

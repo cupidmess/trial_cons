@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import styles from './Nav2.module.css';
 import Image from 'next/image';
 import Name from './Name.svg';
-import { FaCircle } from 'react-icons/fa';
 import { FaChevronDown } from 'react-icons/fa';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
