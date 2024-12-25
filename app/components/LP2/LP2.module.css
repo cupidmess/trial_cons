@@ -44,6 +44,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'SemiBold';
+  src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'ExtraBold';
   src: url('/fonts/NotoSans_SemiCondensed-ExtraBold.ttf') format('truetype');
   font-weight: 1000;
@@ -65,14 +71,16 @@
   width: 50vw;
 }
 .T1{
-  font-family: "ConBoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   font-size: 53px;
   color: #433878;
   padding-bottom: 1rem;
+  font-weight: 700;
 }
 .T2{ 
-  font-size: 17px;
-  padding-bottom: 2rem;
+  font-size: 17.6px;
+  width: 85%;
+  padding-bottom: 2.2rem;
 }
 .right{
   color: #433878;
@@ -117,7 +125,7 @@
   display: inline-block;
   border-radius: 0.5rem;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 .sline {
   height: 3rem;
@@ -190,6 +198,7 @@
     opacity: 0.9;
   }
   .rbottom {
+    display: none;
     margin-top: 0;
     padding-left:0rem;
   }

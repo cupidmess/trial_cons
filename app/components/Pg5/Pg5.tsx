@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer"
 import Image from 'next/image'
 import magnifier from "./Frame 1249186693.svg"
 import m2 from "./Frame 1249186694.svg"
-import m3 from "./Frame 1249186695.svg"
+import m3 from "./Group 1597885751.png"
 import m4 from "./Frame 1249186698.svg"
 import m5 from "./Frame 1249186699-1.svg"
 import m6 from "./Frame 1249186699.svg"
@@ -20,6 +20,7 @@ const Pg5 = () => {
   const {t} = useTranslation();
 
   return (
+    <div>
     <div className = {style.bod}>
       <Nav2/>
       <div className={style.main}>
@@ -191,7 +192,9 @@ optimal management of the CRM system. These services include user support, adjus
 </div>
          </div>
          </div>
+         </div>
     <Footer/>
+
 
     </div>
   )

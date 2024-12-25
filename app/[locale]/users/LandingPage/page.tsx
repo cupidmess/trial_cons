@@ -29,6 +29,8 @@ export default async function page () {
       <LP9/>
       <LP10/>
       <LP11/>
+      </div>
+      <div className={style.footpg}>
       <LP12/>
       </div>
     </div>

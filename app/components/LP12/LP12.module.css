@@ -5,6 +5,7 @@
   font-style: normal;
 }
 .main12{
+
   margin-top: 5rem;
   font-family: 'Font', sans-serif;
   display: flex;
@@ -38,7 +39,7 @@
 .bottombox2{
   display: flex;
   flex-direction: row;
-  margin-left: 33rem;
+  margin-left: 26.2rem;
 }
 .bot1{
   width: 9.5%;
@@ -52,7 +53,7 @@
   font-size: 12px;
 }
 .bots1{
-  width: 75%;
+  width: 90%;
 }
 .bots2{
   margin-top: 1rem;
@@ -218,5 +219,30 @@ line-height: 0.25in;
   }
   .footdiv2{
     margin-left: 0;
+  }
+}
+@media (min-width: 1600px) {
+  .botcontent{
+    margin: auto;
+    width: 1440px;
+  }
+  .bottombox2{
+    width: 80%;
+    margin-left: 39rem;
+  }
+  .bots1{
+    width: 88%;
+  }
+  .bot2,.bot22{
+    margin-right: 9rem;
+  }
+  .footdiv2{
+    margin-left: 68%;
+  }
+  .img122{
+    width: 1700px;
+  }
+  .ttext12{
+    font-size: 20px;
   }
 }

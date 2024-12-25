@@ -4,6 +4,9 @@
   font-weight: normal;
   font-style: normal;
 } 
+.mainish{
+  background-color: #F7F4FA;
+}
 .bod{
   background-color: #F7F4FA;
 }
@@ -14,7 +17,7 @@
   padding-right: 7rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 60rem;
+  margin-bottom: 66rem;
 }
 .maintop{
   color: #433878;
@@ -28,11 +31,11 @@
   background-color: white;
   margin-top: 6rem;
   border-radius: 32px;
-  width: 85%; 
+  width: 83.5%; 
 }
 .leftf{
-  
-  padding: 3.3rem;
+  height: 100%;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
 }
@@ -41,8 +44,8 @@
 }
 .img1{
   /* margin-top: 3.3rem; */
-  height:auto;
-  width: 430px;
+  height:650px;
+  width: auto;
 }
 .l1{
   display: grid;
@@ -67,6 +70,7 @@
   font-size: 14px;
 }
 .finput1 {
+
   margin-top: 0.5rem;
   border: 1px;
   border-style: solid;
@@ -88,7 +92,7 @@
   gap: 2rem;
 }
 .finput2{
-  height: 7.5rem;
+  height: 8.5rem;
   margin-top: 0.5rem;
   border: 1px;
   border-style: solid;
@@ -102,7 +106,7 @@
   padding-left: 0.8rem;
 }
 .lbutt1{
-  margin-top: 2rem;
+  margin-top: 5rem;
   width: 100%;
   background-color:#433878;
   color: white;
@@ -116,19 +120,20 @@
   background-color: #433878;
   border-top-right-radius: 32px;
   height: 55vh;
-  width: 24.4%;
-  margin-left: 21.5rem;
+  width: 23.9%;
+  margin-top: 1.5rem;
+  margin-left: 16.5rem;
 }
 .rightimg{
   position: absolute;
-  margin-top: 3rem;
-  margin-left: 3rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
 }
 .img1{
   border-radius: 10px;
 }
 .right2{
-  margin-top: 125%;
+  margin-top: 139%;
   margin-left: 3rem;
   padding-bottom: 3rem;
 }
@@ -141,7 +146,7 @@
 .righttxt2,.righttxt1,.righttxt3{
   display: flex;
   flex-direction: row;
-  font-size: 13px;
+  font-size: 12px;
   align-items: center;
 }
 .rt1,.rt2,.rt3{
@@ -151,7 +156,7 @@
   margin-left: 2rem;
 }
 .righttxt3{
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 .compi1{
   width: 100%;
@@ -358,7 +363,6 @@
     display: flex;
     flex-direction: column; 
     font-size: 8px;
-    margin-left: 0;
     width: 80%;
   }
   .righttxt2,.righttxt1,.righttxt3{
@@ -367,10 +371,18 @@
     font-size: 10px;
 
   }
-  .rt1,.rt2,.rt3{
-    margin-left: 0rem;
-    width: 70%;
-    word-wrap: break-word;
+
+  .rt1{
+      margin-left: 0rem;
+      width: 70%;
+  }
+  .rt2{
+    margin-left: 0;
+    width: 50%;
+  }
+  .rt3{
+    margin-left: 0;
+    width: 50%;
   }
   .righttxt2{
     margin-top: 0.7rem;
@@ -378,10 +390,13 @@
   }
   .righttxt3{
     margin-top: 0.7rem;
-    margin-left: 4rem;
+    margin-left: 10rem;
   }
-  .rimg1{
+  .rimg1,.rimg2,.rimg3{
     height: 20px;
+  }
+  .righttxt{
+    margin-left: 4rem;
   }
   .compi1{
     width: 100%;
@@ -389,7 +404,6 @@
     font-size: 12px;
     display:flex;
     flex-direction: column;
-  
   }
   .compi2{
     display:flex;
@@ -445,220 +459,149 @@
     border-color: #433878; /* Optional: Change color on hover */
   }
 }
-@media (min-width: 1600px){ 
 
-  @font-face {
-    font-family: 'Font';
-    src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
-    font-weight: normal;
-    font-style: normal;
-  } 
+@media (min-width:1600px){
   .bod{
-    background-color: #F7F4FA;
+    width: 1440px;
+    margin: auto;
   }
+}
+@media (min-width: 1600px) and (max-width:1700px) { 
+
   .maincon{
-    background-color: #F7F4FA;
-    font-family: 'Font', sans-serif;
-    padding-left: 7rem;
-    padding-right: 7rem;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 60rem;
-  }
-  .maintop{
-    color: #433878;
-    font-size: 46px;
-    font-weight: 600;
+   background-color: #F7F4FA;
   }
   .form {
     position: absolute;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     background-color: white;
     margin-top: 6rem;
     border-radius: 32px;
-    border-color: white;
-    width: max-content; 
+    width: 77%;
   }
-  .leftf{
-    padding: 3.3rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .rightf{ 
+
+  .pat{
+    display: none;
+    margin-left: 0;
     padding: 0;
-    width: 55%;
-  }
-  .img1{
-    /* margin-top: 3.3rem; */
-    height:auto;
-    width: 430px;
-  }
-  .l1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
-  .pat {
-   display: none;
-  }
-  .fnametxt, .comp{ 
-    font-size: 18px;
-  }
-  .comp { 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .op {
-    font-size: 14px;
-  }
-  .finput1 {
-    margin-top: 0.5rem;
-    border: 1px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #8B8B8B;
-    font-size: 16px;
-    color: #414141;
-    width: 100%;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.8rem;
-  }
-  .l2,.l3,.l5,.l4 { 
-    margin-top: 1.5rem;
-  }
-  .l3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
-  .finput2{
-    height: 7.5rem;
-    margin-top: 0.5rem;
-    border: 1px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #8B8B8B;
-    font-size: 16px;
-    color: #414141;
-    width: 100%;
-    padding-top: 0;
-    padding-bottom: 0.5rem;
-    padding-left: 0.8rem;
-  }
-  .lbutt1{
-    margin-top: 2rem;
-    width: 100%;
-    background-color:#433878;
-    color: white;
-    font-size: 18px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    border-radius: 8px;
+    height: 3rem;
+    width: 50%;
+    margin-right: 4rem;
+    padding-left: 0;
+    padding-right: 0;
   }
   .rightbox1{
     position: absolute;
     background-color: #433878;
     border-top-right-radius: 32px;
-    height: 55vh;
-    width: 21.7%;
-    margin-left: 21.5rem;
+    margin-left: 15.8rem;
   }
-  .rightimg{
+ 
+}
+@media (min-width: 1700px) and (max-width:1800px) { 
+
+  .maincon{
+   background-color: #F7F4FA;
+  }
+  .form {
     position: absolute;
-    margin-top: 3rem;
-    margin-left: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    background-color: white;
+    margin-top: 6rem;
+    border-radius: 32px;
+    width: 72.5%;
   }
-  .img1{
-    border-radius: 10px;
+
+  .pat{
+    display: none;
+    margin-left: 0;
+    padding: 0;
+    height: 3rem;
+    width: 50%;
+    margin-right: 4rem;
+    padding-left: 0;
+    padding-right: 0;
   }
-  .right2{
-    margin-top: 125%;
-    margin-left: 3rem;
-    padding-bottom: 3rem;
+  .rightbox1{
+    position: absolute;
+    background-color: #433878;
+    border-top-right-radius: 32px;
+    margin-left: 14.8rem;
   }
-  .righttxt{
-    display: flex;
-    flex-direction: row; 
-    font-size: 12px;
-    align-items: center;
+ 
+}
+.rightf{ 
+  padding-right: 3.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:right;
+
+}
+@media (min-width: 1800px) and (max-width:1900px) { 
+
+  .maincon{
+   background-color: #F7F4FA;
   }
-  .righttxt2,.righttxt1,.righttxt3{
-    display: flex;
-    flex-direction: row;
-    font-size: 13px;
-    align-items: center;
+  .form {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    background-color: white;
+    margin-top: 6rem;
+    border-radius: 32px;
+    width: 68%;
   }
-  .rt1,.rt2,.rt3{
-    margin-left: 0.5rem;
+  .rightbox1{
+    position: absolute;
+    background-color: #433878;
+    border-top-right-radius: 32px;
+    margin-left: 14.6rem;
   }
-  .righttxt2{
-    margin-left: 2rem;
-  }
-  .righttxt3{
-    margin-top: 1.5rem;
-  }
-  .compi1{
-    width: 100%;
-    margin-top: 0.5rem;
-    font-size: 12px;
-    display:flex;
-    flex-direction: row;
-  
-  }
-  .compi2{
-    display:flex;
-    flex-direction: row;
-    font-size: 12.5px;
-    margin-top: 0.7rem;
-  
-  }
-  .radioInput {
-    margin-right: 0.3rem;
-  }
-  .option2{
-    margin-left:3.2rem;
-  }
-  .option4{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
-  .option1,.option2,.option3,.option4,.option5{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .arrow {
-    border: 1px solid black;
-    border-radius: 50%; /* Makes it circular */
-    height: 20px; /* Adjust size */
-    width: 20px;
-    margin-right: 0.4rem;
-    cursor: pointer;
-    display: inline-block;
-    transition: border-color 0.3s ease, background-color 0.3s ease;
+  .pat{
+    display: none;
+    margin-left: 0;
+    padding: 0;
+    height: 3rem;
+    width: 50%;
+    margin-right: 4rem;
+    padding-left: 0;
+    padding-right: 0;
   }
   
-  .arrow.change {
-    border: 3px solid #433878; /* Highlighted border */
-    background-color: #433878; /* Filled color when selected */
+ 
+}
+@media (min-width: 1900px) and (max-width:2000px) { 
+
+  .maincon{
+   background-color: #F7F4FA;
   }
-  
-  .radioInput {
-    display: none; /* Hide the default radio button */
+  .rightbox1{
+    position: absolute;
+    background-color: #433878;
+    border-top-right-radius: 32px;
+    margin-left: 14.4rem;
   }
-  
-  .option {
-    margin-left: 0.6rem;
-    display: flex; /* Align the circle and text */
-    align-items: center;
-    margin-bottom: 0.5rem; /* Add spacing between options */
-    cursor: pointer;
+  .form {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    background-color: white;
+    margin-top: 6rem;
+    border-radius: 32px;
+    width: 64%;
   }
-  
-  .option:hover .arrow {
-    border-color: #433878; /* Optional: Change color on hover */
+
+  .pat{
+    display: none;
+    margin-left: 0;
+    padding: 0;
+    height: 3rem;
+    width: 50%;
+    margin-right: 4rem;
+    padding-left: 0;
+    padding-right: 0;
   }
+ 
 }

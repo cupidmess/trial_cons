@@ -79,3 +79,25 @@
     margin-bottom: 5%;
   }
 }
+@media (min-width: 1600px) {
+  .t {
+    width: 1440px;
+    margin: auto;
+    font-family: 'Font', sans-serif;
+    color:#FDFDFD ;
+
+  }
+  .t1{ 
+    font-family: 'ExtraBold', sans-serif;
+    font-size: 98px;
+    font-weight: 700;
+    margin-top: 15%;
+    width: 100%;
+  }
+  .t2{
+    width: 75%;
+    font-size: 37px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}

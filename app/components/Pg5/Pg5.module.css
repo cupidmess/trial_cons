@@ -63,6 +63,7 @@
   font-weight: 600;
   width: 90%;
   margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 .maintop{
   display: flex;
@@ -136,18 +137,23 @@
   gap: 20px;
   margin-bottom: 2rem;
 }
-.box{
+.box,.box5{
   background-color: #ECEBFF;
   border-radius: 17px;
   padding: 2rem;
   box-shadow: 1px 0px 7px 1px rgba(160, 160, 160, 0.5);
 }
-.box5{
+.box:hover,.box5:hover{
+  cursor: pointer; 
   background-color: #433878;
-  border-radius: 17px;
-  padding: 2rem;
   color: white;
   box-shadow: 1px 0px 7px 1px rgba(160, 160, 160, 0.5);
+  .tit,.tit5{
+    color: white;
+  }
+  .lline,.lline5{
+    color: white;
+  }
 }
 .tit{
   margin-top: 1rem;
@@ -159,7 +165,7 @@
 
 .tit5{
   margin-top: 1rem;
-  color: white;
+  color: #433878;
   font-family: "ConBoldFont", sans-serif;
   font-size: 24px;
   font-weight: 100;
@@ -167,7 +173,7 @@
 .lline5{
   width: 70%;
   height: 0;
-  color: white;
+  color: #433878;
   border: 0.5px;
   opacity: 0.7;
   border-style: solid;
@@ -195,7 +201,7 @@
   margin-bottom: 1.2rem;
 }
 .maincon3{
-  margin-top: 4.5rem;
+  margin-top: 1.2rem;
 }
 .arrow1,.arrow2,.arrow3,.arrow4,.arrow5,.arrow6 {
   position: absolute;
@@ -533,7 +539,7 @@
     margin-bottom: 1.2rem;
   }
   .maincon3{
-    margin-top: 4rem;
+    margin-top: 1.2rem;
   }
   .arrow1,.arrow2,.arrow3,.arrow4,.arrow5,.arrow6 {
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -652,5 +658,11 @@
   }
   .srb{
     margin-left: 0rem;
+  }
+}
+@media (min-width:1600px){
+  .bod{
+    width: 1440px;
+    margin: auto;
   }
 }

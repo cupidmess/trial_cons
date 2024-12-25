@@ -4,15 +4,3 @@
   width: 100%;
   overflow-x: hidden;
 }
-@media (min-width: 1600px) {
-  .body {
-    background-color: white; /* Light gray background */
-    overflow-x: hidden;
-  }
-  .body{
-    width: 1440px; /* Keep the original size */
-    margin: auto; /* Center the content */
-    overflow-x: hidden;
-  }
-
-}

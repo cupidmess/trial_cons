@@ -15,7 +15,6 @@ export async function generateStaticParams() {
 export default async function Page({ params }: { params: Promise<{ locale?: string }> }) {
   const resolvedParams = await params; // Await the params to resolve
   console.log('Resolved Params:', resolvedParams);
-
   const locale = resolvedParams?.locale || 'en'; // Default to 'en' if locale is not provided
   const { resources } = await initTranslations(locale, ['landing']); // Load translations
 

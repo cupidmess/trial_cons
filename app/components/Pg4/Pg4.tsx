@@ -2,7 +2,7 @@
 import React from 'react'
 import Nav2 from '../Nav2/Nav2'
 import Image from 'next/image'
-import F1 from "./Frame1.svg"
+import F1 from "./Group 1597885749-2.svg"
 import F2 from "./Frame2.svg"
 import F3 from "./Frame3.svg"
 import F4 from "./Frame4.svg"
@@ -16,6 +16,7 @@ const Pg4 = () => {
   const {t} = useTranslation();
   
   return (
+    <div className={style.mainish}>
     <div className={style.mainbod}>
       <Nav2/>
       <div className = {style.maincon}>
@@ -72,7 +73,7 @@ Silver
 
 </div>
 <div className={style.down}>{t('126A')}</div>
-<div className = {style.donlin}></div>
+<div className = {style.donlin2}></div>
 <div className = {style.but1}>
 
 </div>
@@ -98,7 +99,7 @@ Silver
     </div>
 </div><div className = {style.botnext3}>
     <div className = {style.first3}>
-      <Image src = {F1} alt = "new"/>
+      <Image src = {F1} alt = "new" height={47}/>
       <div className = {style.head3}>CRM Consulting 
 SLA
 Gold
@@ -112,41 +113,41 @@ Gold
 <div className={style.main3}>
     </div>
     <div className  = {style.l3}>
-      <Image src ={F6} alt ="tick" height={24}/>
+      <Image src ={g1} alt ="tick" height={30}/>
         <div className = {style.tick1}>{t('131')}</div>
     </div>
     <div className  = {style.l3}>
-      <Image src ={F6} alt ="tick" height={24}/>
+      <Image src ={g1} alt ="tick" height={30}/>
         <div className = {style.tick1}>{t('132')}</div>
     </div>
     <div className  = {style.l3}>
-      <Image src ={F6} alt ="tick" height={24}/>
+      <Image src ={g1} alt ="tick" height={30}/>
         <div className = {style.tick1}>{t('133')}</div>
     </div>
     <div className  = {style.l3}>
-      <Image src ={F6} alt ="tick" height={24}/>
+      <Image src ={g1} alt ="tick" height={30}/>
         <div className = {style.tick1}>{t('134')}</div>
     </div>
     <div className  = {style.l3}>
-      <Image src ={F6} alt ="tick" height={24}/>
+      <Image src ={g1} alt ="tick" height={30}/>
         <div className = {style.tick1}>{t('135')}</div>
     </div>
     <div className  = {style.l3}>
-      <Image src ={F6} alt ="tick" height={24}/>
+      <Image src ={g1} alt ="tick" height={30}/>
         <div className = {style.tick1}>{t('136')}</div>
     </div>
     <button className = {style.butt3}>{t('144')}</button>
     </div>
 </div><div className = {style.botnext}>
     <div className = {style.first}>
-      <Image src = {F3} alt = "new"/>
+      <Image src = {F3} alt = "new" height={47}/>
       <div className = {style.head}>CRM Consulting 
 SLA
 Platinum
 
 </div>
 <div className={style.down}>{t('137')}</div>
-<div className = {style.donlin}></div>
+<div className = {style.donlin4}></div>
 <div className = {style.but1}>
 
 </div>
@@ -180,7 +181,9 @@ Platinum
 <div className = {style.st}>*Guaranteed response time for emergencies</div>
       </div>
       </div>
+      </div>
       <Foot/>
+
 
     </div>
   )

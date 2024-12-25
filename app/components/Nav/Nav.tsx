@@ -8,7 +8,7 @@ import { FaCircle } from 'react-icons/fa';
 import { FaChevronDown } from 'react-icons/fa';
 import NavMid from '../NavMid/NavMid';
 import { useTranslation } from 'react-i18next';
-
+import { FaBars } from 'react-icons/fa';
 const Nav = () => {
   const { t, i18n } = useTranslation(); 
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +23,11 @@ const Nav = () => {
     setLanguage(lang); // Update the state to track the selected language
     setIsOpen(false); // Close the dropdown after selection
   };
-  
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <div>
@@ -49,12 +53,12 @@ const Nav = () => {
           </Link>
         </div>
         <div className={styles.but}>
-          <button className={styles.drop}>
+          <button className={styles.drop} onClick={toggleDropdown}>
             {language === 'en' ? 'English' : 'Deutsch'} {/* Display current language */}
-          </button>
-          <div className={styles.ic2} onClick={toggleDropdown}>
+            <div className={styles.ic2} >
             <FaChevronDown style={{ transform: 'scale(0.8)' }} />
           </div>
+          </button>
           {isOpen && (
             <ul className={styles.DropDown}>
               {language === 'en' ? (
@@ -64,6 +68,39 @@ const Nav = () => {
               )}
             </ul>
           )}
+        </div>
+        <div className={styles.menu}>
+        <div className={styles.menuIcon}> <FaBars className={styles.menustyle}onClick={toggleMenu}/>
+        <div className={styles.line}></div>
+        <div className={styles.line}></div>
+        <div className={styles.line}></div>
+      </div>
+
+      {/* Menu Overlay */}
+      {menuOpen && (
+      <div
+        className={`${styles.menuOverlay} ${
+          menuOpen ? styles.slideDown : styles.slideUp
+        }`}
+      >
+          <div className={styles.closeBar} onClick={toggleMenu}>
+            &times;
+          </div>
+          <ul className={styles.menuList}>
+            <li>Home</li>
+            <Link href='/users/Page3'>
+            <li>Services</li> </Link>
+            <Link href='/users/Page4'>
+            <li>Support</li> </Link>
+            <li>{t('5')}</li>
+            <Link href='/users/Page1'></Link>
+            <li>{t('6')}</li>
+          </ul>
+        </div>
+      )}
+
+      {/* Background Blur */}
+      {menuOpen && <div className={styles.blurBackground}></div>}
         </div>
       </div>
       <NavMid />

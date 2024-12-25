@@ -23,13 +23,6 @@
 
 /* Media query for screens 1440px or wider */
 @media (min-width: 1600px) {
-  .body {
-    background-color: white; /* Light gray background */
-  }
-  .body{
-    width: 1440px; /* Keep the original size */
-    margin: auto; /* Center the content */
-  }
   .content {
     width: 1440px; /* Keep the original size */
     margin: auto; /* Center the content */

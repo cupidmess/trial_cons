@@ -19,6 +19,7 @@ const LP12 = () => {
       </div>
       </div>
       <div className = {st12.bot12}>
+        <div className={st12.botcontent}>
         <div className = {st12.bott}>
       <div className = {st12.bot1}>
       <div className = {st12.bottext12}>Consennse GmbH</div>
@@ -30,7 +31,7 @@ const LP12 = () => {
       </div>
       <div className = {st12.bottombox2}>
       <div className={st12.bot2}>
-        <div className = {st12.bots21}>{t('81')}</div>
+        <div className = {st12.bots21}>Services</div>
         <div className = {st12.bots223}>{t('82')}</div>
         <div className = {st12.bots224}>{t('81A')}</div>
       </div>
@@ -48,10 +49,11 @@ const LP12 = () => {
       <div className = {st12.botline}></div>
       <footer className={st12.foot1}>
         <div className = {st12.footdiv1}>
-        2024 © Consennse - {t('89')}
+        2025 © Consennse - {t('89')}
         </div>
         <div className = {st12.footdiv2}>{t('90')}</div>
         </footer>
+        </div>
       </div>
       </div>
     </div>

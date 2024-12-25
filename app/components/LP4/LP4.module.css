@@ -16,7 +16,7 @@
 .r { 
   background-image: url('/images/Rectangle2686.svg');
   width: 50%;
-  height: 88%;
+  height: 85%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -25,14 +25,14 @@
   height: 88%;
 }
 .lbox{
-  height: 51%;
+  height: 60%;
   width: 45%;
   background-color: #433878;
   border-radius: 5px;
 }
 .lboxt{
   width: 65%;
-  /* height: 40%; */
+  height: 57%;
   border-radius: 5px;
   border-color:#E0DEF7; 
   border: 0.2px;
@@ -43,7 +43,8 @@
   background-color: white;
 }
 .lb1 {
-  font-size: 16px;
+  font-size: 18px;
+  width: 80%;
   margin-top: 1rem;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -59,6 +60,8 @@
   margin-right: 6.5rem
 }
 .lb2{ 
+  font-size: 18px;
+  width: 85%;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   margin-bottom: 3.5rem;
@@ -100,6 +103,7 @@
   }
   .lboxt{
     width: 85%;
+    height: max-content;
     /* height: 40%; */
     border-radius: 5px;
     border-color:#E0DEF7; 
@@ -129,7 +133,7 @@
   .lb2{ 
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.5rem;
   }
   .im1{ 
     margin-top: 2.5rem;
@@ -153,7 +157,7 @@
   .r { 
     background-image: url('/images/Rectangle2686.svg');
     width: 50%;
-    height: 88%;
+    height: 85%;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -169,19 +173,19 @@
   }
   .lboxt{
     width: 45%;
-    /* height: 40%; */
+    height: 50%;
     border-radius: 5px;
     border-color:#E0DEF7; 
     border: 0.2px;
     border-style: solid;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-left: 2.5rem;
     position: absolute;
     background-color: white;
   }
   .lb1 {
-    width: 75%;
-    font-size: 18px;
+    width: 80%;
+    font-size: 24px;
     margin-top: 1rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -197,8 +201,8 @@
     margin-right: 6.5rem
   }
   .lb2{ 
-    width: 75%;
-    font-size: 18px;
+    width: 80%;
+    font-size: 24px;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     margin-bottom: 3.5rem;

@@ -61,6 +61,7 @@ const Pg2 = () => {
   };
   const {t} = useTranslation(); 
   return (
+    <div className={style.mainish}>
     <div  className={style.bod}>
       <div>
         <div className={style.patimg}>
@@ -199,17 +200,18 @@ const Pg2 = () => {
                   <div className = {style.rt1}>+41 79 441 00 17</div>
                 </div>
                 <div className = {style.righttxt2}>
-                  <div className = {style.rimg}><Image src = {g2} alt = "linkedin" height={35} className={style.rimg1}/></div>
+                  <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35} className={style.rimg1}/></div>
                   <div className = {style.rt2}>https://www.linkedin.com/company/consennse</div>
                 </div>
               </div>
               <div className = {style.righttxt3}>
-                  <div className = {style.rimg}><Image src = {g1} alt = "mail" height={35}className={style.rimg1}/></div>
+                  <div className = {style.rimg}><Image src = {g2} alt = "mail" height={35}className={style.rimg1}/></div>
                   <div className = {style.rt1}>info@consennse.com</div>
                 </div>
             </div>
           </div>
         </div>
+      </div>
       </div>
       <Footer/>
     </div>

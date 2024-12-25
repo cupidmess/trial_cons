@@ -107,7 +107,7 @@
   .main10{
     font-family: 'Font', sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-bottom: 2.5rem;
     margin-top: 0;
     padding-top: 0;
@@ -116,6 +116,7 @@
     width: 100%;
   }
   .righttop10{
+    margin-top: 1rem;
     color: #433878;
     text-transform: uppercase;
     font-family: "ConBoldFont",sans-serif;
