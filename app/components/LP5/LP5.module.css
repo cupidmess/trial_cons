@@ -164,6 +164,7 @@
     flex-direction: column;
   }
   .mainlt1{
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     align-items:flex-start;
@@ -195,6 +196,7 @@
     margin-top: 0.5rem;
   }
   .mainltr{
+  
     width: 300px;
     margin-left: 1.3rem;
   }
