@@ -1,8 +1,6 @@
 'use client';
 import React from 'react'
 import st8 from "./LP8.module.css"
-import Image from 'next/image'
-import rectx from "./rectx.svg"
 import { useTranslation } from 'react-i18next';
 const LP8 = () => {
   const {t} = useTranslation(); 
