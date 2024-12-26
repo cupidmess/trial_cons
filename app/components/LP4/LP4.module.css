@@ -158,36 +158,37 @@
   }
   .r { 
     background-image: url('/images/Rectangle2686.svg');
-    width: 50%;
+    width: 60%;
     height: 85%;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .l{
-    width: 50%;
+    width: 40%;
     height: 88%;
   }
   .lbox{
     height: 51%;
-    width: 45%;
+    width: 55%;
     background-color: #433878;
     border-radius: 5px;
+    margin-top: 1.5rem;
   }
   .lboxt{
-    width: 45%;
+    width: 35%;
     height: max-content;
     border-radius: 5px;
     border-color:#E0DEF7; 
     border: 0.2px;
     border-style: solid;
-    margin-top: 4rem;
-    margin-left: 2.5rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
     position: absolute;
     background-color: white;
   }
   .lb1 {
     width: 80%;
-    font-size: 20px;
+    font-size: 26px;
     margin-top: 1rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -204,7 +205,7 @@
   }
   .lb2{ 
     width: 80%;
-    font-size: 20px;
+    font-size: 26px;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     margin-bottom: 3.5rem;

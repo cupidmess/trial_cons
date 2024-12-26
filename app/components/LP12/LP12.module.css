@@ -222,13 +222,16 @@ line-height: 0.25in;
   }
 }
 @media (min-width: 1600px) {
+  .main12{
+    width: 100%;
+  }
   .botcontent{
     margin: auto;
     width: 1440px;
   }
   .bottombox2{
     width: 80%;
-    margin-left: 39rem;
+    margin-left: 30rem;
   }
   .bots1{
     width: 88%;

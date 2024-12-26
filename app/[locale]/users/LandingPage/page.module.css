@@ -27,4 +27,7 @@
     width: 1440px; /* Keep the original size */
     margin: auto; /* Center the content */
   }
+  .footpg{
+    width: 100%;
+  }
 }

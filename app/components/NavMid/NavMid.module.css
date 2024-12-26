@@ -81,6 +81,9 @@
   }
 }
 @media (min-width: 1600px) {
+  .main{
+    width: 100%;
+  }
   .t {
     width: 1440px;
     margin: auto;
