@@ -57,6 +57,7 @@
 }
 .main {
   display: flex;
+  background-color: #F7F4FA;
   flex-direction: row;
   padding-left: 2.5rem;
   padding-right: 2.5rem;

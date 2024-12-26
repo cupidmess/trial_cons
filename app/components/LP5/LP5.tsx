@@ -65,8 +65,6 @@ const LP5 = () => {
           </div>
           </div>
         </div>
-        <div className = {st5.mainr}>
-        </div>
       </div>
       </div>
     </div>

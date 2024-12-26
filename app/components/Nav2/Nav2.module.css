@@ -4,6 +4,53 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.hidden {
+  top: -100px; /* Move navbar out of view */
+}
+
+.menu{
+  visibility: hidden;
+}
+.top { 
+  position: fixed;
+  top: 0;
+  background: rgba(206, 206, 206, 0.4); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+  display: flex;
+  color: black;
+  flex-direction: row;
+  font-size: 15px;
+  font-family: 'Font', sans-serif;
+  padding-left: 2.5rem; 
+  padding-right: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 2.5rem;
+  cursor: pointer;
+  width: 100%;
+  transition: top 0.3s ease; /* Smooth hide/show effect */
+  z-index: 1000;
+}
+.menu {
+  position: relative;
+}
+.hidden {
+  top: -100px; /* Move navbar out of view */
+}
+
+.fordesk{
+  display: flex;
+  flex-direction: row;
+}
+.navmain{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.hidden {
+  top: -100px; /* Move navbar out of view */
+}
 .active {
   -webkit-text-stroke: 0.05px black;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
@@ -13,18 +60,6 @@
   transition: all 0.3s ease; /* Smooth transition for hover and active states */
 }
 
-.top { 
-  display: flex;
-  flex-direction: row;
-  color:black ;
-  font-size: 15px;
-  font-family: 'Font', sans-serif;
-  padding-left: 2.5rem; 
-  padding-right: 2.5rem;
-  font-weight: 500;
-  padding-bottom: 2.5rem;
-  cursor: pointer;
-}
 .ic {
   font-size: 6px;
   padding-top: 0.1rem;
@@ -67,7 +102,7 @@
   overflow-wrap: break-word;
 }
 .con {
-  width:86px;
+  width:max-content;
   margin-right: 5rem;
   cursor: pointer;
   overflow-wrap: break-word;
@@ -75,27 +110,33 @@
 .but {
   color: white;
   background-color: #433878;
-  width: 7rem;
+  width: 5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 2.5rem;
   border-radius: 0.5rem;
   margin-top: 2rem;
+  margin-left: auto;
 }
 .drop {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 .but:hover {
   cursor: pointer;
   transition: transform 3s ease;
 }
 @media (min-width:1600px){
+  .navmain{
+    width: 100%;
+  }
+  .top{
+    width: 1440px;
+  }
   .but {
-    margin-left: 4rem;
     color: white;
     background-color: #433878;
-    width: 5.8rem;
+    width: 5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -103,15 +144,13 @@
     border-radius: 0.5rem;
     margin-top: 2rem;
   }
-  .drop {
-    margin-left: 1rem;
-  }
+
   
   .DropDown  {
     position: absolute;
     margin-top: 3.7rem;
     background-color: grey;
-    width: 6.67rem;
+    width: 5rem;
     text-align: center;
     height: 2rem;
     border-bottom-left-radius:0.5rem ;
@@ -132,7 +171,7 @@
   position: absolute;
   margin-top: 3.7rem;
   background-color: grey;
-  width: 5.8rem;
+  width: 5rem;
   text-align: center;
   height: 2rem;
   border-bottom-left-radius:0.5rem ;
@@ -156,7 +195,7 @@
 @media (max-width: 768px) {
 .broimg{
   height: auto;
-  width: 122px;
+  width: 125px;
 }
 .menu{
   visibility: visible;
@@ -168,13 +207,15 @@
   font-size: 12px;
   font-family: 'Font', sans-serif; 
   font-weight: 500;
-  padding-bottom: 0rem;
+  padding-bottom: 1.5rem;
 }
 .ic {
   font-size: 3px;
   
 }
-
+.img{
+  padding-top: 1.6rem;
+}
 .img:hover{
   cursor: pointer;
   transition: transform 3s ease;
@@ -191,6 +232,7 @@
   cursor: pointer;
   transition: transform 3s ease;
 }
+
 .home{ 
   display: flex;
   flex-direction: row;
@@ -213,15 +255,20 @@
 }
 .but {
   background-color: #433878;
-  width: 5.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: max-content;
   height: 2rem;
   border-radius: 0.5rem;
-  margin-top: 2rem;
-  margin-left: 5.2rem;
+  margin-top: 1rem;
+  margin-left: auto;
   margin-right: 1rem;
+  padding-right: 0.5rem;
+}
+.menustyle{
+  font-size: 26px;
+  margin-top: 1.1rem;
 }
 .drop {
   margin-left: 0.7rem;
@@ -238,21 +285,17 @@
   position: absolute;
   margin-top: 3.2rem;
   background-color: grey;
-  width: 5.2rem;
   text-align: center;
   height: 1.8rem;
   border-bottom-left-radius:0.5rem ;
   border-bottom-right-radius: 0.5rem;
   padding: 0.2rem;
-
+  width: 3.4rem;
 }
 }
-/* Container for the menu */
 .menu {
   position: relative;
 }
-
-/* Menu Overlay (Top Half) */
 .menuOverlay {
   font-family: "Font", sans-serif;
   position: fixed;
@@ -262,13 +305,14 @@
   background-color:#FDFDFD;
   color: #433878;
   width: 100%;
-  height: 27%;
+  height: max-content;
   z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x:hidden ;
+  box-shadow: 0px 4px 14px rgb(119, 119, 119);
 }
-/* Close Bar */
 .closeBar {
   position: absolute;
   top: 10px;
@@ -317,8 +361,6 @@
   font-weight: bold;
   cursor: pointer;
 }
-
-/* Background Blur */
 .blurBackground {
   position: fixed;
   top: 0;

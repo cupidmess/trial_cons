@@ -61,11 +61,12 @@
   font-style: normal;
 }
 .main7 {
+  background-color: #f7f4fa;
   font-family: 'Font', sans-serif;
   display: flex;
   flex-direction: row;
   padding: 2.5rem;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 .left7 {
   display: flex;
@@ -134,7 +135,7 @@
     display: flex;
     flex-direction: column;
     height: max-content;
-    margin-bottom: 15rem;
+    padding-bottom: 15rem;
     /* padding: 2.5rem; */
 
   }

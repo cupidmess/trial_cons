@@ -42,7 +42,7 @@ const LP12 = () => {
       </div>
       <div className={st12.bot2}>
         <div className = {st12.bots21}>{t('85')}</div>
-        <div className = {st12.bots22}>{t('86')}</div>
+        <div className = {st12.bots23}>{t('86')}</div>
       </div>
       </div>
       </div>

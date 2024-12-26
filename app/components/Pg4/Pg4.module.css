@@ -38,6 +38,7 @@
   background-color: #F7F4FA;
 }
 .maincon{
+  padding-top: 10rem;
   font-family: 'Font', sans-serif;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -109,7 +110,7 @@
 }
 .botnext:hover,.botnext3:hover {
   cursor: pointer;
-  background-image: linear-gradient(-50deg, #7360ce, #433878);
+  background-image: linear-gradient(-20deg, #6456ad, #3d3371);
   box-shadow: 1px 0px 10px 1px #705dca;
   color: #FDFDFD;
   .down,.down3{
@@ -203,7 +204,7 @@
   margin-bottom: 0.8rem;
 }
 .butt1{
-  margin-top: 16.7rem;
+  margin-top: 16.5rem;
   width: 93%;
   font-size: 15px;
   padding-top: 0.7rem;
@@ -245,10 +246,10 @@
   margin-top: 8.6rem;
 }
 .butt4{
-  margin-top: 7.45rem;
+  margin-top: 8.35rem;
 }
 .butt3{
-  margin-top: 1.5rem;
+  margin-top: 2.75rem;
 }
 /* .botnext3{
   height: 45rem;

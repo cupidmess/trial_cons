@@ -115,7 +115,7 @@ const Pg2 = () => {
                 {t('100')}
               </div>
               <div className = {style.fnameinp}>
-                <input type="tel"   pattern="[0-9]{10}"  name="phone" id ="phone" className={style.finput1} placeholder={t('102')} onChange={handleChange} value={formData.phone} required ></input>
+                <input type="tel"   name="phone" id ="phone" className={style.finput1} placeholder={t('102')} onChange={handleChange} value={formData.phone} required ></input>
               </div>
             </div>
             </div>
@@ -201,7 +201,7 @@ const Pg2 = () => {
                 </div>
                 <div className = {style.righttxt2}>
                   <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35} className={style.rimg1}/></div>
-                  <div className = {style.rt2}>https://www.linkedin.com/company/consennse</div>
+                  <div className = {style.rt2}>linkedin.com/company/consennse</div>
                 </div>
               </div>
               <div className = {style.righttxt3}>

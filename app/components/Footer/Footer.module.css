@@ -67,7 +67,7 @@
   font-size: 16px;
   margin-bottom: 0.8rem;
 }
-.bots22{
+.bots22,.bots23{
 font-size: 12px;
 line-height: 0.25in;
 }
@@ -83,9 +83,10 @@ line-height: 0.25in;
   display: flex;
   flex-direction: row;
   font-size: 13px;
+  width: 100%;
 }
 .footdiv2{
-  margin-left: 63%;
+  margin-left: auto;
 }
 @media (max-width: 768px){
   .main12{
@@ -178,7 +179,7 @@ line-height: 0.25in;
     font-size: 13px;
     margin-bottom: 0.3rem;
   }
-  .bots22{
+  .bots22,.bots23{
   font-size: 9px;
   line-height: 0.2in;
 
@@ -203,10 +204,10 @@ line-height: 0.25in;
 @media (min-width:1600px) {
   .main12{
     background-color: #433878;
-    margin-top: 0rem;
     font-family: 'Font', sans-serif;
     display: flex;
     flex-direction: column;
+    align-items: baseline;
   }
   .bot12{
     width: 1440px;
@@ -260,7 +261,7 @@ line-height: 0.25in;
     font-size: 16px;
     margin-bottom: 0.8rem;
   }
-  .bots22{
+  .bots22,.bots23{
   font-size: 12px;
   line-height: 0.25in;
   }
@@ -386,6 +387,9 @@ line-height: 0.25in;
     font-size: 9px;
     line-height: 0.2in;
   
+    }
+    .bots23{
+      width: 25%;
     }
     .botline{
       border: 0.5px;

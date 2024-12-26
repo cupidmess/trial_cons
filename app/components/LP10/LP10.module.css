@@ -61,11 +61,12 @@
   font-style: normal;
 }
 .main10{
+  background-color: #f7f4fa;
   font-family: 'Font', sans-serif;
   display: flex;
   flex-direction: row;
   padding: 2.5rem;
-  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .left10{
   width: 120%;
@@ -108,7 +109,7 @@
     font-family: 'Font', sans-serif;
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
     margin-top: 0;
     padding-top: 0;
   }

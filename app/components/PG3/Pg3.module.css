@@ -4,6 +4,11 @@
   font-weight: normal;
   font-style: normal;
 } 
+.finput2::placeholder {
+  text-align: left; /* Aligns the placeholder text */
+  vertical-align: top; /* Align vertically to the top */
+  transform: translateY(-200%); /* Nudges placeholder upwards */
+}
 .mainish{
   background-color: #F7F4FA;
 }
@@ -11,13 +16,14 @@
   background-color: #F7F4FA;
 }
 .maincon{
+  padding-top: 10rem;
   background-color: #F7F4FA;
   font-family: 'Font', sans-serif;
   padding-left: 7rem;
   padding-right: 7rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 66rem;
+  margin-bottom: 70rem;
 }
 .maintop{
   color: #433878;
@@ -53,6 +59,7 @@
   gap: 2rem;
 }
 .pat {
+  display: none;
   position: absolute;
   width: 83%;
   margin-left: 8rem;
@@ -116,6 +123,7 @@
   border-radius: 8px;
 }
 .rightbox1{
+  display: none;
   position: absolute;
   background-color: #433878;
   border-top-right-radius: 32px;
@@ -133,11 +141,12 @@
   border-radius: 10px;
 }
 .right2{
-  margin-top: 139%;
+  margin-top: 160%;
   margin-left: 3rem;
-  padding-bottom: 3rem;
+
 }
 .righttxt{
+  
   display: flex;
   flex-direction: row; 
   font-size: 12px;
@@ -363,7 +372,8 @@
     display: flex;
     flex-direction: column; 
     font-size: 8px;
-    width: 80%;
+    width: max-content;
+    align-items: flex-start;
   }
   .righttxt2,.righttxt1,.righttxt3{
     display: flex;
@@ -386,11 +396,11 @@
   }
   .righttxt2{
     margin-top: 0.7rem;
-    margin-left: 6.4rem;
+    margin-left: 0rem;
   }
   .righttxt3{
     margin-top: 0.7rem;
-    margin-left: 10rem;
+    margin-left: 4rem;
   }
   .rimg1,.rimg2,.rimg3{
     height: 20px;
@@ -478,9 +488,11 @@
     background-color: white;
     margin-top: 6rem;
     border-radius: 32px;
-    width: 77%;
+    width: 75%;
   }
-
+.rightf{
+  margin-left: 0;
+}
   .pat{
     display: none;
     margin-left: 0;
@@ -492,15 +504,22 @@
     padding-right: 0;
   }
   .rightbox1{
+    display: none;
     position: absolute;
     background-color: #433878;
     border-top-right-radius: 32px;
     margin-left: 15.8rem;
   }
+  .right2{
+    margin-top: 135%;
+    margin-bottom: 1rem;
+  }
  
 }
 @media (min-width: 1700px) and (max-width:1800px) { 
-
+  .rightf{
+    margin-left: 0;
+  }
   .maincon{
    background-color: #F7F4FA;
   }
@@ -524,7 +543,12 @@
     padding-left: 0;
     padding-right: 0;
   }
+  .right2{
+    margin-top: 128%;
+    margin-bottom: 1rem;
+  }
   .rightbox1{
+    display: none;
     position: absolute;
     background-color: #433878;
     border-top-right-radius: 32px;
@@ -554,6 +578,7 @@
     width: 68%;
   }
   .rightbox1{
+    display: none;
     position: absolute;
     background-color: #433878;
     border-top-right-radius: 32px;
@@ -569,7 +594,10 @@
     padding-left: 0;
     padding-right: 0;
   }
-  
+  .right2{
+    margin-top: 130%;
+    margin-bottom: 1rem;
+  }
  
 }
 @media (min-width: 1900px) and (max-width:2000px) { 
@@ -578,6 +606,7 @@
    background-color: #F7F4FA;
   }
   .rightbox1{
+    display: none;
     position: absolute;
     background-color: #433878;
     border-top-right-radius: 32px;
@@ -603,5 +632,69 @@
     padding-left: 0;
     padding-right: 0;
   }
- 
+  .right2{
+    margin-top: 130%;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width:2000px) and (max-width:2100px){
+  .form{
+    width: 58%;
+  }
+  .rt1{
+    width: 70%;
+  }
+  .right2{
+    margin-top: 160%;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width:2100px) and (max-width:2200px){
+  .form{
+    width: 58%;
+  }
+  .rt1{
+    width: 70%;
+  }
+  .right2{
+    margin-top: 160%;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width:2200px) and (max-width:2300px){
+  .form{
+    width: 56%;
+  }
+  .right2{
+    margin-top: 165%;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width:2300px) and (max-width:2400px){
+  .form{
+    width: 53%;
+  }
+}
+@media (min-width:2400px) and (max-width:2500px){
+  .form{
+    width: 50%;
+  }
+  
+}
+@media (min-width:2500px) {
+  .form{
+    width: 50%;
+  }
+  
+}
+@media (min-width:2600px){
+  .form{
+    width: 46%;
+  }
+  
+}
+@media (min-width:2400px) and (max-width:2500px){
+  .mainish{
+    height: 100vh;
+  }
 }

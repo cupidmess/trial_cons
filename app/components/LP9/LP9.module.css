@@ -61,11 +61,12 @@
   font-style: normal;
 }
 .main9 {
+  background-color: #f7f4fa;
   font-family: 'Font', sans-serif;
   display: flex;
   flex-direction: row;
   padding: 2.5rem;
-  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .left9{
   width: 55%;
@@ -124,7 +125,7 @@
     display: flex;
     flex-direction: column;
     padding: 2.5rem;
-    margin-top: 19rem;
+
   }
   .left9{
     width: 100%;

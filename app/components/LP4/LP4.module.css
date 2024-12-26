@@ -5,10 +5,11 @@
   font-style: normal;
 }
 .m {
+  background-color: #f7f4fa;
   display: flex;
   flex-direction: row;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   height: 100vh;
   align-items: center;
   font-family: 'Font', sans-serif;
@@ -83,10 +84,11 @@
     align-items: center;
     font-family: 'Font', sans-serif;
     margin: 0;
+    padding: 0;
   }
   .r { 
     background-image: url('/images/Rectangle2686.svg');
-    width: 90%;
+    width: 70%;
     height: 88%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,7 +104,7 @@
     border-radius: 5px;
   }
   .lboxt{
-    width: 85%;
+    width: 80%;
     height: max-content;
     /* height: 40%; */
     border-radius: 5px;
@@ -110,7 +112,7 @@
     border: 0.2px;
     border-style: solid;
     margin-top: 2rem;
-    margin-left: 1rem;
+    align-items: center;
     position: absolute;
     background-color: white;
   }
@@ -149,30 +151,27 @@
   .m {
     display: flex;
     flex-direction: row;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
     height: 100vh;
     align-items: center;
     font-family: 'Font', sans-serif;
-    margin-bottom: 5rem;
   }
   .r { 
     background-image: url('/images/Rectangle2686.svg');
     width: 60%;
-    height: 85%;
+    height:75%;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .l{
     width: 40%;
-    height: 88%;
+    height: 80%;
   }
   .lbox{
     height: 51%;
     width: 55%;
     background-color: #433878;
     border-radius: 5px;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
   }
   .lboxt{
     width: 35%;

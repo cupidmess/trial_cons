@@ -13,6 +13,8 @@ const LP8 = () => {
         <div className = {st8.tit8}>
         {t('80')}
         </div>
+        <div className={st8.gridbox}>
+          <div className={st8.gr1}>
         <div className= {st8.maincontent}>
           <div className = {st8.mc1}>
           {t('57')}
@@ -28,7 +30,10 @@ const LP8 = () => {
           <div className = {st8.mc18}>
           {t('60')}
           </div>
-        </div><div className= {st8.maincontent}>
+          </div>
+        </div>
+        <div className={st8.gr1}>
+        <div className= {st8.maincontent}>
           <div className = {st8.mc1}>
           {t('61')}
           </div>
@@ -42,16 +47,11 @@ const LP8 = () => {
           <div className = {st8.mc18}>
           {t('64')}
           </div>
+          </div>
         </div>
         </div>
-        <div className = {st8.right8}>
-        <div className = {st8.rightbox8}>
-          hi here is the purple box         </div>
-          <div className = {st8.imgbox8}>
-          <Image src = {rectx} alt = 'sure' width={700} className={st8.img1}>
-          </Image>
         </div>
-        </div>
+
       </div>
     </div>
   )

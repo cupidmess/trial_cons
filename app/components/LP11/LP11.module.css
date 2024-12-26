@@ -61,11 +61,12 @@
   font-style: normal;
 }
 .main11{
+  background-color: #f7f4fa;
   font-family: 'Font', sans-serif;
   display: flex;
   flex-direction: row;
   padding: 2.5rem;
-  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .left11{
   width: 55%;
@@ -109,7 +110,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 0;
-    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
   }
   .left11{
     width: 100%;

@@ -9,7 +9,7 @@ import F4 from "./Frame4.svg"
 import F5 from "./Frame5.svg"
 import Foot from "../Footer/Footer"
 import style from "./Pg4.module.css"
-import g1 from "./Frame.svg"; 
+import g1 from "./Group 1597885752.svg"
 import { useTranslation } from 'react-i18next'
 const Pg4 = () => {
   const {t} = useTranslation();
@@ -53,11 +53,11 @@ Basic
 <div className={style.main}>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('124')}</div>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('125')}</div>
     </div>
     <button className = {style.butt1}>{t('144')}</button>
@@ -79,19 +79,19 @@ Silver
 <div className={style.main}>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('126')}</div>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('127')}</div>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('128')}</div>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('129')}</div>
     </div>
     <button className = {style.butt2}>{t('144')}</button>
@@ -112,27 +112,27 @@ Gold
 <div className={style.main3}>
     </div>
     <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('131')}</div>
     </div>
     <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('132')}</div>
     </div>
     <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('133')}</div>
     </div>
     <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('134')}</div>
     </div>
     <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('135')}</div>
     </div>
     <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('136')}</div>
     </div>
     <button className = {style.butt3}>{t('144')}</button>
@@ -153,23 +153,23 @@ Platinum
 <div className={style.main}>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('138')}</div>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('139')}</div>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('140')}</div>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('142')}</div>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={30}/>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('143')}</div>
     </div>
     <button className = {style.butt4}>{t('144')}</button>

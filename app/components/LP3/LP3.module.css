@@ -50,24 +50,24 @@
   font-style: normal;
 }
 .Lp3{
+  background-color: #f7f4fa;
   font-family: 'Font', sans-serif ;
-  display: flex;
-  flex: row;
-  height: 65vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: max-content;
   align-items: center;
-  
+  padding-top: 3rem;
 }
 .lpleft3{
-  width: 50%;
-  height: 80%;
+  height: max-content;
   background-color: #433878;
   color: white;
   padding: 2rem;
+  padding-bottom: 9rem;
 }
 .lpright3{
   background-image: url('/images/Rect.svg');
-  width: 50%;
-  height: 52vh;
+  height: 100%;
   background-size:cover;
   background-repeat: no-repeat;
   padding: 2rem;
@@ -151,7 +151,7 @@
     height: max-content;
     align-items: center;
     padding-bottom: 2rem;
-    margin-top: 3.5rem;
+    padding-top: 3.5rem;
   }
   .lpleft3{
     width: 50%;
@@ -218,8 +218,6 @@
     align-items: center;
     width: max-content;
     color: #433878;
-    
-  
   }
   .boxst{
     font-size: 25px;
