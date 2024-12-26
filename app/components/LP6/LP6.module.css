@@ -220,7 +220,7 @@
     grid-template-rows: repeat(3, 1fr); /* 3 equal columns */
     grid-template-columns: auto; /* Rows adjust to content height */
     gap: 65px; /* Space between grid items */
-    padding-left: 2.5rem;
+    padding-left: 0rem;
     margin-bottom: 40rem;
   }
   .rgrid2{ 
@@ -228,7 +228,7 @@
     grid-template-rows: repeat(3, 1fr); /* 3 equal columns */
     grid-template-columns: auto; /* Rows adjust to content height */
     gap: 65px; /* Space between grid items */
-    padding-left: 2.5rem;
+    padding-left: 0rem;
     margin-top: 3.4rem;
  
   }
