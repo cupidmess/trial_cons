@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 const LP2 = () => {
   const {t} = useTranslation(); 
   return (
-    <div>
+    <div className={st.lp1}>
       <div className = {st.main}>
      <div className={st.left}> 
       <div className={st.Text}>     

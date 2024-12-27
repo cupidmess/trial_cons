@@ -28,6 +28,9 @@
   font-weight: normal;
   font-style: normal;
 }
+.mainish{
+  background-color: #F7F4FA;
+}
 @media (min-width:1600px){
   .mainbod{
     width:1440px;
@@ -300,6 +303,7 @@
     padding-right: 2.5rem;
     display: flex;
     flex-direction: column;
+    padding-top: 5rem;
   }
   .top {
     margin-top: 3rem;

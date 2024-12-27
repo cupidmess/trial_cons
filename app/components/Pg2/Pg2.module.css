@@ -7,9 +7,9 @@
 
 
 .finput2::placeholder {
-  text-align: left; /* Aligns the placeholder text */
-  vertical-align: top; /* Align vertically to the top */
-  transform: translateY(-350%); /* Nudges placeholder upwards */
+  text-align: left;      /* Align placeholder text to the left */
+  vertical-align: top;   /* Align placeholder vertically to the top */
+  transform: translateY(-350%); /* Ensure placeholder stays at the top */
 }
 .bod{
   background-color: #F7F4FA;
@@ -275,6 +275,9 @@
   margin-top: 1.5rem;
 }
 @media (min-width: 1600px){
+  .mainish{
+    background-color: #F7F4FA;
+  }
   .bod{
     width: 1440px;
     margin: auto;
@@ -295,6 +298,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 74rem;
+    padding-top: 5rem;
   }
   .finput2::placeholder {
     text-align: left; /* Aligns the placeholder text */
@@ -606,6 +610,9 @@
     width: 49%;
   }
   
+}
+.mainish{
+  background-color: #F7F4FA;
 }
 @media (min-width:2400px) and (max-width:2500px){
   .mainish{

@@ -237,6 +237,7 @@
     font-style: normal;
   } 
   .maincon{
+    padding-top: 5rem;
     font-family: 'Font', sans-serif;
     padding-left: 2.5rem;
     padding-right: 2.5rem;

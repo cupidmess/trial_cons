@@ -11,21 +11,19 @@ const LP4 = () => {
     <div>
       <div className = {st4.m}>
       <div className={st4.l}> 
-      <div className = {st4.lbox}> 
       <div className = {st4.lboxt}>
         <Image src = {sf} alt = "logo1" height={60} className = {st4.im1}/>
         <div className = {st4.lb1}>
       {t('19')}
       </div> 
-      <div className = {st4.lbline}></div>
+      </div>
+      <div className = {st4.lboxt}>
       <Image src ={gr1} alt = "logo2" height={40} className = {st4.im2}/>
       <div className = {st4.lb2}>
       {t('20')}
       </div>
       </div>
-       </div>
       </div>
-      <div className = {st4.r}></div>
       </div>
     </div>
   )

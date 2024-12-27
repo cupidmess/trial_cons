@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import style from "./Pg3.module.css"
-import Nav2 from '../Nav2/Nav2'
+import Nav from '../Nav/Nav'
 import pattern from "./Pattern.svg"
 import Image from 'next/image';
 import comp from "./comp6.jpeg"
@@ -46,12 +46,9 @@ const Pg3 = () => {
   const {t} = useTranslation(); 
   return (
     <div className={style.mainish}>
+            <Nav/>
       <div className={style.hello}>
     <div className={style.bod}>
-      <div>
-      <Image src = {pattern} alt = "pattern" className = {style.pat} /> 
-      <Nav2/>
-      </div>
       <div className = {style.maincon}>
         <div className = {style.maintop}>{t('118')}</div>
         <div className = {style.form}>

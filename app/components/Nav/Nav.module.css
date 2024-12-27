@@ -4,7 +4,14 @@
   font-weight: normal;
   font-style: normal;
 }
+.activeLink {
+  text-decoration: underline;
+  font-weight: bold; /* Optional: Make the active link more prominent */
 
+}
+.navmain {
+  cursor: pointer;
+}
 
 .hidden {
   top: -100px; /* Move navbar out of view */
@@ -27,7 +34,7 @@
   padding-left: 2.5rem; 
   padding-right: 2.5rem;
   font-weight: 500;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
   cursor: pointer;
   width: 100%;
   transition: top 0.3s ease; /* Smooth hide/show effect */
@@ -48,7 +55,7 @@
   
 }
 .img {
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
 
 }
 .img:hover{
@@ -59,14 +66,13 @@
   display: flex;
   flex-direction: row;
   margin-left: 35%;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
 }
 .right:hover {
   cursor: pointer;
   transition: transform 3s ease;
 }
 .home{ 
-  -webkit-text-stroke: 0.05px black; 
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); 
   display: flex;
   flex-direction: column;
@@ -74,20 +80,20 @@
   text-align: center;
 }
 .serv {
-  -webkit-text-stroke: 0.05px black; 
+
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); 
   width:60px;
   overflow-wrap: break-word;
 }
 .serv,.home,.sup,.sol {
-  -webkit-text-stroke: 0.05px black; 
+ 
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); 
   margin-right: 3rem;
   width:70px;
   overflow-wrap: break-word;
 }
 .con {
-  -webkit-text-stroke: 0.05px black; 
+  
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); 
   width:86px;
   margin-right: 0rem;
@@ -101,7 +107,7 @@
   align-items: center;
   height: 2.5rem;
   border-radius: 0.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: 4rem;
 }
 .drop {
@@ -154,7 +160,7 @@
   font-size: 12px;
   font-family: 'Font', sans-serif; 
   font-weight: 500;
-  padding-bottom: 1.5rem
+
 }
 .ic {
   font-size: 3px;  
@@ -239,11 +245,11 @@
 @media (min-width: 1600px) {
   .top{
     width: 100%;
-    margin: auto;
   }
   .fordesk{
     width: 1440px;
     margin: auto;
+    padding-left:3rem;
   }
   .right{
     margin-left: 16rem;

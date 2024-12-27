@@ -23,7 +23,7 @@ export default async function Home({ params }: { params: Promise<{ locale?: stri
         locale={locale}
         namespaces={["landing"]}
       >
-        <Page />
+        <Page/>
       </TranslationProvider>
     </div>
   );

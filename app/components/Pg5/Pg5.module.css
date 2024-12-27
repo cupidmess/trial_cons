@@ -327,10 +327,11 @@
   height: 350px;
   direction: rtl;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 .sb1 {
   visibility: hidden; 
-  
+  width:60%;
 }
 .srb{
   margin-left: 2.5rem;
@@ -368,8 +369,8 @@
     font-weight: normal;
     font-style: normal;
   }
-  .top {
-    margin-top: 2rem;
+  .top{
+    padding-top: 5rem;
   }
   .main {
     padding-left: 2.5rem;
@@ -639,7 +640,7 @@
   }
 }
 @media (min-width:1600px){
-  .bod{
+  .main{
     width: 1440px;
     margin: auto;
   }

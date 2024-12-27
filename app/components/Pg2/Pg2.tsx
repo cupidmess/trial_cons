@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import Nav2 from '../Nav2/Nav2';
+import Nav from '../Nav/Nav';
 import pattern from "./Pattern.svg"
 import Image from 'next/image';
 import comp from "./comp6.jpeg"
@@ -62,12 +62,11 @@ const Pg2 = () => {
   const {t} = useTranslation(); 
   return (
     <div className={style.mainish}>
+          <Nav/>
     <div  className={style.bod}>
+
       <div>
-        <div className={style.patimg}>
-      <Image src = {pattern} alt = "pattern" className = {style.pat} /> 
-      </div>
-      <Nav2/>
+  
       </div>
       <div className = {style.maincon}>
         <div className = {style.maintop}>{t('91')}</div>

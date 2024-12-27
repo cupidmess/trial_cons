@@ -278,9 +278,6 @@ line-height: 0.25in;
     flex-direction: row;
     font-size: 13px;
   }
-  .footdiv2{
-    margin-left: 63%;
-  }
 }
   @media (max-width: 768px){
     .main12{

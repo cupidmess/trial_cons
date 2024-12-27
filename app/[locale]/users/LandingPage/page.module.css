@@ -23,6 +23,9 @@
 
 /* Media query for screens 1440px or wider */
 @media (min-width: 1600px) {
+  .mainbod{
+    background-color: #F7F4FA;
+  }
   .content {
     width: 1440px; /* Keep the original size */
     margin: auto; /* Center the content */

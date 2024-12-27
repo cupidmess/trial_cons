@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Nav2 from '../Nav2/Nav2'
+import Nav from '../Nav/Nav'
 import Image from 'next/image'
 import F1 from "./Group 1597885749-2.svg"
 import F2 from "./Frame2.svg"
@@ -16,8 +16,8 @@ const Pg4 = () => {
   
   return (
     <div className={style.mainish}>
+    <Nav/>
     <div className={style.mainbod}>
-      <Nav2/>
       <div className = {style.maincon}>
       <div className = {style.top}>
         <div className = {style.left}>

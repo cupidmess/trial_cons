@@ -1,11 +1,14 @@
 'use client'; 
 import React from 'react'
+import { useState } from 'react';
 import style from "./Pg6.module.css"
-import Nav2 from '../Nav2/Nav2'
+import Nav2 from '../Nav/Nav'
 import Image from 'next/image';
-import page from "./Frame 1249186730-2.svg"
+import page from "./Frame 1249186730-16.svg"
 import head from "./Frame 1249186730.svg"
 import img18 from "./image 18.svg"
+import { FaChevronRight } from 'react-icons/fa';
+import group from "./Rectangle 34625458.svg"
 import magnif from './Frame 1249186730-3.svg'
 import coin from './Frame 1249186730-4.svg'
 import img5 from "./Frame 1249186730-5.svg"
@@ -14,16 +17,27 @@ import img7 from "./Frame 1249186730-7.svg"
 import img8 from "./Frame 1249186730-8.svg"
 import img9 from "./Frame 1249186730-9.svg"
 import img10 from "./Frame 1249186730-10.svg"
+import img12 from "./Frame 1249186730-12.svg"
+import img13 from "./Frame 1249186730-13.svg"
+import img14 from "./Frame 1249186730-14.svg"
+import img15 from "./Frame 1249186730-15.svg"
 import stress from "./f0454ac29027a934d95f4ba9475dcc45.jpeg"
 import works from "./Rectangle 34625456-2.svg";
 import Foot from "../Footer/Footer"
 import union from "./Union.svg"
+import random from "./standard-quality-control-collage-concept (1) 1.svg"
 import shiny from "./shiny-circles-lit-tablet 1.svg"
 const Pg6 = () => {
+  const [hoveredBox, setHoveredBox] = useState<number | null>(null);
+  const [selectedOption, setSelectedOption] = useState('first');
+  // Handle hover for each box
+  const handleMouseEnter = (index: number) => setHoveredBox(index);
+  const handleMouseLeave = () => setHoveredBox(null);
 
   return (
-    <div>
+    <div className={style.bigbody}>
       <Nav2/>
+      <div className={style.startshere}>
       <div className={style.mainbody}>
       <div className = {style.page1}>
         <Image src = {img18} alt = "logo" height={70}/>
@@ -54,8 +68,14 @@ const Pg6 = () => {
       <div className={style.page2}>
         <div className = {style.top2}>
           <div className={style.boxes2}>
-          <div className={style.behindbox}>  </div>
-            <div className={style.box21}> 
+          <div
+        className={`${style.behindbox} ${hoveredBox === 1 ? style.hovered : ''}`}
+      ></div>
+              <div
+        className={style.box21}
+        onMouseEnter={() => handleMouseEnter(1)} // Hover on box 1
+        onMouseLeave={handleMouseLeave} // Hover ends
+      >
               <div className={style.lbox2}>
                 <div className = {style.fbox}>
                   <div className={style.fboxtop}>
@@ -72,8 +92,14 @@ const Pg6 = () => {
               </div>
           
             </div>
-            <div className={style.behindbox2}></div>
-            <div className={style.box22}>
+            <div
+        className={`${style.behindbox2} ${hoveredBox === 2 ? style.hovered1 : ''}`}
+      > </div>
+            <div
+        className={style.box22}
+        onMouseEnter={() => handleMouseEnter(2)} // Hover on box 1
+        onMouseLeave={handleMouseLeave} // Hover ends
+      >
               <div className={style.lbox2}>
                 <div className = {style.fbox2}>
                   <div className={style.fboxtop2}>
@@ -91,8 +117,14 @@ const Pg6 = () => {
             </div>
           </div>
           <div className={style.boxes22}>
-          <div className={style.behindbox21}></div>
-            <div className={style.box211}>
+          <div
+        className={`${style.behindbox21} ${hoveredBox === 3 ? style.hovered2 : ''}`}
+      > </div>
+          <div
+        className={style.box211}
+        onMouseEnter={() => handleMouseEnter(3)} // Hover on box 1
+        onMouseLeave={handleMouseLeave} // Hover ends
+      >
               <div className={style.lbox21}>
                 <div className = {style.fbox21}>
                   <div className={style.fboxtop21}>
@@ -108,8 +140,14 @@ const Pg6 = () => {
                 </div>
               </div>
             </div>
-            <div className={style.behindbox22}></div>
-            <div className={style.box222}>
+            <div
+        className={`${style.behindbox22} ${hoveredBox === 4 ? style.hovered3 : ''}`}
+      > </div>
+            <div
+        className={style.box222}
+        onMouseEnter={() => handleMouseEnter(4)} // Hover on box 1
+        onMouseLeave={handleMouseLeave} // Hover ends
+      >
               <div className={style.lbox22}>
                 <div className = {style.fbox22}>
                   <div className={style.fboxtop22}>
@@ -253,6 +291,201 @@ const Pg6 = () => {
               </div>
             </div>
           </div>
+          <div className={style.boxes3}>
+          <div className={style.behindbox3}>  </div>
+            <div className={style.box3}> 
+              <div className={style.lbox3}>
+                <div className = {style.fbox3}>
+                  <div className={style.fboxtop3}>
+                    <div>
+                    <Image src ={img9} alt = "image" height={50}/></div>
+                    <div className={style.htxt3}>POWERFUL CRM THAT KEEPS YOU IN CONTROL</div>
+                  </div>
+                  <div className = {style.fboxl3}></div>
+                  <div className={style.fboxtit3}>Contact and Prospect Management</div>
+                  <div className={style.fboxmaincon3}>
+                  Categorize your contacts as owners, prospects, or other business contacts. Using topic lists, you gain a comprehensive view of related records such as properties owned, property inquiries, and activities.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div className = {style.page4}>
+        <div className={style.top4}>
+          <div className = {style.leftwa4}>
+            <div className = {style.ltit4}>
+            Advanced Functionality included
+            </div>
+            <div className = {style.lline4}></div>
+            <div className = {style.lstit4}>Our real estate solution provides innovative and comprehensive functionality to elevate your business to new heights. With these cutting-edge features and tools, you’ll achieve unmatched efficiency, streamline your workflows, and drive exceptional success!</div>
+          </div>
+          <div className = {style.rightwa4}>
+            <Image src = {union} alt = "tick" className={style.un1}/>
+            <Image src = {random} alt = "tablet-shiny" className = {style.tabimg}/>
+          </div>
+        </div>
+        <div className = {style.bot4}>
+          <div className = {style.boxes4}>
+            <div className = {style.boxtop4}>
+              <div className = {style.box41}>
+                <div className = {style.titb4}>
+                  <Image src = {img12} alt = "logo12" className={style.img41}/>
+                  <div className = {style.ttxt4}>
+                  ALWAYS A CHALLENGE
+                  </div>
+                </div>
+                <div className = {style.cont4}>
+                  <div className={style.maincont4}>
+                  <div className = {style.contit4}>
+                  Couple Solution
+                  </div>
+                  <div className = {style.contxt4}>
+                  Each individual is managed separately in the system and maintains their own historical records. However, during the period of a relationship, both individuals in the partnership are viewed together. The solution ensures that personal data remains private while making the shared history during the relationship visible, as well as the current and past relationships. An individual can be part of multiple partnerships over time.
+                  </div>
+                  </div>
+                  <div className = {style.fakebutton}></div>
+                </div>
+              </div>
+              <div className = {style.box42}>
+                <div className = {style.titb4}>
+                  <Image src = {img13} alt = "logo13" className={style.img41}/>
+                  <div className = {style.ttxt4}>
+                  TAILORED TO YOUR MARKET AREAS
+                  </div>
+                </div>
+                <div className = {style.cont4}>
+                <div className={style.maincont4}>
+                  <div className = {style.contit4}>
+                  SWISS Postal Code Service
+                  </div>
+                  <div className = {style.contxt4}>
+                  Simplify Data Entry with Swiss Postal Code Integration. Streamline your workflow with our Swiss Postal Code feature, designed to enhance accuracy and save time. This powerful tool automatically assigns the city and region based on the postal code entered for both contacts and properties. Eliminate errors and ensure consistency by automating city and region assignments. 
+                  </div></div>
+                  <div className = {style.fakebutton}></div>
+                </div>
+              </div>
+            </div>
+            <div className = {style.boxtop42}>
+              <div className = {style.box41}>
+                <div className = {style.titb4}>
+                  <Image src = {img14} alt = "logo14" className={style.img41}/>
+                  <div className = {style.ttxt4}>
+                  IMMEDIATELY KNOW WHAT’S HAPPENING
+                  </div>
+                </div>
+                <div className = {style.cont4}>
+                <div className={style.maincont4}>
+                  <div className = {style.contit4}>
+                  Analytics
+                  </div>
+                  <div className = {style.contxt4}>
+                  Gain a detailed view of prospects, their origins, and rejection reasons. Track each prospect’s status in real-time for improved pipeline management. Turn data into actionable insights, refine your strategies, and achieve unparalleled success.</div>
+                  </div>
+                  <div className = {style.fakebutton}></div>
+                </div>
+              </div>
+              <div className = {style.box42}>
+                <div className = {style.titb4}>
+                  <Image src = {img15} alt = "logo15" className={style.img41}/>
+                  <div className = {style.ttxt4}>
+                  YOU DEFINE THE PROCESSES
+                  </div>
+                </div>
+                <div className = {style.cont4}>
+                <div className={style.maincont4}>
+                  <div className = {style.contit4}>
+                  Powerful Flow Builder
+                  </div>
+                  <div className = {style.contxt4}>
+                  Empower your business with the Flow Builder, the ultimate tool for creating automated workflows and streamlining complex processes with ease. Whether you’re managing prospects, surveys, or any other individual business need, with Flow Builder you take control of your processes and deliver exceptional user and customer experience.
+                  </div></div>
+                  <div className = {style.fakebutton}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className = {style.page5}>
+      <div className =  {style.top5}>
+      Question & Answers
+      </div>
+      <div className={style.div5}>
+      <div className = {style.maintop5}>
+          <div className = {style.image}><Image src = {group} alt = "group"/></div>
+          <div className = {style.scroll}> 
+          <div className={style.sb}>
+            <div className = {style.sb1}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sed quo est tempore perspiciatis eligendi ut nesciunt aliquid, doloremque temporibus fugiat voluptatibus consequatur eius natus molestiae sapiente. Eius, exercitationem aut?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi enim quae voluptatibus voluptas ea dignissimos aperiam itaque voluptates, ratione recusandae, et aut. Molestias laboriosam animi quae enim voluptatem minus nostrum?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae sed illo autem suscipit dignissimos dolorem corporis? Eos quisquam, tempore recusandae pariatur placeat laboriosam ipsa corporis. Ut adipisci numquam possimus autem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam et sint, quibusdam beatae eos, accusantium labore delectus explicabo vitae animi impedit eveniet in repudiandae atque sequi aut quidem perspiciatis quos?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores voluptas dolorem placeat optio consequatur eaque voluptatem totam ea repellendus rem minima, possimus aspernatur nisi animi voluptatibus numquam nemo repellat ut!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eos accusamus beatae cupiditate similique reiciendis, minus laboriosam quia. Deserunt vel numquam id amet neque perferendis laborum quidem ducimus ipsa? Porro!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quod quasi mollitia ipsum, iusto, voluptates dolorum ipsa eaque, dolore soluta quos nam expedita! Iusto autem modi neque ullam, deserunt eligendi?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim omnis recusandae odit, magni quisquam blanditiis minus error sunt eos asperiores ad provident suscipit repudiandae, dolor vel iure. Explicabo, laboriosam earum?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus cumque magni nemo sequi quasi harum quas neque, doloremque ad. Amet qui consectetur culpa sapiente, earum quidem excepturi illum mollitia recusandae.
+            aspernatur nisi animi voluptatibus numquam nemo repellat ut!
+            </div>
+          </div>
+          <div className={style.srb}>
+          <ul className={style.accordion}>
+  {[
+    { id: 'first', title: "Lorem, ipsum.", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime adipisci quaerat ducimus minus ullam, earum perspiciatis veritatis illum velit porro? Quis non eaque ea ratione quos earum nihil neque." },
+    { id: 'second', title:"Lorem, ipsum .", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime adipisci quaerat ducimus minus ullam, earum perspiciatis veritatis illum velit porro? Quis non eaque ea ratione quos earum nihil neque." },
+    { id: 'third', title: "Lorem, .", content:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime adipisci quaerat ducimus minus ullam, earum perspiciatis veritatis illum velit porro? Quis non eaque ea ratione quos earum nihil neque." },
+    { id: 'four', title:"Lorem, i.", content:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime adipisci quaerat ducimus minus ullam, earum perspiciatis veritatis illum velit porro? Quis non eaque ea ratione quos earum nihil neque." },
+    { id: 'five', title: "Lorem, ipsum ", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime adipisci quaerat ducimus minus ullam, earum perspiciatis veritatis illum velit porro? Quis non eaque ea ratione quos earum nihil neque."},
+    { id: 'six', title: " neque.", content:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime adipisci quaerat ducimus minus ullam, earum perspiciatis veritatis illum velit porro? Quis non eaque ea ratione quos earum nihil neque." },
+  ].map((item, index) => (
+    <li key={item.id}
+    className={`${style.accordionItem} ${
+      selectedOption === item.id ? style.active : ''
+    }`}
+    >
+      <label
+        className={style.first}
+        onClick={() => setSelectedOption(item.id)}
+      >
+        {item.title}
+        <span
+          className={`${style[`arrow${index + 1}`]} ${
+            selectedOption === item.id ? style.rotate : ''
+          }`}
+        >
+          &#x3e;
+        </span>
+      </label>
+      <input
+        type="radio"
+        className={style.accordion}
+        id={item.id}
+        name="consultation"
+        checked={selectedOption === item.id}
+        onChange={() => setSelectedOption(item.id)}
+      />
+      <div
+        className={`${style.content} ${
+          selectedOption === item.id ? style.showContent : ''
+        }`}
+      >
+        {item.content}
+      </div>
+    </li>
+  ))}
+</ul>
+
+          </div>
+           </div>
+        </div>
+        <div className = {style.lastpage}>
+          <div className = {style.lasttit}>Ready for the next step?</div>
+          <div className = {style.con5}>We are happy to provide you with more information or arrange a consultation.</div>
+          <button className = {style.but5}>Get Started <FaChevronRight className={style.iconlast}/> </button>
+        </div>
         </div>
       </div>
       </div>
