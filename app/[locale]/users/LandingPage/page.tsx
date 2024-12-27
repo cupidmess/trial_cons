@@ -13,24 +13,10 @@ import LP9 from '@/app/components/LP9/LP9'
 import LP10 from '@/app/components/LP10/LP10'
 import LP11 from '@/app/components/LP11/LP11'
 import LP12 from '@/app/components/LP12/LP12'
-import initTranslations from '@/app/i18n';
-import TranslationsProvider from '@/app/components/TranslationProvider';
+export default async function page () {
 
-export async function generateStaticParams() {
-  return [
-    { locale: 'en' },
-    { locale: 'de' },
-  ];
-}
-export default async function page ({ params }: { params: Promise<{ locale?: string }> }) {
-  const resolvedParams = await params; // Await the params to resolve
-  console.log('Resolved Params:', resolvedParams);
-
-  const locale = resolvedParams?.locale || 'en'; // Fallback to 'en' if locale is undefined
-  const { resources } = await initTranslations(locale, ['landing']); // Load translations
   return (
     <div className={style.mainbod}>
-    <TranslationsProvider resources={resources} locale={locale} namespaces={['landing']}>
     <div className={style.body}>
       <Nav/>
       <NavMid/>
@@ -50,7 +36,6 @@ export default async function page ({ params }: { params: Promise<{ locale?: str
       <div className={style.footpg}>
       <LP12/>
       </div>
-      </TranslationsProvider>
     </div>
   )
 }
