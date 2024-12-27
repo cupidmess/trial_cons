@@ -1,7 +1,6 @@
 'use client';
 import React from 'react'
 import Nav from '../Nav/Nav';
-import pattern from "./Pattern.svg"
 import Image from 'next/image';
 import comp from "./comp6.jpeg"
 import style from "./Pg2.module.css"

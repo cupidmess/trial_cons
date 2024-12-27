@@ -111,7 +111,7 @@ const Page7 = () => {
           <div className = {style.left31}>
             <div className = {style.lefttit3}>Custom templates tailored to your needs</div>
             <div className = {style.line3}></div>
-            <div className={style.stxt3}>Thanks to custom design templates you can create digital PDFs or printed brochures all by yourself. You won't need any help from graphic designers or agencies. This reduces your time to market and lowers your overhead.</div>
+            <div className={style.stxt3}>Thanks to custom design templates you can create digital PDFs or printed brochures all by yourself. You won&apos;t need any help from graphic designers or agencies. This reduces your time to market and lowers your overhead.</div>
           </div>
           <div className = {style.right31}>
             <Image src = {img13} alt = "website" className = {style.img131}/>

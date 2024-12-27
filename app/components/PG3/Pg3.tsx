@@ -2,7 +2,6 @@
 import React from 'react'
 import style from "./Pg3.module.css"
 import Nav from '../Nav/Nav'
-import pattern from "./Pattern.svg"
 import Image from 'next/image';
 import comp from "./comp6.jpeg"
 import Frame from "./Frame.svg"
