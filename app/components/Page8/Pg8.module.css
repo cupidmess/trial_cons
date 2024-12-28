@@ -318,6 +318,7 @@
   display: flex;
   align-items: center;
   margin-top: 1rem;
+  box-shadow: 0px 3px 6px rgb(211, 211, 211);
 }
 .img10 {
   height: 500px;
@@ -400,6 +401,7 @@
   border-radius: 30px;
   width: 48%;
   height: 20rem;
+  box-shadow: 0px 3px 6px rgb(211, 211, 211);
 }
 .box42{
   margin-left: auto;
