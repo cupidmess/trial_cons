@@ -20,18 +20,24 @@ const Page7 = () => {
       <Nav/>
       <div className={style.main}>
       <div className = {style.page1}>
+        <div className = {style.chimg1}>
+      <Image src = {logo} alt = "logo" className={style.logo1}/>
+      </div>
         <div className = {style.h1}>Exposé Automation without Compromise</div>
         <div className = {style.line1}></div>
         <div className = {style.sub1}> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolor numquam laudantium temporibus quia deserunt distinctio voluptatum quas ex reiciendis molestias veniam nemo quis iure ad! Iure deserunt a cumque! </div>
         <div className = {style.box1}>
           <div className = {style.img1}> <Image src = {image} alt = "img" className={style.img} /> </div>
           <div className = {style.right1}>
-            <Image src = {logo} alt = "logo" className={style.logo1}/>
+            <div className = {style.ch1}>Lorem Title</div>
+            <div className = {style.chl}></div>
             <div className = {style.content1}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quo minima suscipit, adipisci deleniti repellendus quae doloribus iusto, rerum minus a eveniet animi iure quibusdam magni alias corrupti facere tenetur.
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa vitae, quia ea rem, atque, nihil beatae ut facere quasi veniam quo soluta odio provident pariatur illum dolorem quas labore perferendis!
              </div>
           </div>
         </div>
+        <div className = {style.chtit2}>About EXPOSE for PropertyBase</div>
+        <div className = {style.linech}></div>
         <div className = {style.box2}>
           <div className = {style.l2}>
             <div className = {style.tit2}>Reduce your Time to Market</div>
@@ -82,6 +88,7 @@ const Page7 = () => {
         </div>
         <div className = {style.behindbox23}></div>
         </div>
+        <div className = {style.start2}>
         <div className = {style.botbox2}>
           <div className = {style.butbox21}>
             
@@ -105,8 +112,11 @@ const Page7 = () => {
           </div>
           </div>
         </div>
+        </div>
       </div>
       <div className = {style.page3}>
+        <div className = {style.chtit3}>Overview of the Functionality</div>
+        <div className = {style.chlin3}></div>
         <div className = {style.box31}>
           <div className = {style.left31}>
             <div className = {style.lefttit3}>Custom templates tailored to your needs</div>
@@ -129,7 +139,9 @@ const Page7 = () => {
 </div>
           </div>
         </div>
-        <div className = {style.subsection3}>
+      </div>
+      <div className = {style.page4}>
+      <div className = {style.subsection3}>
           <div className = {style.left32}>
             <div className = {style.tit32}>Why choose EXPOSE</div>
             <div className = {style.line32}></div>
@@ -139,8 +151,6 @@ const Page7 = () => {
               <Image src = {img15} alt = "girl" className = {style.img153}/>
              </div>
         </div>
-      </div>
-      <div className = {style.page4}>
       <div className = {style.bot4}>
           <div className = {style.boxes4}>
             <div className = {style.boxtop4}>

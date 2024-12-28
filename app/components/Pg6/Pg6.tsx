@@ -40,7 +40,8 @@ const Pg6 = () => {
       <div className={style.startshere}>
       <div className={style.mainbody}>
       <div className = {style.page1}>
-        <Image src = {img18} alt = "logo" height={70}/>
+        <div className = {style.logoborder}>
+        <Image src = {img18} alt = "logo" height={70}/></div>
         <div className={style.top1}>Turnkey marketing solution</div>
         <div className={style.line1}></div>
             <div className={style.topcont}>The Swiss version of Propertybase has been
@@ -54,6 +55,8 @@ const Pg6 = () => {
           <div className={style.box1main}>As a comprehensive, powerful, yet simple solution for real estate marketing, Propertybase SE is quick to implement. Predefined processes facilitate compliance with standards and improve data quality. The addition of “SWISS EDITION” represents Swiss values such as quality, reliability, and precision.</div>
         </div>
       </div>
+      <div className  = {style.headingnew}>About Propertybase SWISS EDITION</div>
+      <div className = {style.headline}></div>
       <div className={style.topbox2}>
         <div className={style.box2right}>
           <div className={style.box2tit}>Simplifies the Marketer’s Daily Work</div>

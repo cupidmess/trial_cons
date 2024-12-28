@@ -7,7 +7,8 @@
 .activeLink {
   text-decoration: underline;
   font-weight: bold; /* Optional: Make the active link more prominent */
-
+  text-decoration-thickness: 2px; /* Makes the underline bolder */
+  text-underline-offset: 6px; /* Adds a margin above the underline */
 }
 .navmain {
   cursor: pointer;
