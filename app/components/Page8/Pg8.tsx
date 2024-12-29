@@ -14,8 +14,10 @@ import frame3 from "./Frame 1249186730-19.svg"
 import frame4 from "./Frame 1249186730-20.svg"
 import imageback from "./Image-5.svg"
 import img19 from "./image 19.svg"
+import union2 from "./Union-2.svg"
 import img21 from "./image 21.svg"
-import rect from "./Rectangle 34625466.svg"
+import robot from "./image 26.svg"
+import rect from "./image 25.svg"
 import image10 from "./image 20.svg"
 import img22 from "./image 22.svg"
 import rect2 from "./Rectangle 34625456-4.svg"
@@ -73,9 +75,6 @@ const Pg8 = () => {
       <div className={style.page2}>
         <div className = {style.top2}>
           <div className={style.boxes2}>
-          <div
-        className={`${style.behindbox} ${hoveredBox === 1 ? style.hovered : ''}`}
-      ></div>
               <div
         className={style.box21}
         onMouseEnter={() => handleMouseEnter(1)} // Hover on box 1
@@ -98,9 +97,6 @@ const Pg8 = () => {
           
             </div>
             <div
-        className={`${style.behindbox2} ${hoveredBox === 2 ? style.hovered1 : ''}`}
-      > </div>
-            <div
         className={style.box22}
         onMouseEnter={() => handleMouseEnter(2)} // Hover on box 1
         onMouseLeave={handleMouseLeave} // Hover ends
@@ -122,9 +118,6 @@ const Pg8 = () => {
             </div>
           </div>
           <div className={style.boxes22}>
-          <div
-        className={`${style.behindbox21} ${hoveredBox === 3 ? style.hovered2 : ''}`}
-      > </div>
           <div
         className={style.box211}
         onMouseEnter={() => handleMouseEnter(3)} // Hover on box 1
@@ -149,11 +142,22 @@ const Pg8 = () => {
         </div>
       </div>
       <div className = {style.page3}>
+        <div className = {style.change1}>
+          <div className ={style.rightchange}>
+            <div  className={style.unionitic}>
+          <Image src = {union2} alt = "tick" className = {style.union2}/>
+          </div> <div className={style.robotic}>
+            <Image src ={robot} alt = "robot" className = {style.changerobot}/>
+            </div> 
+          </div>
+          <div className = {style.rightchange}>
         <div className={style.tit3}>Overview of the Modules</div>
         <div className={style.lin3}></div>
         <div className = {style.stit3}>Meet your customers&apos; expectations even better.
         Today, customers expect digital service around the clock.
         Comprehensive self-service and short response times are just as essential as the ability to provide feedback with a single click.
+      </div>
+      </div>
       </div>
       <div className = {style.boxes3}>
         <div className = {style.box31}>
@@ -161,16 +165,12 @@ const Pg8 = () => {
             <Image src = {image10} alt ="webpage" className = {style.img10}/>
           </div>
           <div className = {style.rigtbox3}>
-          <div
-        className={style.behindbox3}
-      ></div>
+
               <div
         className={style.box312}>
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div>
-                    <Image src ={frame4} alt = "headphones" height={50}/></div>
                     <div className={style.htxt3}>Feedback Favorite</div>
                   </div>
                   <div className = {style.fboxl3}></div>
@@ -191,18 +191,16 @@ const Pg8 = () => {
           </div>
           </div>
         </div>
-        <div className = {style.box31r}>
+        <div className = {style.box31}>
+        <div className={style.l1}>
+            <Image src = {img21} alt ="webpage" className = {style.img10}/>
+          </div>
           <div className = {style.rigtbox3}>
-          <div
-        className={style.behindbox3}
-      ></div>
               <div
         className={style.box312}>
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div>
-                    <Image src ={frame4} alt = "headphones" height={50}/></div>
                     <div className={style.htxt3}>Feedback Closing</div>
                   </div>
                   <div className = {style.fboxl3}></div>
@@ -222,25 +220,17 @@ const Pg8 = () => {
               </div>
           </div>
           </div>
-          <div className={style.l1}>
-            <Image src = {img21} alt ="webpage" className = {style.img10}/>
-          </div>
         </div>
         <div className = {style.box31}>
           <div className={style.l1}>
             <Image src = {img22} alt ="webpage" className = {style.img22}/>
           </div>
           <div className = {style.rigtbox3}>
-          <div
-        className={style.behindbox3}
-      ></div>
               <div
         className={style.box312}>
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div>
-                    <Image src ={frame4} alt = "headphones" height={50}/></div>
                     <div className={style.htxt3}>Campaign To Favorite</div>
                   </div>
                   <div className = {style.fboxl3}></div>
@@ -261,18 +251,16 @@ const Pg8 = () => {
           </div>
           </div>
         </div>
-        <div className = {style.box31r}>
+        <div className = {style.box31}>
+        <div className={style.l1}>
+            <Image src = {img21} alt ="webpage" className = {style.img10}/>
+          </div>
           <div className = {style.rigtbox3}>
-          <div
-        className={style.behindbox3}
-      ></div>
               <div
         className={style.box312}>
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div>
-                    <Image src ={frame4} alt = "headphones" height={50}/></div>
                     <div className={style.htxt3}>Subscription Settings</div>
                   </div>
                   <div className = {style.fboxl3}></div>
@@ -291,9 +279,6 @@ const Pg8 = () => {
                 </div>
               </div>
           </div>
-          </div>
-          <div className={style.l1}>
-            <Image src = {img21} alt ="webpage" className = {style.img10}/>
           </div>
         </div>
       </div>
@@ -362,41 +347,38 @@ const Pg8 = () => {
         <div className={style.top5}>
           <div className = {style.lefttop5}>
             <div className={style.lefttit5}>Why choose WEB OFFICE</div>
+            <div className = {style.changeline}></div>
             <div className={style.lefttst5}>WEB OFFICE is the ideal solution to enhance efficiency, flexibility, and quality in your business sustainably.</div>
           </div>
-          <div className = {style.rightimg}>
-          <Image src = {imageback} alt = "background-girl" className = {style.backimg}/>
-          </div>
+
         </div>
         <div className = {style.bottom5}>
           <div className = {style.botleft5}>
             <div className = {style.box51}>
-              <div className = {style.behindbox51}></div>
+
               <div className = {style.mainbox51}>
                 <div className = {style.mbtit5}>Real-Time Self-Service for Clients: </div>
                 <div className = {style.mainstit5}>Instant access to information and features anytime, anywhere.</div>
               </div>
             </div>
             <div className = {style.box51}>
-              <div className = {style.behindbox51}></div>
+  
               <div className = {style.mainbox51}>
                 <div className = {style.mbtit5}>Available 24/7: </div>
                 <div className = {style.mainstit5}>Continuous support without interruptions.</div>
               </div>
             </div> <div className = {style.box51}>
-              <div className = {style.behindbox51}></div>
+     
               <div className = {style.mainbox51}>
                 <div className = {style.mbtit5}>Scalability at the Push of a Button: </div>
                 <div className = {style.mainstit5}>Easily and quickly adjust capacity to meet current demands.</div>
               </div>
             </div> <div className = {style.box51}>
-              <div className = {style.behindbox51}></div>
               <div className = {style.mainbox51}>
                 <div className = {style.mbtit5}>Supports Business Growth:  </div>
                 <div className = {style.mainstit5}>Facilitates expansion through efficient digital processes.</div>
               </div>
             </div> <div className = {style.box51}>
-              <div className = {style.behindbox51}></div>
               <div className = {style.mainbox51}>
                 <div className = {style.mbtit5}>More Time for What Matters:  </div>
                 <div className = {style.mainstit5}>Frees up advisors for focused client care and strategic tasks..</div>
@@ -405,32 +387,27 @@ const Pg8 = () => {
           </div>
           <div className = {style.botleft5}>
             <div className = {style.box51}>
-              <div className = {style.behindbox52}></div>
               <div className = {style.mainbox51}>
                 <div className = {style.mbtit5}>Standardized Processes:  </div>
                 <div className = {style.mainstit5}>Ensures consistent quality by adhering to predefined standards.</div>
               </div>
             </div>
             <div className = {style.box51}>
-              <div className = {style.behindbox52}></div>
               <div className = {style.mainbox51}>
                 <div className = {style.mbtit5}>Solves Staffing Challenges:  </div>
                 <div className = {style.mainstit5}>Reduces personnel shortages and prevents employee overload.</div>
               </div>
             </div> <div className = {style.box51}>
-              <div className = {style.behindbox52}></div>
               <div className = {style.mainbox51}>
                 <div className = {style.mbtit5}>Enhanced Client Information:  </div>
                 <div className = {style.mainstit5}>Provides precise and up-to-date data to improve client satisfaction.</div>
               </div>
             </div> <div className = {style.box51}>
-              <div className = {style.behindbox52}></div>
               <div className = {style.mainbox51}>
                 <div className = {style.mbtit5}>Provides precise and up-to-date data to improve client satisfaction. </div>
                 <div className = {style.mainstit5}>Maintains reliable operations regardless of external disruption.</div>
               </div>
             </div> <div className = {style.box51}>
-              <div className = {style.behindbox52}></div>
               <div className = {style.mainbox51}>
                 <div className = {style.mbtit5}>Cost Efficiency:  </div>
                 <div className = {style.mainstit5}>Saves resources through automated and digital workflows.</div>

@@ -61,8 +61,6 @@
 .main{
   background-color: #F7F4FA;
   padding-top: 8rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
   font-family: "Font", sans-serif;
 }
 .logo{
@@ -74,11 +72,14 @@
   border-color: #433878;
   width: max-content;
   margin-bottom: 2rem;
+  margin-left: 2rem;
 }
 .tit1{
   font-family: "SemiBold", sans-serif;
   color: #433878;
   font-size: 42px;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 .lin1{
   border: 0.5px;
@@ -88,11 +89,15 @@
   margin-bottom: 1rem;
   opacity: 0.6;
   width: 40%;
+  margin-left: 4rem;
+
 }
 .subtxt1{
   font-size: 16px;
   width: 60%;
   margin-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 .box1{
   display: grid;
@@ -101,7 +106,6 @@
   padding-right: 3rem;
   gap: 30px;
   color: white;
-  border-radius: 16px;
 }
 .box2{
   display: grid;
@@ -111,6 +115,8 @@
   background-color: #433878;
   border-radius: 16px;
   color: white;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 .r1{
   padding-top: 2rem;
@@ -129,6 +135,27 @@
   opacity: 0.7;
   width: 60%;
 }
+.page3{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.page4{
+  margin-left: 4rem;
+  background-color: white;
+  margin-right: 4rem;
+  border-radius: 16px;
+}
+.page5{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border-radius: 16px;
+}
+.page6{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+
 .stxt1{
   width: 80%;
 }
@@ -137,6 +164,7 @@
   font-family: "SemiBold", sans-serif;
   margin-top: 2rem;
   font-size: 40px;
+  padding-left: 4rem;
 }
 .lin2{
   border: 0.5px;
@@ -146,6 +174,11 @@
   margin-bottom: 2rem;
   opacity: 0.6;
   width: 40%;
+  margin-left: 4rem;
+}
+.page2{
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 .top2{
   border-radius: 10px;
@@ -165,7 +198,7 @@
   background-color: #ECEBFF;
   margin-top: 0.8rem;
   /* position: absolute; */
-  width: 44%;
+  width: 48%;
   height: 22rem;
   padding: 2rem; 
   z-index: 2;
@@ -282,10 +315,14 @@
   margin-bottom: 0.5rem;
 }
 .box31{
+  background-color: white;
   margin-top: 3rem;
   display: grid;
   grid-template-columns: 0.6fr 1fr;
-  gap: 35px;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  border-radius: 16px;
 }
 .box31r{
   margin-top: 3rem;
@@ -295,30 +332,29 @@
 }
 .stit3{
   width: 75%;
-  font-size: 17px;
+  font-size: 21px;
 }
 .tit3{
-  color: #433878;
+  margin-top: 1rem;
+  color: white;
   font-family: "SemiBold", sans-serif;
-  margin-top: 3rem;
-  font-size: 40px;
+  font-size: 50px;
+  width: 70%;
 }
 .lin3{
   border: 0.5px;
   border-style: solid;
-  border-color: #433878;
+  border-color: white;
   margin-top: 1rem;
   margin-bottom: 2rem;
   opacity: 0.6;
-  width: 40%;
+  width: 70%;
 }
 .l1{
-  background-color: #ECEBFF;
   border-radius: 20px;
   display: flex;
   align-items: center;
-  margin-top: 1rem;
-  box-shadow: 0px 3px 6px rgb(211, 211, 211);
+
 }
 .img10 {
   height: 500px;
@@ -329,7 +365,6 @@
   margin: auto;
 }
 .box312{
-  background-color: #433878;
   border-radius: 10px;
   position: relative;
   z-index: 2;
@@ -339,32 +374,22 @@
   padding-left: 1.5rem;
   padding-top: 1.5rem;
   padding-bottom: 3rem;
-  color: #FDFDFD;
-}
-.behindbox3{
-  background-color: #CBC7FA;
-  position: absolute;
-  z-index:1;
-  width: 10rem;
-  height: 10rem;
-  margin-left: 40rem;
-  border-top-right-radius: 30px;
+  color: #433878;
 }
 .fboxtop3{
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #FDFDFD;
   font-family: "SemiBold", sans-serif;
 }
 .htxt3{
-  margin-left: 1rem;
-  font-size: 22px;
+
+  font-size: 29px;
 }
 .fboxl3{
   border: 0.5px;
   border-style: solid;
-  border-color: #FDFDFD;
+  border-color: #433878;
   margin-top: 1rem;
   opacity: 0.65;
   width: 50%;
@@ -372,7 +397,8 @@
 .fboxtit31{
   margin-top: 1.5rem;
   font-family: "SemiBold", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+  margin-bottom: 1rem;
 }
 .fboxmaincon31{
   width: 85%;
@@ -384,6 +410,8 @@
   padding-bottom: 1.5rem;
   padding-left: 4rem;
   padding-right: 4rem;
+  border-radius: 16px;
+  margin-bottom: 3rem;
 }
 .boxtop4,.boxtop42{
   display: flex;
@@ -445,7 +473,9 @@
   width: 93%;
 }
 .tit4{
-  margin-top: 5rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
   color: #433878;
   font-family: "SemiBold", sans-serif;
   font-size: 40px;
@@ -458,22 +488,20 @@
   margin-bottom: 1rem;
   opacity: 0.6;
   width: 40%;
+  margin-left: 2rem;
 }
 .stxt4{
   width: 75%;
   font-size: 17px;
-  margin-bottom: 2rem
+  margin-bottom: 2rem;
+  padding-left:2rem;
 }
 .page5{
   background-color: white;
   margin-top: 1rem;
   padding-bottom: 2.5rem;
 }
-.top5{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 25px;
-}
+
 .backimg{
   height: 400px;
   padding-right: 2rem;
@@ -481,6 +509,14 @@
 .lefttop5{
   padding-left: 2rem;
   padding-top: 3rem;
+}
+.changeline{
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  opacity: 0.7;
+  width: 36%;
+  margin-top: 0.6rem;
 }
 .lefttit5{
   font-family: "SemiBold", sans-serif;
@@ -490,7 +526,7 @@
 .lefttst5{
   font-size: 14px;
   margin-top: 1.5rem;
-  width: 80%;
+
 }
 .bottom5{
   display: grid;
@@ -611,4 +647,27 @@ margin-left: 2.5rem;
     width: 1440px;
     margin: auto;
   }
+}
+.change1{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #433878;
+  border-radius: 16px;
+  position: relative;
+}
+.robotic{
+  position: relative;
+  z-index: 1;
+}
+.unionitic{
+  position: absolute;
+  z-index: 0;
+}
+.rightchange{
+  color: white;
+}
+.union2{
+  width: 75%;
 }

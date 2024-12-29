@@ -103,6 +103,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.topbox2{
+  border-radius: 16px;
+}
+.stress{
+  border-radius: 16px;
 }
 .box1right{
   padding-top: 2rem;
@@ -747,6 +755,7 @@
   font-family: "SemiBold", sans-serif;
   color: #433878;
   font-size: 40px;
+  padding-left: 4rem;
 }
 .headline{
   margin-top: 0.5rem;
@@ -756,4 +765,5 @@
   border-style: solid;
   opacity: 0.5;
   width: 32%;
+  margin-left: 4rem;
 }
