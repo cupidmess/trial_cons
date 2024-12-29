@@ -28,11 +28,9 @@ import union from "./Union.svg"
 import random from "./standard-quality-control-collage-concept (1) 1.svg"
 import shiny from "./shiny-circles-lit-tablet 1.svg"
 const Pg6 = () => {
-  const [hoveredBox, setHoveredBox] = useState<number | null>(null);
+
   const [selectedOption, setSelectedOption] = useState('first');
   // Handle hover for each box
-  const handleMouseEnter = (index: number) => setHoveredBox(index);
-  const handleMouseLeave = () => setHoveredBox(null);
 
   return (
     <div className={style.bigbody}>
@@ -73,8 +71,6 @@ const Pg6 = () => {
           <div className={style.boxes2}>
               <div
         className={style.box21}
-        onMouseEnter={() => handleMouseEnter(1)} // Hover on box 1
-        onMouseLeave={handleMouseLeave} // Hover ends
       >
               <div className={style.lbox2}>
                 <div className = {style.fbox}>
@@ -94,8 +90,6 @@ const Pg6 = () => {
             </div>
             <div
         className={style.box22}
-        onMouseEnter={() => handleMouseEnter(2)} // Hover on box 1
-        onMouseLeave={handleMouseLeave} // Hover ends
       >
               <div className={style.lbox2}>
                 <div className = {style.fbox2}>
@@ -116,8 +110,6 @@ const Pg6 = () => {
           <div className={style.boxes22}>
           <div
         className={style.box211}
-        onMouseEnter={() => handleMouseEnter(3)} // Hover on box 1
-        onMouseLeave={handleMouseLeave} // Hover ends
       >
               <div className={style.lbox21}>
                 <div className = {style.fbox21}>
@@ -136,8 +128,6 @@ const Pg6 = () => {
             </div>
             <div
         className={style.box222}
-        onMouseEnter={() => handleMouseEnter(4)} // Hover on box 1
-        onMouseLeave={handleMouseLeave} // Hover ends
       >
               <div className={style.lbox22}>
                 <div className = {style.fbox22}>
