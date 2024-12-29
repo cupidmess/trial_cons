@@ -71,9 +71,6 @@ const Pg6 = () => {
       <div className={style.page2}>
         <div className = {style.top2}>
           <div className={style.boxes2}>
-          <div
-        className={`${style.behindbox} ${hoveredBox === 1 ? style.hovered : ''}`}
-      ></div>
               <div
         className={style.box21}
         onMouseEnter={() => handleMouseEnter(1)} // Hover on box 1
@@ -95,9 +92,6 @@ const Pg6 = () => {
               </div>
           
             </div>
-            <div
-        className={`${style.behindbox2} ${hoveredBox === 2 ? style.hovered1 : ''}`}
-      > </div>
             <div
         className={style.box22}
         onMouseEnter={() => handleMouseEnter(2)} // Hover on box 1
@@ -121,9 +115,6 @@ const Pg6 = () => {
           </div>
           <div className={style.boxes22}>
           <div
-        className={`${style.behindbox21} ${hoveredBox === 3 ? style.hovered2 : ''}`}
-      > </div>
-          <div
         className={style.box211}
         onMouseEnter={() => handleMouseEnter(3)} // Hover on box 1
         onMouseLeave={handleMouseLeave} // Hover ends
@@ -143,9 +134,6 @@ const Pg6 = () => {
                 </div>
               </div>
             </div>
-            <div
-        className={`${style.behindbox22} ${hoveredBox === 4 ? style.hovered3 : ''}`}
-      > </div>
             <div
         className={style.box222}
         onMouseEnter={() => handleMouseEnter(4)} // Hover on box 1
@@ -188,7 +176,6 @@ const Pg6 = () => {
       <div className={style.cards3}>
         <div className={style.topcards}>
         <div className={style.boxes3}>
-          <div className={style.behindbox3}>  </div>
             <div className={style.box3}> 
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
@@ -205,7 +192,6 @@ const Pg6 = () => {
                 </div>
               </div>
             </div>
-            <div className={style.behindbox32}></div>
             <div className={style.box32}>
               <div className={style.lbox32}>
                 <div className = {style.fbox32}>
@@ -224,7 +210,6 @@ const Pg6 = () => {
             </div>
           </div>
           <div className={style.boxes3}>
-          <div className={style.behindbox3}>  </div>
             <div className={style.box3}> 
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
@@ -241,7 +226,6 @@ const Pg6 = () => {
                 </div>
               </div>
             </div>
-            <div className={style.behindbox32}></div>
             <div className={style.box32}>
               <div className={style.lbox32}>
                 <div className = {style.fbox32}>
@@ -259,7 +243,6 @@ const Pg6 = () => {
               </div>
             </div>
           </div><div className={style.boxes3}>
-          <div className={style.behindbox3}>  </div>
             <div className={style.box3}> 
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
@@ -276,7 +259,6 @@ const Pg6 = () => {
                 </div>
               </div>
             </div>
-            <div className={style.behindbox32}></div>
             <div className={style.box32}>
               <div className={style.lbox32}>
                 <div className = {style.fbox32}>
@@ -295,7 +277,6 @@ const Pg6 = () => {
             </div>
           </div>
           <div className={style.boxes3}>
-          <div className={style.behindbox3}>  </div>
             <div className={style.box3}> 
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
