@@ -11,8 +11,6 @@ import frame7 from "./Frame 1249186731-3.svg"
 import frame1 from "./Frame 1249186730-17.svg"
 import frame2 from "./Frame 1249186730-18.svg"
 import frame3 from "./Frame 1249186730-19.svg"
-import frame4 from "./Frame 1249186730-20.svg"
-import imageback from "./Image-5.svg"
 import img19 from "./image 19.svg"
 import union2 from "./Union-2.svg"
 import img21 from "./image 21.svg"
@@ -24,9 +22,6 @@ import rect2 from "./Rectangle 34625456-4.svg"
 import { useState } from 'react'
 import { FaChevronRight } from 'react-icons/fa';
 const Pg8 = () => {
-  const [hoveredBox, setHoveredBox] = useState<number | null>(null);
-  const handleMouseEnter = (index: number) => setHoveredBox(index);
-  const handleMouseLeave = () => setHoveredBox(null);
   return (
     <div className={style.mainish}>
       <Nav/>
@@ -77,8 +72,6 @@ const Pg8 = () => {
           <div className={style.boxes2}>
               <div
         className={style.box21}
-        onMouseEnter={() => handleMouseEnter(1)} // Hover on box 1
-        onMouseLeave={handleMouseLeave} // Hover ends
       >
               <div className={style.lbox2}>
                 <div className = {style.fbox}>
@@ -98,8 +91,6 @@ const Pg8 = () => {
             </div>
             <div
         className={style.box22}
-        onMouseEnter={() => handleMouseEnter(2)} // Hover on box 1
-        onMouseLeave={handleMouseLeave} // Hover ends
       >
               <div className={style.lbox2}>
                 <div className = {style.fbox2}>
@@ -120,8 +111,6 @@ const Pg8 = () => {
           <div className={style.boxes22}>
           <div
         className={style.box211}
-        onMouseEnter={() => handleMouseEnter(3)} // Hover on box 1
-        onMouseLeave={handleMouseLeave} // Hover ends
       >
               <div className={style.lbox21}>
                 <div className = {style.fbox21}>
