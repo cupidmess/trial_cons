@@ -60,13 +60,32 @@
   font-weight: 1000;
   font-style: normal;
 }
+.llime{
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  width: 50%;
+  margin-bottom: 1rem;
+}
 .main10{
-  background-color: #f7f4fa;
+  background-color: white;
   font-family: 'Font', sans-serif;
   display: flex;
   flex-direction: row;
-  padding: 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  border-radius: 10px;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.body{
+  background-color: #f7f7fa;
+  padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+
 }
 .left10{
   width: 120%;
@@ -83,13 +102,24 @@
   font-size:43px;
   font-weight: 800;
   color: #433878;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .rightmc10 {
   font-size: 17px;
   width: 85%;
   opacity: 0.75;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
+}
+.ofc{
+  height: 260px;
+  width: auto;
+  margin: auto;
+}
+.right10{
+  width: 55%;
+}
+.left10{
+  width: 55%;
 }
 .rightbut10{
   display: flex;

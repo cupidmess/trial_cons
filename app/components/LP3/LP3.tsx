@@ -14,9 +14,8 @@ const LP3 = () => {
           <div className = {st1.left3T2}>{t('14')} <br/> 
           <div className = {st1.left3T22}>
           {t('15')}</div>
-        </div></div>
-        <div className = {st1.lpright3}>
-          <div className = {st1.lpbox}>
+        </div>
+        <div className = {st1.lpbox}>
             <div className={st1.boxtext}>
               <div className = {st1.boxst}>{t('180')}+</div>
               <div className = {st1.boxlt}>{t('16')}</div>
@@ -32,6 +31,8 @@ const LP3 = () => {
               <div className = {st1.boxlt}>{t('18')}</div>
             </div>
           </div>
+        </div>
+        <div className = {st1.lpright3}>
         </div>
       </div>
     </div>

@@ -60,13 +60,24 @@
   font-weight: 1000;
   font-style: normal;
 }
+.mainish{
+  background-color: #f7f7fa;
+  padding-bottom: 3rem;
+}
 .main11{
-  background-color: #f7f4fa;
+  background-color: white;
   font-family: 'Font', sans-serif;
   display: flex;
   flex-direction: row;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   padding: 2.5rem;
   padding-bottom: 2.5rem;
+  border: 0.5px;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: #433878;
+
 }
 .left11{
   width: 55%;
@@ -83,13 +94,31 @@
   font-size:43px;
   font-weight: 800;
   color: #433878;
+  margin-bottom: 0.5rem;
+}
+.right11{
+  width: 50%;
+}
+.left11{
+  width: 50%;
+}
+.llime{
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  width: 50%;
   margin-bottom: 1rem;
+}
+.ofc{
+  height: 280px;
+  width: auto;
+  margin: auto;
 }
 .rightmc11 {
   font-size: 17px;
   width: 85%;
   opacity: 0.75;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 .rightbut11{
   display: flex;

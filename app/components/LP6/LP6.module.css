@@ -9,6 +9,12 @@
   flex-direction: column;
   width: 50%;
 }
+.rightwa{
+  width: 50%;
+}
+.backimg{
+  height: 100%;
+}
 @font-face {
   font-family: 'ConLight';
   src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
@@ -57,12 +63,10 @@
 .body6{
   background-color: #f7f4fa;
   font-family: 'Font' , sans-serif;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
   display: flex;
   flex-direction: row;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .left6{ 
   padding-top: 2.5rem;
@@ -70,10 +74,9 @@
   background-color: #433878;
   height:max-content;
   width: 100%;
-  border-radius: 7px;
   color: white;
   margin-right: 2.5rem; 
-  padding-bottom: 3rem;
+  padding-bottom: 1.9rem;
 }
 .lt1{
   text-transform: uppercase;
@@ -86,7 +89,6 @@
 .lt2{
   font-family: "BoldFont", sans-serif;
   font-size: 54px;
-  line-height: 0.6in;
   width: 80%;
 }
 .sline {
@@ -103,28 +105,32 @@
   opacity: 0.8;
   margin-bottom: 3rem;
 }
-.but12{
+.button6{
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: white;
-  color: #433878;
+  background-color: #433878;
+  color: white;
   font-size: 18px;
   font-weight: 1000;
-  width: 200px;
-  height: 80px;
-  padding-left: 2.5rem;
+  width: 260px;
+  height: 60px;
+  align-items: center;
+  text-align: center;
   border-radius: 5px;
-
-  margin-top: 7rem;
+  margin-top: 2rem;
+  padding-left: 10%;
 }
 .but1{
   margin-bottom: 7rem;
 }
 .right6{
+  background-color: #f7f4fa;
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 100%;
+  gap: 20px;
+  padding-bottom: 3rem;
 }
 .rgrid1{
   display: grid;
@@ -134,7 +140,7 @@
   height: max-content;
   margin-left:2rem;
   margin-right: 2rem;
-  width: 100%;
+  width: 85%;
 }
 .rgrid2{ 
   display: grid;
@@ -142,17 +148,21 @@
   grid-template-columns: auto; /* Rows adjust to content height */
   gap: 15px; /* Space between grid items */
   height: max-content;
-  width: 100%;
+  margin-right: 2rem;
+  width: 85%;
 }
-.right6content , .right6content1 {
-  width: 240px;
+.ic2{
+  font-size: 15px;
+  margin-left: 0.5rem;
 }
+
 .ctxt2 {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 0.17in;
   opacity: 0.8;
 }
 .ctxt1{ 
+  color: #433878;
   font-family: "BoldFont", sans-serif;
   margin-top: 1rem;
   margin-bottom: 1rem;

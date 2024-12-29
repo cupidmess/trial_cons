@@ -8,20 +8,21 @@ import { FaChevronRight } from 'react-icons/fa'
 const LP10 = () => {
   const {t} = useTranslation();
   return (
-    <div>
+    <div className = {st10.body}>
       <div className = {st10.main10}>
+      <div className = {st10.right10}>
+        <div className = {st10.mcimg}>
+          <Image src = {bg10} alt ="workspace" style={{ borderRadius: '7px' }}className = {st10.ofc}/>
+        </div>
+        </div>
         <div className = {st10.left10}> 
         <div className = {st10.righttop10}>
         {t('71')}
         </div>
         <div className = {st10.righttit10}>{t('72')}</div>
+        <div className = {st10.llime}></div>
         <div className = {st10.rightmc10}>{t('73')}</div>
         <div className = {st10.but10}><button className = {st10.rightbut10}>{t('70')}<FaChevronRight style={{margin: '14px', fontSize : '12px'}}/> </button></div>
-        </div>
-        <div className = {st10.right10}>
-        <div className = {st10.mcimg}>
-          <Image src = {bg10} alt ="workspace" style={{ borderRadius: '7px' }}/>
-        </div>
         </div>
       </div>
     </div>

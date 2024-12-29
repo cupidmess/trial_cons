@@ -23,10 +23,10 @@ export default async function page () {
       </div>
       <div className={style.content}>
       <LP2/>
+      <LP6/>
       <LP3/>
       <LP4/>
       <LP5/>
-      <LP6/>
       <LP7/>
       <LP8/>
       <LP9/>

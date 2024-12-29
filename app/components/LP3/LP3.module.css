@@ -63,10 +63,10 @@
   background-color: #433878;
   color: white;
   padding: 2rem;
-  padding-bottom: 9rem;
+  padding-bottom: 3rem;
 }
 .lpright3{
-  background-image: url('/images/Rect.svg');
+  background-image: url('/images/image-6.svg');
   height: 100%;
   background-size:cover;
   background-repeat: no-repeat;
@@ -108,9 +108,7 @@
   display: flex;
   flex-direction: row;
   background-color: white;
-  opacity: 0.8;
-  width: 90%;
-  margin-left: 2rem;
+  width: 100%;
   margin-right: 2rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;

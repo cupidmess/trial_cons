@@ -21,11 +21,8 @@ const LP7 = () => {
        </div> 
       <div className = {st7.left7txt2}>
       {t('55')}</div>
-      <button className = {st7.leftbut}>{t('56')} <FaChevronRight style={{margin: '14px', fontSize : '12px'}}/> </button>
       </div>
       <div className = {st7.right7}>
-        <div className = {st7.rightbox}>
-          hi here is the purple box         </div>
           <div className = {st7.imgbox}>
           <Image src = {rext} alt = 'collegues' className={st7.brimg}>
           </Image>

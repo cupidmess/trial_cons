@@ -2,6 +2,7 @@
 import React from 'react'
 import st8 from "./LP8.module.css"
 import { useTranslation } from 'react-i18next';
+import { FaChevronRight } from 'react-icons/fa';
 const LP8 = () => {
   const {t} = useTranslation(); 
   return (
@@ -48,6 +49,9 @@ const LP8 = () => {
           </div>
         </div>
         </div>
+        <button className = {st8.button6}>Get Started
+          <FaChevronRight className={st8.ic2}/>
+          </button>
         </div>
 
       </div>

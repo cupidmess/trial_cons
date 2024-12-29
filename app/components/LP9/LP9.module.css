@@ -60,31 +60,66 @@
   font-weight: 1000;
   font-style: normal;
 }
+.top9{
+  background-color: white;
+  padding-left: 2.5rem;
+  padding-top: 1rem;
+  background-color: #433878;
+  padding-bottom: 2rem;
+}
+.mainish{
+    background-color: #f7f4fa;
+}
 .main9 {
-  background-color: #f7f4fa;
+  padding-top: 2rem;
   font-family: 'Font', sans-serif;
   display: flex;
   flex-direction: row;
-  padding: 2.5rem;
-  padding-bottom: 2.5rem;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  background-color: white;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
 }
 .left9{
   width: 55%;
 }
+.ofc{
+  height: 260px;
+  width: auto;
+  margin: auto;
+}
+.llime{
+  border: 0.5px;
+  border-style: solid;
+  border-color: white;
+  width: 20%;
+}
+.newline9{
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  width: 50%;
+  margin-bottom: 1rem;
+}
 .lefttop9{ 
   font-family: "ConBoldFont", sans-serif;
-  color: #433878;
+  color: white;
   text-transform: uppercase;
   font-size: 17px;
 }
 .lefttit9 {
   font-family: "BoldFont", sans-serif;
   font-size:60px;
-  color: #433878;
-  margin-bottom: 2.5rem;
+  color: white;
+
 }
 .right9{
-  margin-top: 10rem;
+
   margin-left: 3.5rem;
 }
 .righttop9{
@@ -98,13 +133,13 @@
   font-size:43px;
   font-weight: 800;
   color: #433878;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .rightmc {
   font-size: 17px;
   width: 85%;
   opacity: 0.75;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 .rightbut9{
   display: flex;
