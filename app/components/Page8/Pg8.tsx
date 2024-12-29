@@ -19,7 +19,6 @@ import rect from "./image 25.svg"
 import image10 from "./image 20.svg"
 import img22 from "./image 22.svg"
 import rect2 from "./Rectangle 34625456-4.svg"
-import { useState } from 'react'
 import { FaChevronRight } from 'react-icons/fa';
 const Pg8 = () => {
   return (
