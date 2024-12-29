@@ -4,7 +4,6 @@ import st7 from "./LP7.module.css"
 import Image from 'next/image'
 import rext from "./Rext2.svg"
 import { useTranslation } from 'react-i18next';
-import { FaChevronRight } from 'react-icons/fa'
 const LP7 = () => {
   const {t} = useTranslation();
   return (

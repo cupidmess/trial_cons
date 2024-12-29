@@ -132,6 +132,10 @@
   margin-top: 2rem;
   padding-left: 5%;
 }
+.ic2{
+  font-size: 16px;
+  margin-left: 0.5rem;
+}
 @media (max-width: 768px){
   .main8 {
     font-family: 'Font' , sans-serif;
@@ -146,6 +150,7 @@
     width: 100%;
     padding-right: 0;
   }
+
   .tit8 {
     font-family: "SemiConBold",sans-serif;
     font-size: 30px;
