@@ -103,11 +103,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 2rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+
 }
+
 .topbox2{
   border-radius: 16px;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 .stress{
   border-radius: 16px;
