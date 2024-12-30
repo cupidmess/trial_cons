@@ -381,9 +381,9 @@ const Pg6 = () => {
         </div>
       </div>
       <div className = {style.page5}>
-      <div className =  {style.top5}>
+      {/* <div className =  {style.top5}>
       Question & Answers
-      </div>
+      </div> */}
       <div className={style.div5}>
       {/* <div className = {style.maintop5}>
           <div className = {style.image}><Image src = {group} alt = "group"/></div>
