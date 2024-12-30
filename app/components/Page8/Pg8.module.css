@@ -869,7 +869,7 @@ margin-left: 2.5rem;
    .fboxtop,.fboxtop21,.fboxtop2{
      font-family: "ConBoldFont", sans-serif;
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
      align-items: center;
    }
    .htxt,.htxt21,.htxt2{
