@@ -1081,7 +1081,7 @@ margin-left: 2.5rem;
    .fakebutton{
      background-color: #CBC7FA;
      height: 15px;
-     width: 160px;
+     width: 100px;
      position: absolute;
      bottom: 0;
      border-top-right-radius: 10px;
