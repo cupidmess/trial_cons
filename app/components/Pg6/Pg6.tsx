@@ -206,9 +206,9 @@ const Pg6 = () => {
                     <div className={style.htxt3}>PROPERTY MARKETING</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit3}>Contact and Prospect Management</div>
+                  <div className={style.fboxtit3}>Listings</div>
                   <div className={style.fboxmaincon3}>
-                  Categorize your contacts as owners, prospects, or other business contacts. Using topic lists, you gain a comprehensive view of related records such as properties owned, property inquiries, and activities.
+                  Through listings, you can market the property across various channels, such as real estate portals or your website. Before activation, Propertybase SE checks whether all required information is available and alerts you to any missing data.
                   </div>
                 </div>
               </div>
@@ -219,12 +219,12 @@ const Pg6 = () => {
                   <div className={style.fboxtop32}>
                     <div>
                     <Image src ={img8} alt = "image" height={50}/></div>
-                    <div className={style.htxt32}>RESIDENTIAL PROPERTIES, INVESTMENT PROPERTIES, LAND, PROJECTS</div>
+                    <div className={style.htxt32}>IT DOESN’T GET ANY EASIER</div>
                   </div>
                   <div className = {style.fboxl32}></div>
-                  <div className={style.fboxtit32}>Property Management</div>
+                  <div className={style.fboxtit32}>Search Profiles and Matching</div>
                   <div className={style.fboxmaincon32}>
-                  Propertybase SE provides a suitable page layout for each property type. This ensures that irrelevant data (e.g., lot size for an apartment) is not displayed in the first place. With the help of topic lists, you get a comprehensive view of related records such as owners, prospects, and activities.
+                  With thousands of prospects, it’s easy to lose track. Save detailed search profiles for your prospects and use a powerful matching feature to quickly provide them with suitable property offers in just a few steps.
                   </div>
                 </div>
               </div>
@@ -236,12 +236,12 @@ const Pg6 = () => {
                   <div className={style.fboxtop3}>
                     <div>
                     <Image src ={img9} alt = "image" height={50}/></div>
-                    <div className={style.htxt3}>POWERFUL CRM THAT KEEPS YOU IN CONTROL</div>
+                    <div className={style.htxt3}>FIXED, BONUS, OR FLAT RATE</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit3}>Contact and Prospect Management</div>
+                  <div className={style.fboxtit3}>A Closing is not just a Closing</div>
                   <div className={style.fboxmaincon3}>
-                  Categorize your contacts as owners, prospects, or other business contacts. Using topic lists, you gain a comprehensive view of related records such as properties owned, property inquiries, and activities.
+                  With support for various success fee models, the closing process runs smoothly. Each type of closing has its own tailored page layout, which can be filled in with the necessary data. Depending on which fields you have already completed on the closing layout, the status automatically updates.
                   </div>
                 </div>
               </div>
@@ -252,12 +252,12 @@ const Pg6 = () => {
                   <div className={style.fboxtop32}>
                     <div>
                     <Image src ={img10} alt = "image" height={50}/></div>
-                    <div className={style.htxt32}>RESIDENTIAL PROPERTIES, INVESTMENT PROPERTIES, LAND, PROJECTS</div>
+                    <div className={style.htxt32}>LEVEL-APPROPRIATE AND MEANINGFUL</div>
                   </div>
                   <div className = {style.fboxl32}></div>
-                  <div className={style.fboxtit32}>Property Management</div>
+                  <div className={style.fboxtit32}>Dashboards and Reports</div>
                   <div className={style.fboxmaincon32}>
-                  Propertybase SE provides a suitable page layout for each property type. This ensures that irrelevant data (e.g., lot size for an apartment) is not displayed in the first place. With the help of topic lists, you get a comprehensive view of related records such as owners, prospects, and activities.
+                  With the help of dashboards and reports, not only does the real estate consultant have daily operations under control, but management also maintains a clear overview of the business’s progress.
                   </div>
                 </div>
               </div>
@@ -270,12 +270,12 @@ const Pg6 = () => {
                   <div className={style.fboxtop3}>
                     <div>
                     <Image src ={img9} alt = "image" height={50}/></div>
-                    <div className={style.htxt3}>POWERFUL CRM THAT KEEPS YOU IN CONTROL</div>
+                    <div className={style.htxt3}>TAILORED TO THE PROCESSES</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit3}>Contact and Prospect Management</div>
+                  <div className={style.fboxtit3}>Activities</div>
                   <div className={style.fboxmaincon3}>
-                  Categorize your contacts as owners, prospects, or other business contacts. Using topic lists, you gain a comprehensive view of related records such as properties owned, property inquiries, and activities.
+                  Activities include tasks, events, and calendars. All activities are available in a process-specific manner and automatically link to the contact, property, or inquiry. Activities are chronologically documented on the activity timeline.
                   </div>
                 </div>
               </div>

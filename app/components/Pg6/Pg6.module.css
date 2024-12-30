@@ -102,7 +102,7 @@
 .topbox1,.topbox2{
   background-color: #433878;
   color: white;
-  gap: 25px;
+  gap: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 2rem;
@@ -111,8 +111,8 @@
 
 .topbox2{
   border-radius: 16px;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 .stress{
   border-radius: 16px;
@@ -994,7 +994,9 @@
     background-color: #433878;
   }
   .right2{
-    padding: 2rem;
+    padding-top: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
     padding-right: 2rem;
     color: white;
   }
@@ -1003,6 +1005,7 @@
   }
   .shiny{
     position: absolute;
+    width:85%;
   }
   .leftimg2{
     padding-bottom: 15rem;
