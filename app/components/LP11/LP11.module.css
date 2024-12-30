@@ -71,8 +71,8 @@
   flex-direction: row;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
-  padding: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding: 2rem;
+  padding-bottom: 2rem;
   border: 0.5px;
   border-radius: 16px;
   border-style: solid;
@@ -80,8 +80,9 @@
 
 }
 .left11{
-  width: 55%;
-  margin-left: 3.5rem;
+  width: 50%;
+  height: max-content;
+
 }
 .righttop11{
   color: #433878;
@@ -110,15 +111,15 @@
   margin-bottom: 1rem;
 }
 .ofc{
-  height: 280px;
-  width: auto;
-  margin: auto;
+  height: 260px;
+  width: 71%;
+  margin-left: 10%;
 }
 .rightmc11 {
   font-size: 17px;
   width: 85%;
   opacity: 0.75;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .rightbut11{
   display: flex;

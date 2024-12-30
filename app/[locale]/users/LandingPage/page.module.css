@@ -22,7 +22,7 @@
 }
 
 /* Media query for screens 1440px or wider */
-@media (min-width: 1600px) {
+@media (min-width: 1450px) {
   .mainbod{
     background-color: #F7F4FA;
   }

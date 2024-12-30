@@ -14,11 +14,12 @@ import frame3 from "./Frame 1249186730-19.svg"
 import img19 from "./image 19.svg"
 import union2 from "./Union-2.svg"
 import img21 from "./image 21.svg"
+import img27 from "./image 27.svg"
 import robot from "./image 26.svg"
 import rect from "./image 25.svg"
 import image10 from "./image 20.svg"
 import img22 from "./image 22.svg"
-import rect2 from "./Rectangle 34625456-4.svg"
+import rect2 from "./Rectangle 34625456-5.svg"
 import { FaChevronRight } from 'react-icons/fa';
 const Pg8 = () => {
   return (
@@ -96,10 +97,10 @@ const Pg8 = () => {
                   <div className={style.fboxtop2}>
                     <div>
                     <Image src ={frame2} alt = "writing" height={50}/></div>
-                    <div className={style.htxt2}>BENEFITS FOR THE HUMAN EMPLOYEE</div>
+                    <div className={style.htxt2}>MORE TIME FOR WHAT MATTERS</div>
                   </div>
                   <div className = {style.fboxl2}></div>
-                  <div className={style.fboxtit2}>More Time for What Matters</div>
+                  <div className={style.fboxtit2}>Human Employee</div>
                   <div className={style.fboxmaincon2}>
                   Thanks to the relief provided by Web Office, your employees gain valuable time to focus on what truly matters: acquiring new mandates and providing optimal support to your clients throughout the entire mandate phase. Prospective clients in the decision-making stage can be guided to closure through additional viewings and well-prepared consultations. This boosts both efficiency and customer satisfaction equally.
                   </div>
@@ -116,10 +117,10 @@ const Pg8 = () => {
                   <div className={style.fboxtop21}>
                     <div>
                     <Image src ={frame3} alt = "magnifying" height={50}/></div>
-                    <div className={style.htxt21}>HYBRID CUSTOMER SERVICE</div>
+                    <div className={style.htxt21}>THE SYMBIOSIS OF DIGITAL AND ANALOG</div>
                   </div>
                   <div className = {style.fboxl21}></div>
-                  <div className={style.fboxtit21}>The Symbiosis of Digital and Analog</div>
+                  <div className={style.fboxtit21}>Hybrid Customer Service</div>
                   <div className={style.fboxmaincon21}>
                   Each type of employee—digital and human—has unique strengths that, when combined, create an unbeatable team. Digital employees provide 24/7 reliability, are pandemic-resistant, flexibly scalable, and cost-efficient. On the other hand, human employees bring valuable qualities such as interaction, personality, expertise, intuition, and instinct. Together, they create the perfect balance to ensure the long-term success of your business.
                   </div>
@@ -241,7 +242,7 @@ const Pg8 = () => {
         </div>
         <div className = {style.box31}>
         <div className={style.l1}>
-            <Image src = {img21} alt ="webpage" className = {style.img10}/>
+            <Image src = {img27} alt ="webpage" className = {style.img22}/>
           </div>
           <div className = {style.rigtbox3}>
               <div
@@ -345,14 +346,14 @@ const Pg8 = () => {
             <div className = {style.box51}>
 
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Real-Time Self-Service for Clients: </div>
+                <div className = {style.mbtit5}>Real-Time Self-Service for Clients</div>
                 <div className = {style.mainstit5}>Instant access to information and features anytime, anywhere.</div>
               </div>
             </div>
             <div className = {style.box51}>
   
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Available 24/7: </div>
+                <div className = {style.mbtit5}>Available 24/7 </div>
                 <div className = {style.mainstit5}>Continuous support without interruptions.</div>
               </div>
             </div> <div className = {style.box51}>
@@ -363,12 +364,12 @@ const Pg8 = () => {
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Supports Business Growth:  </div>
+                <div className = {style.mbtit5}>Supports Business Growth </div>
                 <div className = {style.mainstit5}>Facilitates expansion through efficient digital processes.</div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>More Time for What Matters:  </div>
+                <div className = {style.mbtit5}>More Time for What Matters </div>
                 <div className = {style.mainstit5}>Frees up advisors for focused client care and strategic tasks..</div>
               </div>
             </div>
@@ -376,28 +377,28 @@ const Pg8 = () => {
           <div className = {style.botleft5}>
             <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Standardized Processes:  </div>
+                <div className = {style.mbtit5}>Standardized Processes  </div>
                 <div className = {style.mainstit5}>Ensures consistent quality by adhering to predefined standards.</div>
               </div>
             </div>
             <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Solves Staffing Challenges:  </div>
+                <div className = {style.mbtit5}>Solves Staffing Challenges  </div>
                 <div className = {style.mainstit5}>Reduces personnel shortages and prevents employee overload.</div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Enhanced Client Information:  </div>
+                <div className = {style.mbtit5}>Enhanced Client Information </div>
                 <div className = {style.mainstit5}>Provides precise and up-to-date data to improve client satisfaction.</div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Provides precise and up-to-date data to improve client satisfaction. </div>
+                <div className = {style.mbtit5}>Pandemic-Resilient </div>
                 <div className = {style.mainstit5}>Maintains reliable operations regardless of external disruption.</div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Cost Efficiency:  </div>
+                <div className = {style.mbtit5}>Cost Efficiency </div>
                 <div className = {style.mainstit5}>Saves resources through automated and digital workflows.</div>
               </div>
             </div>
@@ -406,7 +407,7 @@ const Pg8 = () => {
       </div>
       <div className = {style.page6}>
         <div className = {style.box6}>
-        <div className = {style.tit6}>These companies have already hired digital employees.</div>
+        <div className = {style.tit6}>These companies have already hired digital employees</div>
         <div className = {style.line6}></div>
         <Image src = {img23} alt = "companies" className = {style.img23}/>
         </div> 

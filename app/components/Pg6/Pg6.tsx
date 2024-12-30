@@ -22,7 +22,7 @@ import img13 from "./Frame 1249186730-13.svg"
 import img14 from "./Frame 1249186730-14.svg"
 import img15 from "./Frame 1249186730-15.svg"
 import stress from "./f0454ac29027a934d95f4ba9475dcc45.jpeg"
-import works from "./Rectangle 34625456-2.svg";
+import works from "./img.png"
 import Foot from "../Footer/Footer"
 import union from "./Union.svg"
 import random from "./standard-quality-control-collage-concept (1) 1.svg"
@@ -46,7 +46,7 @@ const Pg6 = () => {
     pre-configured to meet the needs of Swiss real estate agents.At the same time, the Propertybase Swiss Editionoffers enough flexibility to accommodate the individualcustomization requirements of each client.</div>
     <div className={style.topboxes}>
       <div className={style.topbox1}>
-        <div className={style.box1img}><Image src = {works} alt = "workspace"/></div>
+        <div className={style.box1img}><Image src = {works} alt = "workspace" /></div>
         <div className={style.box1right}>
           <div className={style.box1tit}>Real Estate Marketing with Precision and Excellence</div>
           <div className={style.box1line}></div>
@@ -388,7 +388,7 @@ const Pg6 = () => {
       Question & Answers
       </div>
       <div className={style.div5}>
-      <div className = {style.maintop5}>
+      {/* <div className = {style.maintop5}>
           <div className = {style.image}><Image src = {group} alt = "group"/></div>
           <div className = {style.scroll}> 
           <div className={style.sb}>
@@ -454,7 +454,7 @@ const Pg6 = () => {
 
           </div>
            </div>
-        </div>
+        </div> */}
         <div className = {style.lastpage}>
           <div className = {style.lasttit}>Ready for the next step?</div>
           <div className = {style.con5}>We are happy to provide you with more information or arrange a consultation.</div>

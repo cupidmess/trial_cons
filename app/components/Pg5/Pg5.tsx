@@ -10,6 +10,7 @@ import m3 from "./Group 1597885751.png"
 import m4 from "./Frame 1249186698.svg"
 import m5 from "./Frame 1249186699-1.svg"
 import m6 from "./Frame 1249186699.svg"
+import { FaChevronRight } from 'react-icons/fa';
 import man from "./young-man-brown-bob-hair-team-leader-celebrate-victory-competition-purple-background-Photoroom 1.svg"
 import tick from "./Union.svg"
 import { useTranslation } from 'react-i18next'
@@ -187,6 +188,9 @@ optimal management of the CRM system. These services include user support, adjus
   </div>
 </div>
          </div>
+         <button className = {style.button15}>Get Started
+         <FaChevronRight className={style.ic1}/>
+         </button>
          </div>
          </div>
     <Footer/>

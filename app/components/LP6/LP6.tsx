@@ -8,7 +8,7 @@ import { FaChevronRight } from 'react-icons/fa';
 const LP6 = () => {
   const{t} = useTranslation();
   return (
-    <div>
+    <div className = {st6.mainish}>
       <div className={st6.body6}>
       <div className={st6.leftwa}>
         <div className = {st6.left6}>
@@ -37,9 +37,6 @@ const LP6 = () => {
            <div className = {st6.ctxt1}>{t('43')}</div>
            <div className = {st6.ctxt2}>{t('44')}</div>
           </div>
-          <button className = {st6.button6}>Get Started
-          <FaChevronRight className={st6.ic2}/>
-          </button>
           </div>
           <div className ={st6.rgrid2}>
           <div className = {st6.right6content1}>
@@ -55,6 +52,9 @@ const LP6 = () => {
           </div>
           </div>
         </div>
+        <button className = {st6.button6}>Get Started
+          <FaChevronRight className={st6.ic2}/>
+          </button>
       </div>
     </div>
   )

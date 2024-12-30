@@ -7,8 +7,8 @@
 .m {
   background-color: #f7f4fa;
   font-family: "Font", sans-serif;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   height: max-content;
   align-items: center;
   font-family: 'Font', sans-serif;
@@ -25,6 +25,7 @@
   padding-bottom: 2rem;
   padding-left: 2rem;
   border-radius: 12px;
+  border-color: none;
 }
 
 .im1{
@@ -34,6 +35,7 @@
 .im2{
   height: 60px;
   margin-bottom: 0.5rem;
+  border: none;
 }
 .lb1,.lb2{
   width: 80%;

@@ -10,6 +10,7 @@ import g2 from "./g2.svg"
 import g3 from "./g3.svg"
 import { useState } from 'react';
 import Footer from '../Footer/Footer';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next'
 const Pg2 = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);
@@ -195,16 +196,28 @@ const Pg2 = () => {
               <div className = {style.righttxt}>
                 <div className = {style.righttxt1}>
                   <div className = {style.rimg}><Image src = {g3} alt = "phone" height={35} className={style.rimg1}/></div>
-                  <div className = {style.rt1}>+41 79 441 00 17</div>
+                  <div className = {style.rt1}>
+                  <a href="tel:+41 79 441 00 17">
+                    +41 79 441 00 17
+                    </a>
+                    </div>
                 </div>
                 <div className = {style.righttxt2}>
                   <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35} className={style.rimg1}/></div>
-                  <div className = {style.rt2}>linkedin.com/company/consennse</div>
+                  <div className = {style.rt2}> 
+                  <Link href = "https://www.linkedin.com/company/consennse">
+                  linkedin.com/company/consennse
+                  </Link>
+                  </div> 
                 </div>
               </div>
               <div className = {style.righttxt3}>
                   <div className = {style.rimg}><Image src = {g2} alt = "mail" height={35}className={style.rimg1}/></div>
-                  <div className = {style.rt1}>info@consennse.com</div>
+                  <div className = {style.rt1}>
+                  <a href="mailto:info@consennse.com">
+                    info@consennse.com
+                    </a>
+                    </div>
                 </div>
             </div>
           </div>

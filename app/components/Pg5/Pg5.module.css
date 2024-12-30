@@ -32,6 +32,7 @@
 }
 .bod{
   background-color: #F7F4FA;
+  padding-bottom: 3rem;
 }
 .top {
   padding-top: 10rem;
@@ -107,6 +108,22 @@
 .s2{
   font-family: "BoldFont", sans-serif;
   font-size: 42px;
+}
+.button15{
+  background-color: #433878;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+}
+.ic1{
+  font-size: 17px;
+  padding-left: 0.5rem;
 }
 .line1{
   height: 0;
