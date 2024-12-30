@@ -1,6 +1,5 @@
 'use client'; 
 import React from 'react'
-import { useState } from 'react';
 import style from "./Pg6.module.css"
 import Nav2 from '../Nav/Nav'
 import Image from 'next/image';
@@ -8,7 +7,6 @@ import page from "./Frame 1249186730-16.svg"
 import head from "./Frame 1249186730.svg"
 import img18 from "./image 18.svg"
 import { FaChevronRight } from 'react-icons/fa';
-import group from "./Rectangle 34625458.svg"
 import magnif from './Frame 1249186730-3.svg'
 import coin from './Frame 1249186730-4.svg'
 import img5 from "./Frame 1249186730-5.svg"
@@ -29,7 +27,6 @@ import random from "./standard-quality-control-collage-concept (1) 1.svg"
 import shiny from "./shiny-circles-lit-tablet 1.svg"
 const Pg6 = () => {
 
-  const [selectedOption, setSelectedOption] = useState('first');
   // Handle hover for each box
 
   return (
