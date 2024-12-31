@@ -31,7 +31,7 @@
   margin-top: 5px;
   width: 6.5%;
   top: 60%;
-  margin-left:340;
+  margin-left:340px;
   z-index: 999;
   display: block; /* Ensure it is displayed */
   opacity: 1;     /* Make it fully visible */
@@ -172,7 +172,9 @@
   border-bottom-right-radius: 0.5rem;
   padding: 0.2rem;
 }
-
+.sol{
+  position: relative;
+}
 .DropDown li :hover {
   color: black;
   cursor: pointer;
