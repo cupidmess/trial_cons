@@ -23,14 +23,23 @@ const Pg2 = () => {
     sub: '',
     message: '',
   });
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
+    setFormData((prev) => ({
+      ...prev,
       [name]: value,
-    });
+    }));
   };
+
+  // const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   const { name, value } = e.target;
+  //   setFormData({
+  //     ...formData,
+  //     [name]: value,
+  //   });
+  // };
   
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -96,7 +105,7 @@ const Pg2 = () => {
               <div className = {style.op}>{t('97')}</div>
               </div>
               <div className = {style.compi}>
-              <input type="text" id ="company" name = "company" onChange={handleChange} value={formData.company} className={style.finput1} placeholder={t('98')} ></input>
+              <input type="text" id ="company" name = "company" onChange={handleChange} value={formData.company} className={style.finput3} placeholder={t('98')} ></input>
               </div>
             </div>
             <div className = {style.l3}>
@@ -123,14 +132,14 @@ const Pg2 = () => {
             <div className = {style.comp}>{t('103')}
               </div>
               <div className = {style.compi}>
-              <input type="text" name ="sub" id = "sub" className={style.finput1} placeholder={t('104')} onChange={handleChange} value={formData.sub} required></input>
+              <input type="text" name ="sub" id = "sub" className={style.finput3} placeholder={t('104')} onChange={handleChange} value={formData.sub} required></input>
               </div>
             </div>
             <div className = {style.l5}>
             <div className = {style.comp}>{t('105')}
               </div>
               <div className = {style.compi2}>
-              <input type="text" name = "message" id = "message" className={style.finput2} placeholder={t('106')}onChange={handleChange} value={formData.message} required></input>
+              <textarea className={style.finput2} placeholder="Enter Message"  name = "message" id = "message" onChange={handleChange} value={formData.message} required ></textarea>
               </div>
             </div>
             <div className={style.but5}>

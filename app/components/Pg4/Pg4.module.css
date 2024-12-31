@@ -36,6 +36,9 @@
     width:1440px;
     margin: auto;
   }
+  .maincon{
+    padding-bottom: 10rem;
+  }
 }
 .mainbod{
   background-color: #F7F4FA;
