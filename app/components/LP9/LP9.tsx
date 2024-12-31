@@ -22,6 +22,7 @@ const LP9 = () => {
           <Image src = {abc} alt ="office" style={{ borderRadius: '7px' }} className = {st9.ofc}/>
         </div>
         </div>
+        <div className = {st9.mainline}></div>
         <div className = {st9.right9}>
         <div className = {st9.righttop9}>
         {t('67')}

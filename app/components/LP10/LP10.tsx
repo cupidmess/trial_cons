@@ -15,6 +15,7 @@ const LP10 = () => {
           <Image src = {bg10} alt ="workspace" style={{ borderRadius: '7px' }}className = {st10.ofc}/>
         </div>
         </div>
+        <div className = {st10.mainline}></div>
         <div className = {st10.left10}> 
         <div className = {st10.righttop10}>
         {t('71')}

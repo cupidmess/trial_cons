@@ -2,7 +2,7 @@
 import React from 'react'
 import st12 from "./LP12.module.css"
 import Image from 'next/image'
-import container from "./Container.svg"; 
+// import container from "./Container.svg"; 
 import { useTranslation } from 'react-i18next';
 import lin from "./Facebook.svg";
 const LP12 = () => {
@@ -10,14 +10,14 @@ const LP12 = () => {
   return (
     <div>
       <div className = {st12.main12}> 
-      <div className = {st12.top12}> 
+      {/* <div className = {st12.top12}> 
       <div className = {st12.ttext12}>
       {t('79')}
       </div>
       <div className = {st12.timg12}>
       <Image src ={container} alt = "sponsors" width={900} className ={st12.img122}/>
       </div>
-      </div>
+      </div> */}
       <div className = {st12.bot12}>
         <div className={st12.botcontent}>
         <div className = {st12.bott}>

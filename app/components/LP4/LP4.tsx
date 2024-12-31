@@ -3,7 +3,7 @@ import React from 'react'
 import st4 from "./LP4.module.css"
 import Image from 'next/image'
 import sf from "./sf.svg"
-import gr1 from "./Propertybase_600px.svg"
+import gr1 from "./Propertybase_300_px_transparent.png"
 import { useTranslation } from 'react-i18next';
 const LP4 = () => {
   const {t} = useTranslation();

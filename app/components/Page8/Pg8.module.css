@@ -118,7 +118,7 @@
   margin-left: 4rem;
   margin-right: 4rem;
 }
-.r1{
+.r1,.r2{
   padding-top: 2rem;
 }
 .titr1{
@@ -664,7 +664,7 @@ margin-left: 2.5rem;
   position: absolute;
   z-index: 0;
 }
-.rightchange{
+.rightchange2{
   color: white;
 }
 .union2{
@@ -731,8 +731,8 @@ margin-left: 2.5rem;
      background-color: #433878;
      border-radius: 16px;
      color: white;
-     margin-left: 0rem;
-     margin-right: 0rem;
+     margin-left: 2rem;
+     margin-right: 2rem;
    }
    .r1{
     padding-top: 0rem;
@@ -740,9 +740,18 @@ margin-left: 2.5rem;
      padding-right: 2rem;
      padding-bottom: 2rem;
    }
+   .r2{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left:0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    margin-top: 0rem;
+    padding-top: 0;
+   }
    .titr1{
      font-family: "SemiBold", sans-serif;
-     font-size: 42px;
+     font-size: 32px;
      width: 85%;
      margin-top: 2rem;
    }
@@ -786,6 +795,7 @@ margin-left: 2.5rem;
      font-size: 30px;
      padding-left: 2rem;
    }
+
    .lin2{
      border: 0.5px;
      border-style: solid;
@@ -1278,9 +1288,15 @@ margin-left: 2.5rem;
      position: absolute;
      z-index: 0;
    }
-   .rightchange{
+   .rightchange2{
      color: white;
      padding-bottom: 2rem;
+     
+   }
+   .rightchange{
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
    }
    .union2{
      width: 75%;

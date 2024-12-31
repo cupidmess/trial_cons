@@ -8,13 +8,18 @@ import Image from 'next/image';
 import Name from "./Name.svg";
 import { FaChevronDown, FaBars } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
-
 const Nav = () => {
   const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [language, setLanguage] = useState('en');
   const [menuOpen, setMenuOpen] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
+  const [isDropdownVisible2, setDropdownVisible2] = useState(false);
+
+  const toggleDropdown2 = () => {
+    console.log('Dropdown toggled:', !isDropdownVisible2); // Debugging
+    setDropdownVisible2(!isDropdownVisible2);
+  };
 
   const pathname = usePathname(); // Access the current pathname using usePathname
 
@@ -56,6 +61,9 @@ const Nav = () => {
   const isActiveLink = (href: string) => {
     return pathname === href ? styles.activeLink : '';
   };
+  const isActiveLink2 = (href: string) => {
+    return pathname === href ? styles.activeLink2 : '';
+  };
 
   return (
     <div className={styles.navmain}>
@@ -83,9 +91,26 @@ const Nav = () => {
                 Support
               </div>
             </Link>
-            <div className={`${styles.sol} ${isActiveLink('/sol')}`}>
-              {t('5')}
-            </div>
+            <div
+        className={`${styles.sol} ${isActiveLink('/sol')}`}
+        onClick={toggleDropdown2}
+      >
+        {t('5')}
+      </div>
+      {isDropdownVisible2 && (
+        <div className={styles.dropdown2}>
+          <ul>
+            <Link href = '/users/SwissEdition'>
+            <li className = {`${styles.sE} ${isActiveLink2('/users/SwissEdition')}`}>Propertybase SWISS EDITION</li>
+            </Link>
+            <Link href = '/users/WebOffice'>
+            <li className = {`${styles.wE} ${isActiveLink2('/users/WebOffice')}`}>WEB OFFICE for Propertybase</li>
+            </Link>
+            <li>EXPOSE for Propertybase</li>
+          </ul>
+        </div>
+      )}
+
             <Link href='/users/Page1'>
               <div className={`${styles.con} ${isActiveLink('/users/Page1')}`}>
                 {t('6')}
@@ -137,13 +162,29 @@ const Nav = () => {
                   <Link href='/users/Page3'>
                     <li className={isActiveLink('/users/Page3')}>Support</li>
                   </Link>
-                  <li className={isActiveLink('/sol')}>{t('5')}</li>
+                  <li className={isActiveLink('/sol')} onClick={toggleDropdown2}>{t('5')} </li>
+          <ul className = {styles.menu2}>
+            <Link href = '/users/SwissEdition' className = {`${styles.sE} ${isActiveLink2('/users/SwissEdition')}`} >
+            <li>
+          
+              Propertybase SWISS EDITION</li>
+            </Link>
+            <Link href = '/users/WebOffice' className = {`${styles.wE} ${isActiveLink2('/users/WebOffice')}`}>
+            <li>
+       
+              WEB OFFICE for Propertybase</li>
+            </Link>
+            <li>
+            EXPOSE for Propertybase</li>
+          </ul>
+
                   <Link href='/users/Page1'>
                     <li className={isActiveLink('/users/Page1')}>{t('6')}</li>
                   </Link>
                 </ul>
               </div>
             )}
+                 
           </div>
         </div>
       </div>

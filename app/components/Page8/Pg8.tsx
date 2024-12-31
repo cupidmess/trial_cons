@@ -53,7 +53,7 @@ const Pg8 = () => {
         <div className = {style.tit2}>About WEB OFFICE for Propertybase</div>
       <div className = {style.lin2}></div>
       <div className = {style.box2}>
-          <div className = {style.r1}>
+          <div className = {style.r2}>
             <div className={style.titr1}>
             Your digital department in the cloud
             </div>
@@ -139,7 +139,7 @@ const Pg8 = () => {
             <Image src ={robot} alt = "robot" className = {style.changerobot}/>
             </div> 
           </div>
-          <div className = {style.rightchange}>
+          <div className = {style.rightchange2}>
         <div className={style.tit3}>Overview of the Modules</div>
         <div className={style.lin3}></div>
         <div className = {style.stit3}>Meet your customers&apos; expectations even better.
@@ -225,15 +225,15 @@ const Pg8 = () => {
                   <div className = {style.fboxl3}></div>
                   <div className={style.fboxtit31}>Scope of Application</div>
                   <div className={style.fboxmaincon31}>
-                  The sale or purchase of a property is an emotional journey for both buyers and sellers. To fulfill their role as a mediator professionally and comprehensively, continuous improvement is crucial for real estate agents. Feedback from both parties after a successful transaction provides valuable insights that can help optimize processes and strengthen client relationships.
+                  Generating prospective clients is the first step toward a successful transaction and holds significant potential for acquiring new mandates—for example, when prospects are property owners themselves. Effective campaigns for client acquisition are therefore essential for sustainable success.
                   </div>
                   <div className={style.fboxtit31}>Practical Application</div>
                   <div className={style.fboxmaincon31}>
-                  With Feedback Closing, both sellers and buyers can provide ratings for the various stages of the mediation process. This gives the agent key insights to refine their workflows and improve personal interactions with clients and prospects.
+                  With Campaign To Favorite, real estate agents can easily generate property inquiries (favorites). The module is highly flexible: whether using the campaign tool integrated in Propertybase or third-party platforms like Mailchimp or Campaign Monitor, sending campaigns is seamless. This flexibility allows agents to choose the tools that best suit their business needs.
                   </div>
                   <div className={style.fboxtit31}>Behind the Scenes</div>
                   <div className={style.fboxmaincon31}>
-                  The feedback from both parties is recorded as a star rating directly on the transaction. This standardized and easy-to-read format makes the results easy to analyze and supports the agent&apos;s continuous professional development.
+                  To evaluate the success of campaigns, the origin of the inquiry is recorded directly on the favorite. For more detailed analysis, additional parameters, such as those provided by Google Analytics, can be included in the campaign. This enables precise tracking and targeted optimization of future campaigns.
                   </div>
                 </div>
               </div>
@@ -359,7 +359,7 @@ const Pg8 = () => {
             </div> <div className = {style.box51}>
      
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Scalability at the Push of a Button: </div>
+                <div className = {style.mbtit5}>Scalability at the Push of a Button</div>
                 <div className = {style.mainstit5}>Easily and quickly adjust capacity to meet current demands.</div>
               </div>
             </div> <div className = {style.box51}>

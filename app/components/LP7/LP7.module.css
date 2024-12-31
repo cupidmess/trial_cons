@@ -127,75 +127,68 @@
 
 @media (max-width: 768px){
   .main7 {
+    background-color: #f7f4fa;
     font-family: 'Font', sans-serif;
     display: flex;
     flex-direction: column;
-    height: max-content;
-    padding-bottom: 15rem;
-    /* padding: 2.5rem; */
-
+  
+    padding-bottom: 5rem;
   }
   .left7 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-right: 2.5rem;
     width: 100%;
+    padding-left: 2.5rem;
+    background-color: #433878;
+    color: white;
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 3.2rem;
   }
+  
   .leftbut {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     background-color: #433878;
     color: white;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     width:max-content;
     text-align: justify;
-    height: 32px;
-    padding-left: 1.5rem;
+    height: 50px;
+    padding-left: 2.5rem;
     border-radius: 5px;
-
   }
   .left7top{
     font-family:"ConBoldFont", sans-serif;
-    color: #433878;
+    color: white;
     text-transform: uppercase;
-    font-stretch: condensed;
-    font-weight: 1000;
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 1rem;
-    transform: scale(1, 1.2);
   }
   .left7txt {
-    font-family:"ConBoldFont";
-    font-size: 34px;
-    font-weight: 800;
-    color: #433878;
+    font-family:"SemiConBold";
+    font-size: 50px;
+  
+    color: white;
     margin-bottom: 1rem;
   }
   .left7txt1,.left7txt2{
-    font-size: 13px;
+    font-size: 18px;
     opacity: 0.7;
   }
   .left7txt2{
     margin-bottom: 1.4rem;
   }
-  .rightbox{
-    background-color: #433878;
-    border-radius: 5px;
-    margin-left: 0rem;
-    position: absolute;
-    width: 16rem;
-    margin-left: 2.5rem;
-    margin-top: 4.5rem;
-    height: 9rem;
-  }
+  
   .imgbox{
-    position: absolute;
-    /* margin-right: 5rem; */
+    height: 100%;
   }
   .right7 {
     width: 100%;
-    margin-top: 2rem;
   }
+  
 }

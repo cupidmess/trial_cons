@@ -61,12 +61,12 @@
   margin-right: 3rem;
 }
 .page4{
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .page5{
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .top1{ 
   font-family: "BoldFont", sans-serif;
@@ -366,6 +366,7 @@
 .htxt3{
   margin-left: 1rem;
   font-size: 16px;
+  width: 75%;
 }
 
 .fboxl3{
@@ -835,8 +836,8 @@
   
   .topbox2{
     border-radius: 16px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .stress{
     border-radius: 16px;
@@ -855,6 +856,7 @@
     font-family: "BoldFont", sans-serif;
     font-size: 20px;
     margin-bottom: 1.5rem;
+    width: 89%;
   }
   .box1line,.box2line{
     border: 0.5px;
@@ -872,6 +874,7 @@
   }
   .page2{
     height: max-content;
+    margin-top: 2rem;
   }
   .stress{
     margin-left: 0rem;
@@ -880,6 +883,7 @@
     background-color: white;
     height: max-content;
     padding: 2rem;
+    margin-bottom: 2rem;
     border-radius: 16px;
   }
   .boxes2,.boxes22{
@@ -892,13 +896,16 @@
     position: relative;
     border-radius: 30px;
     background-color: #ECEBFF;
-    margin-top: 1rem;
+    margin-top: 0rem;
     /* position: absolute; */
     width: 98%;
     height: 26rem;
     padding: 2rem; 
     z-index: 2;
     margin-bottom: 0;
+  }
+  .box211,.box22,.box222{
+    margin-top: 1rem;
   }
   .box21:hover, .box211:hover, .box22:hover, .box222:hover{
     position: relative;
@@ -988,9 +995,10 @@
   .maintop2{
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 0rem;
     height:max-content;
     border-radius: 16px;
+    margin-bottom: 2rem;
     background-color: #433878;
   }
   .right2{
@@ -1004,13 +1012,18 @@
     position: absolute;
   }
   .shiny{
+    margin-top: 0.5rem;
     position: absolute;
     width:85%;
   }
   .leftimg2{
     padding-bottom: 15rem;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: white;
   }
   .unimg{
+    display: none;
     margin-top: 1rem;
     margin-left: 0rem;
   }
@@ -1034,7 +1047,7 @@
   
   }
   .page3{
-    padding-bottom:4rem ;
+    padding-bottom:2rem ;
     margin-top: 1rem;
     background-color: white;
     height: max-content;
@@ -1107,7 +1120,8 @@
   
   .htxt32{
     margin-left: 1rem;
-    font-size: 16px;
+    font-size: 15px;
+    width: 75%;
   }
   
   .fboxl32{
@@ -1132,7 +1146,7 @@
   .top4{
     background-color: #433878;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .page4{
     padding-top: 2rem;
@@ -1170,6 +1184,11 @@
   }
   .bot4{
     margin-top: 2rem;
+  }
+  .rightwa4{
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
   }
   .boxes4{
     background-color: #FDFDFD;
@@ -1394,7 +1413,7 @@
     font-size: 47px;
   }
   .lastpage {
-    margin-top: 3rem;
+    margin-top: 2rem;
     color: #433878;
     margin-bottom: 5rem;
     background-color: #E5E3FF;
