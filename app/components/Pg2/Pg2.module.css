@@ -11,6 +11,7 @@
   background-color: #F7F4FA;
 } 
 .maincon{
+  width: max-content;
   padding-top: 8rem;
   font-family: 'Font', sans-serif;
   padding-left: 7rem;
@@ -21,6 +22,7 @@
 }
 .maintop{
   color: #433878;
+  width: max-content;
   font-size: 46px;
   font-weight: 600;
 }
@@ -36,8 +38,7 @@
   }
   .maincon{
     width: 1440px;
-    margin-left: auto;
-    /* margin-right: auto; */
+   margin: auto;
   }
 }
 .form{
