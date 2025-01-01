@@ -5,11 +5,6 @@
   font-style: normal;
 }
 
-
-
-.bod{
-  background-color: #F7F4FA;
-} 
 .maincon{
   width: max-content;
   padding-top: 8rem;
@@ -27,13 +22,7 @@
   font-weight: 600;
 }
 
-@media (min-width:1450){
 
-  .maincon{
-    width: 1440px;
-   margin: auto;
-  }
-}
 .form{
   display: flex;
   flex-direction: row;
@@ -241,4 +230,11 @@ flex-direction: row;
   padding-bottom: 1rem;
   border-radius: 10px;
 }
+}
+@media (min-width:1450){
+
+  .maincon{
+    width: 1440px;
+   margin: auto;
+  }
 }

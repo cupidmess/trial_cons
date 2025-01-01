@@ -70,7 +70,7 @@ const Pg2 = () => {
   };
   const {t} = useTranslation(); 
   return (
-    <div className={style.mainish}>
+    <div>
           <Nav/>
 
 
