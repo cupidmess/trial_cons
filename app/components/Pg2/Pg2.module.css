@@ -34,13 +34,16 @@
     width: 1440px;
     margin: auto;
   }
-
+  .maincon{
+    width: 1440px;
+    margin: auto;
+  }
 }
 .form{
   display: flex;
   flex-direction: row;
   background-color: white;
-  width: 100%;
+  width: max-content;
   padding: 3rem;
   border-radius: 32px;
   margin-top: 2rem;
