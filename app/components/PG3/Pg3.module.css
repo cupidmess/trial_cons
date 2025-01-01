@@ -16,7 +16,7 @@
 }
 .bod{
   background-color: #F7F4FA;
-  padding-bottom: 5rem;
+  padding-bottom: 7rem;
 }
 
 .compi1{
@@ -111,6 +111,10 @@
 
 @media (min-width:1450){
   .bod{
+    width: 1440px;
+    margin: auto;
+  }
+  .maincon{
     width: 1440px;
     margin: auto;
   }
