@@ -278,8 +278,10 @@ const Pg3 = () => {
                 <div className = {style.righttxt2}>
                   <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35}className ={style.rimg2}/></div>
                   <div className = {style.rt2}>
-                  <Link href = "https://www.linkedin.com/company/consennse">
+                  <Link href = "https://www.linkedin.com/company/consennse"   target="_blank" 
+        rel="noopener noreferrer">
                     linkedin.com/company/consennse
+
                     </Link>
                     </div>
   
