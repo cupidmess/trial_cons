@@ -116,12 +116,10 @@
   }
   .maincon{
     width: 1440px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .hello{
-    width: 1440px;
-    margin: auto;
-  }
+
 }
 .form{
   display: flex;
