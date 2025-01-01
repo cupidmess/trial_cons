@@ -136,11 +136,12 @@
   gap: 20px;
 }
 .botnext,.botnext3{
+  position: relative;
   height: 47rem;
   width: 25%;
   padding-bottom: 4rem;
   padding: 2rem;
-  padding-right: 1rem;
+  padding-right: 2rem;
   background-color: #EFECFF;
   border-radius: 34px;
   border: 1px;
@@ -210,8 +211,9 @@
   margin-bottom: 0.8rem;
 }
 .butt1{
-  margin-top: 16.5rem;
-  width: 93%;
+  position: absolute;
+  bottom:2rem;
+  width: 80%;
   font-size: 15px;
   padding-top: 0.7rem;
   text-align: center;
@@ -226,7 +228,7 @@
 
 }
 .butt2,.butt4,.butt3{
-  width: 93%;
+  width: 80%;
   font-size: 15px;
   padding-top: 0.7rem;
   text-align: center;
@@ -249,13 +251,16 @@
   font-weight: 600;
 } */
 .butt2{
-  margin-top: 8.6rem;
+  position: absolute;
+  bottom:2rem;
 }
 .butt4{
-  margin-top: 8.35rem;
+  position: absolute;
+  bottom:2rem;
 }
 .butt3{
-  margin-top: 2.75rem;
+   position: absolute;
+  bottom:2rem;
 }
 /* .botnext3{
   height: 45rem;
@@ -380,11 +385,12 @@
     gap: 15px;
   }
   .botnext,.botnext3{
+    position: relative;
     height: 40rem;
     width: 100%;
     padding-bottom: 2rem;
     padding: 2rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
     background-color: #EFECFF;
     border-radius: 34px;
     border: 1px;
@@ -452,8 +458,8 @@
     margin-bottom: 0.5rem;
   }
   .butt1{
-    margin-top: 12rem;
-    width: 93%;
+
+    width: 80%;
     font-size: 15px;
     padding-top: 0.7rem;
     text-align: center;
@@ -467,7 +473,7 @@
     margin-left: 0.4rem;
   }
   .butt2,.butt4{
-    width: 93%;
+    width: 80%;
     font-size: 15px;
     padding-top: 0.7rem;
     text-align: center;
@@ -478,9 +484,9 @@
     font-weight: 600;
   }
   .butt3{
-    width: 93%;
+    width: 80%;
     font-size: 15px;
-    margin-top: 1.4rem;
+
     padding-top: 0.7rem;
     text-align: center;
     padding-bottom: 0.7rem;
@@ -489,12 +495,7 @@
     border-radius: 10px;
     font-weight: 600;
   }
-  .butt2{
-    margin-top: 3rem;
-  }
-  .butt4{
-    margin-top: 1.2rem;
-  }
+
 
   .st{
     font-weight: 400;

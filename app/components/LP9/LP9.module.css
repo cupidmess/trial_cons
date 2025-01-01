@@ -86,12 +86,22 @@
   border-color: #433878;
 }
 .left9{
+  width: 45%;
+}
+.right9{
   width: 50%;
+  padding-left: 5rem;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
 }
 .ofc{
   height: 260px;
   width: auto;
-  margin-left: 7rem;
+  margin: auto;
   
 }
 .llime{

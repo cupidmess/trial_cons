@@ -45,7 +45,7 @@ const Pg4 = () => {
 <div className = {style.botnext}>
     <div className = {style.first}>
       <Image src = {F5} alt = "new" height={50}/>
-      <div className = {style.head}>CRM Consulting
+      <div className = {style.head}>CRM Support
 Basic
 </div>
 <div className={style.down}>{t('123')}</div>
@@ -177,7 +177,7 @@ Platinum
 </div>
 </div>
 
-<div className = {style.st}>*Guaranteed response time for emergencies</div>
+<div className = {style.st}>{t('182')}</div>
       </div>
       </div>
       </div>

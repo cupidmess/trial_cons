@@ -148,7 +148,7 @@
   height: max-content;
 }
 .stress{
-  margin-left: 3.4rem;
+  margin-left: auto;
 }
 .top2{
   background-color: white;
@@ -299,12 +299,19 @@
 }
 .unionimg{
   position: absolute;
+  top: 0;
+  bottom: 0;
 }
 .shiny{
   position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.leftimg2{
+  position: relative;
 }
 .unimg{
-  margin-top: 1rem;
+  margin-top: 0rem;
   margin-left: 3rem;
 }
 .right2tit{
@@ -762,7 +769,7 @@
   font-family: "SemiBold", sans-serif;
   color: #433878;
   font-size: 40px;
-  padding-left: 4rem;
+  padding-left: 3rem;
 }
 .headline{
   margin-top: 0.5rem;
@@ -772,7 +779,7 @@
   border-style: solid;
   opacity: 0.5;
   width: 32%;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 @media (max-width:786px)
 {
@@ -943,7 +950,7 @@
     align-items: center;
   }
   .htxt,.htxt21,.htxt2{
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     font-size: 14px;
     width: 100%;
   }
@@ -974,8 +981,8 @@
     align-items: center;
   }
   .htxt22{
-    margin-left: 1rem;
-    font-size: 16px;
+    margin-left: 0.5rem;
+    font-size: 14px;
   }
   .fboxl22{
     width: 55%;
@@ -1012,15 +1019,18 @@
     position: absolute;
   }
   .shiny{
-    margin-top: 0.5rem;
+    margin-top: 0rem;
     position: absolute;
-    width:85%;
+    width:106%;
+    right: 0;
   }
   .leftimg2{
+    position: relative;
     padding-bottom: 15rem;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     background-color: white;
+    border-color: white;
   }
   .unimg{
     display: none;
@@ -1054,7 +1064,7 @@
     border-radius: 16px;
   }
   .box3,.box32{
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-radius: 30px;
     background-color:#ECEBFF;
     color: #433878;
@@ -1084,8 +1094,8 @@
   }
   
   .htxt3{
-    margin-left: 1rem;
-    font-size: 16px;
+    margin-left: 0.5rem;
+    font-size: 14px;
   }
   
   .fboxl3{
@@ -1119,8 +1129,8 @@
   }
   
   .htxt32{
-    margin-left: 1rem;
-    font-size: 15px;
+    margin-left: 0.5rem;
+    font-size: 14px;
     width: 75%;
   }
   
@@ -1174,18 +1184,20 @@
     font-size: 17px;
   }
   .un1{
+    display: none;
     width: 350px;
     position: absolute;
     z-index: 1;
   }
   .tabimg{
     position: relative;
-    z-index: 2;
+
   }
   .bot4{
     margin-top: 2rem;
   }
   .rightwa4{
+    border-color: none;
     background-color: white;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;

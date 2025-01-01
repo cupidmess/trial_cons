@@ -29,13 +29,14 @@
 }
 
 .im1{
-  height: 50px;
+  height : auto;
+  width: 110px;
   margin-bottom: 1.2rem;
 }
 .im2{
-  height: 50px;
+  height: 45px;
   width: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
   border: none;
 }
 .lb1,.lb2{

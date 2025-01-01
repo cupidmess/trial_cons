@@ -15,7 +15,6 @@ const LP11 = () => {
           <Image src = {img11} alt ="robot" style={{ borderRadius: '7px' }} className = {st11.ofc}/>
         </div>
         </div>
-        <div className = {st11.mainline}></div>
         <div className = {st11.left11}> 
         <div className = {st11.righttop11}>
         {t('75')}

@@ -146,10 +146,10 @@ const Pg6 = () => {
         <div className={style.maintop2}>
           <div className={style.leftimg2}>
           <div className={style.unionimg}>
-            <Image src = {union} alt = "union" height={300} className={style.unimg}/>
+            <Image src = {union} alt = "union" height={310} className={style.unimg}/>
           </div>
           <div className={style.shiny}>
-            <Image src = {shiny} alt = "shinycircles" height={340}/>
+            <Image src = {shiny} alt = "shinycircles" height={345}/>
           </div>
           </div>
           <div className={style.right2}>

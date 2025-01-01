@@ -88,8 +88,8 @@
 
 }
 .left10{
-  width: 120%;
-  margin-right: 2rem;
+  width: 50%;
+
 }
 .righttop10{
   font-family: "ConBoldFont",sans-serif;
@@ -121,13 +121,20 @@
 .ofc{
   height: 260px;
   width: auto;
-  margin-left:7rem;
+  margin:auto;
 }
 .right10{
-  width: 40%;
+  width: 45%;
 }
 .left10{
   width: 50%;
+  padding-left: 5rem;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
 }
 .rightbut10{
   display: flex;

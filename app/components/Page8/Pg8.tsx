@@ -14,6 +14,7 @@ import frame3 from "./Frame 1249186730-19.svg"
 import img19 from "./image 19.svg"
 import union2 from "./Union-2.svg"
 import img21 from "./image 21.svg"
+import company2 from "./margin-left 2rem;.svg"
 import img27 from "./image 27.svg"
 import robot from "./image 26.svg"
 import rect from "./image 25.svg"
@@ -410,6 +411,7 @@ const Pg8 = () => {
         <div className = {style.tit6}>These companies have already hired digital employees</div>
         <div className = {style.line6}></div>
         <Image src = {img23} alt = "companies" className = {style.img23}/>
+        <Image src = {company2} alt = "companies" className = {style.img24}/>
         </div> 
         <div className = {style.lastpage}>
           <div className = {style.lasttit}>Ready for the next step?</div>
