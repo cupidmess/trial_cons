@@ -222,8 +222,8 @@ flex-direction: row;
 .maincon{
   padding-top:6rem;
   font-family: 'Font', sans-serif;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 0rem;
   display: flex;
   flex-direction: column;
   /* margin-bottom: 70rem; */
@@ -263,7 +263,7 @@ flex-direction: row;
   flex-direction: column;
 }
 .finput1,.finput3{
-  width: 260px;
+  width: 190%;
   padding: 0.5rem;
   border: 1px;
   border-style: solid;
@@ -276,7 +276,7 @@ flex-direction: row;
   margin-bottom: 1.5rem;
 }
 .finput3{
-  width: 200%;
+  width: 190%;
 }
 .comp{
   display: flex;
@@ -286,7 +286,7 @@ flex-direction: row;
   margin-left: 0.25rem;
 }
 .finput2 {
-  width: 200%;
+  width: 190%;
   padding: 0.5rem;
   border: 1px solid #8b8b8b;
   border-radius: 10px;
@@ -321,7 +321,7 @@ flex-direction: row;
 .but5{
   background-color: #433878;
   color: white;
-  width: 200%;
+  width: 190%;
   text-align: center;
   padding-top: 1rem;
   font-size: 18px;

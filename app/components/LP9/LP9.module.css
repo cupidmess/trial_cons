@@ -238,6 +238,7 @@
     font-size: 17px;
     margin-bottom: 0;
     margin-top: 0.5rem;
+    width: 100%;
   }
   .righttit9 {
     font-size:33px;
@@ -252,8 +253,10 @@
     margin-bottom: 2rem;
   }
   .right9{
+    width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
+    border: 0;
   }
   .rightbut9{
     display: flex;

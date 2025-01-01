@@ -219,9 +219,11 @@
 }
 .right10{
   width: 100%;
+
 }
 .left10{
   width: 100%;
+  border: 0;
 }
 .rightbut10{
   display: flex;
