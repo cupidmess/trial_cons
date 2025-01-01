@@ -112,7 +112,7 @@
   width: max-content;
 }
 
-@media (min-width:1450){
+@media (min-width:1600){
   .maincon{
     width: 1440px;
     margin: auto;
