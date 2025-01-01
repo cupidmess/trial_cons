@@ -95,9 +95,10 @@
   background-color: #F7F4FA;
 } 
 .maincon{
-  padding-top: 8rem;
+  padding-top: 6rem;
   font-family: 'Font', sans-serif;
   padding-left: 7rem;
+  padding-bottom: 5rem;
   padding-right: 7rem;
   display: flex;
   flex-direction: column;
@@ -112,13 +113,9 @@
 }
 
 @media (min-width:1450){
-  .bod{
-    width: 1440px;
-    margin: auto;
-  }
   .maincon{
     width: 1440px;
-    margin-left:25%;
+    margin: auto;
   }
 
 }
