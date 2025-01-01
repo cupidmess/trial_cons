@@ -72,7 +72,7 @@ const Pg2 = () => {
   return (
     <div className={style.mainish}>
           <Nav/>
-    <div  className={style.bod}>
+
 
       <div>
   
@@ -232,7 +232,7 @@ const Pg2 = () => {
           </div>
         </div>
       </div>
-      </div>
+
       <Footer/>
     </div>
   )

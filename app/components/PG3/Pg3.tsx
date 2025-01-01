@@ -51,7 +51,6 @@ const Pg3 = () => {
     <div className={style.mainish}>
             <Nav/>
       <div className={style.hello}>
-    <div className={style.bod}>
       <div className = {style.maincon}>
         <div className = {style.maintop}>{t('118')}</div>
         <div className = {style.form}>
@@ -298,7 +297,7 @@ const Pg3 = () => {
           </div>
         </div>
       </div>
-      </div>
+
       <Footer/>
       </div>
     </div>
