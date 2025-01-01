@@ -231,7 +231,7 @@ flex-direction: row;
   border-radius: 10px;
 }
 }
-@media (min-width:1600){
+@media (min-width:1600px){
 
   .maincon{
     width: 1440px;

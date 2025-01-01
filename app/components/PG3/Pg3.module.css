@@ -112,10 +112,11 @@
   width: max-content;
 }
 
-@media (min-width:1600){
+@media (min-width:1600px) {
   .maincon{
     width: 1440px;
     margin: auto;
+    overflow-x: hidden;
   }
 
 }
