@@ -10,6 +10,7 @@ import F5 from "./Frame5.svg"
 import Foot from "../Footer/Footer"
 import style from "./Pg4.module.css"
 import g1 from "./Group 1597885752.svg"
+import { FaChevronRight } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 const Pg4 = () => {
   const {t} = useTranslation();
@@ -60,13 +61,12 @@ Basic
       <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('125')}</div>
     </div>
-    <button className = {style.butt1}>{t('144')}</button>
     </div>
 </div>
 <div className = {style.botnext}>
     <div className = {style.first}>
       <Image src = {F2} alt = "new"/>
-      <div className = {style.head}>CRM Consulting 
+      <div className = {style.head}>CRM Support 
 SLA
 Silver
 
@@ -94,12 +94,12 @@ Silver
       <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('129')}</div>
     </div>
-    <button className = {style.butt2}>{t('144')}</button>
+
     </div>
 </div><div className = {style.botnext3}>
     <div className = {style.first3}>
       <Image src = {F1} alt = "new" height={47}/>
-      <div className = {style.head3}>CRM Consulting 
+      <div className = {style.head3}>CRM Support 
 SLA
 Gold
 
@@ -135,12 +135,12 @@ Gold
       <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('136')}</div>
     </div>
-    <button className = {style.butt3}>{t('144')}</button>
+
     </div>
 </div><div className = {style.botnext}>
     <div className = {style.first}>
       <Image src = {F3} alt = "new" height={47}/>
-      <div className = {style.head}>CRM Consulting 
+      <div className = {style.head}>CRM Support 
 SLA
 Platinum
 
@@ -172,12 +172,15 @@ Platinum
       <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('143')}</div>
     </div>
-    <button className = {style.butt4}>{t('144')}</button>
+
     </div>
 </div>
 </div>
+<button className = {style.butt1}>{t('144')} 
+<FaChevronRight className={style.ic2}/>
+</button>
 
-<div className = {style.st}>{t('182')}</div>
+<div className = {style.st}>*Guaranteed response time for emergencies</div>
       </div>
       </div>
       </div>

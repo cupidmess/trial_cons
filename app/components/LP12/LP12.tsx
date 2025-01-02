@@ -23,9 +23,10 @@ const LP12 = () => {
         <div className = {st12.bott}>
       <div className = {st12.bot1}>
       <div className = {st12.bottext12}>Consennse GmbH</div>
-      {/* <div className = {st12.bots1}>
-      Ringwilerstrasse 4 8620 Wetzikon ZH Switzerland
-      </div> */}
+      <div className = {st12.bots1}>
+      {/* Ringwilerstrasse 4 8620 Wetzikon ZH  */}
+      Switzerland
+      </div>
       <div className = {st12.bots2}>info@consennse.com</div>
       <div className = {st12.img12} > <Image src ={lin} alt = "linkedin" height={35} className ={st12.img123}/></div>
       </div>

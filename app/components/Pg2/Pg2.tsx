@@ -12,7 +12,9 @@ import { useState } from 'react';
 import Footer from '../Footer/Footer';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next'
+import { FaChevronRight } from 'react-icons/fa';
 const Pg2 = () => {
+  const [isLoading, setIsLoading] = useState(false);
   const [isPopupVisible, setPopupVisible] = useState(false);
   const [formData, setFormData] = useState({
     fname: '',
@@ -43,27 +45,20 @@ const Pg2 = () => {
   
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    setIsLoading(true); // Set loading state to true when submitting
     e.preventDefault();
-    try {
-      const response = await fetch("http://127.0.0.1:8000/api/form/", { // Replace with your API URL
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
 
-      if (response.ok) {
-        console.log("Form submitted successfully!");
-        setPopupVisible(true);
-      } else {
-        console.error("Failed to submit form:", response.statusText);
-      }
-    } catch (error) {
-      console.error("Error:", error);
-    }
-  
-    // Add API call or other actions
+    console.log('Form Data Submitted:', formData);
+
+    // Show the popup
+    setPopupVisible(true);
+
+    // Wait for 2 seconds before hiding popup and navigating to home
+    setTimeout(() => {
+      setPopupVisible(false); // Hide the popup after 2 seconds
+      setIsLoading(false); // Set loading state to false (hide "Loading..." text)
+      window.location.href = '/'; // Redirect to the home page
+    }, 2000); // 2 seconds delay
   };
   const closePopup = () => {
     setPopupVisible(false); // Hide the popup
@@ -139,11 +134,43 @@ const Pg2 = () => {
             <div className = {style.comp}>{t('105')}
               </div>
               <div className = {style.compi2}>
-              <textarea className={style.finput2} placeholder="Enter Message"  name = "message" id = "message" onChange={handleChange} value={formData.message} required ></textarea>
+              <textarea className={style.finput2} placeholder={t('183')}  name = "message" id = "message" onChange={handleChange} value={formData.message} required ></textarea>
               </div>
             </div>
             <div className={style.but5}>
-              <button type="submit" className = {style.lbutt1}>{t('107')}</button>
+              <button type="submit" className = {style.lbutt1}>
+              {isLoading ? "Loading.." : t('107')} <FaChevronRight className = {style.ice}/> </button>
+            </div>
+            <div className = {style.right31mob}>
+              <div className = {style.righttxt3new}>
+                <div className = {style.righttxt31}>
+                  <div className = {style.rimg}><Image src = {g3} alt = "phone" height={35} className ={style.rimg1}/></div>
+                  <div className = {style.rt31}>
+                  <a href="tel:+41 79 441 00 17">
+                    +41 79 441 00 17
+                    </a>
+                  </div>
+                </div>
+                <div className = {style.righttxt32}>
+                <div className = {style.rimg}><Image src = {g2} alt = "mail" height={35} className={style.rimg3}/></div>
+                  <div className = {style.rt32}>
+                  <a href="mailto:info@consennse.com">
+                    info@consennse.com
+                    </a>
+                    </div>
+  
+                </div>
+              </div>
+              <div className = {style.righttxt33}>
+                    <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35}className ={style.rimg2}/></div>
+                  <div className = {style.rt33}>
+                  <Link href = "https://www.linkedin.com/company/consennse"   target="_blank" 
+        rel="noopener noreferrer">
+                    linkedin.com/company/consennse
+
+                    </Link>
+                    </div>
+                </div>
             </div>
           </div>
           </form>
@@ -212,22 +239,22 @@ const Pg2 = () => {
                     </div>
                 </div>
                 <div className = {style.righttxt2}>
-                  <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35} className={style.rimg1}/></div>
-                  <div className = {style.rt2}> 
-                  <Link href = "https://www.linkedin.com/company/consennse"   target="_blank" 
-        rel="noopener noreferrer">
-                  linkedin.com/company/consennse
-                  </Link>
-                  </div> 
-                </div>
-              </div>
-              <div className = {style.righttxt3}>
-                  <div className = {style.rimg}><Image src = {g2} alt = "mail" height={35}className={style.rimg1}/></div>
+                <div className = {style.rimg}><Image src = {g2} alt = "mail" height={35}className={style.rimg1}/></div>
                   <div className = {style.rt1}>
                   <a href="mailto:info@consennse.com">
                     info@consennse.com
                     </a>
                     </div>
+                </div>
+              </div>
+              <div className = {style.righttxt3}>
+                    <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35} className={style.rimg1}/></div>
+                  <div className = {style.rt2}> 
+                  <Link href = "https://www.linkedin.com/company/consennse"   target="_blank" 
+        rel="noopener noreferrer">
+                  linkedin.com/company/consennse
+                  </Link>
+                  </div>
                 </div>
             </div>
           </div>

@@ -15,6 +15,9 @@
   flex-direction: column;
   /* margin-bottom: 70rem; */
 }
+.right31mob{
+  display: none;
+}
 .maintop{
   color: #433878;
   width: max-content;
@@ -106,15 +109,24 @@ flex-direction: row;
   margin-right: 2.5rem;
   margin-bottom: 1.5rem;
 }
-.but5{
+.lbutt1{
   background-color: #433878;
   color: white;
   width: 190%;
-  text-align: center;
   padding-top: 1rem;
   font-size: 18px;
   padding-bottom: 1rem;
   border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  padding-left: 80%;
+}
+.ice{
+  font-size: 14px;
+  margin-left: 0.5rem;
 }
 @media (max-width :768px){
 
@@ -187,6 +199,24 @@ flex-direction: row;
 .op{
   margin-left: 0.25rem;
 }
+.right31mob{
+  display: block;
+}
+.righttxt3{
+  display: flex;
+  flex-direction: column;
+}
+.righttxt31,.righttxt32,.righttxt33{
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  font-size: 14px;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.rt31,.rt32,.rt33{
+  margin-left: 0.5rem;
+}
 .finput2 {
   width: 190%;
   padding: 0.5rem;
@@ -220,7 +250,7 @@ flex-direction: row;
   margin-right: 2.5rem;
   margin-bottom: 1.5rem;
 }
-.but5{
+.lbutt1{
   background-color: #433878;
   color: white;
   width: 190%;
@@ -229,6 +259,7 @@ flex-direction: row;
   font-size: 18px;
   padding-bottom: 1rem;
   border-radius: 10px;
+  padding-left: 65%;
 }
 }
 @media (min-width:1600px){
