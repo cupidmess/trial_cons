@@ -13,9 +13,7 @@ import img11 from "./image 11.svg"
 import img12 from "./image 12.svg"
 import img13 from "./image 13.svg"
 import img14 from "./image 15.svg"
-import img15 from "./Image-4.svg"
-import frame from "./Frame-2.svg"
-import { FaChevronRight } from 'react-icons/fa'
+
 const Page7 = () => {
   const {t} = useTranslation();
   return (
