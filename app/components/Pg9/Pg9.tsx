@@ -1,7 +1,6 @@
 import React from 'react'
 import style from "./Pg9.module.css"
 import Nav from "@/app/components/Nav/Nav"
-import Image from 'next/image'
 import Footer from '../Footer/Footer'
 const Pg9 = () => {
   return (
@@ -77,6 +76,16 @@ Processing is based on Art. 6(1)(f) GDPR (legitimate interest in analyzing and o
 You can prevent Google Analytics from collecting your data by downloading and installing the browser add-on for disabling Google Analytics: https://tools.google.com/dlpage/gaoptout.</div></div>
 <div className = {style.h1}>6. Data Sharing</div>
 <div className = {style.txt2}>Your data will not be shared with third parties unless required by law, necessary for fulfilling a contract, or as described in the context of Google services.</div>
+<div className = {style.h1}>7. Rights of Data Subjects</div>
+<div className = {style.txt2}>You have the following rights:</div>
+<li className = {style.list}>
+<ul>Access to your stored data </ul>
+<ul>Correction of incorrect data </ul>
+<ul>Deletion of your data</ul>
+<ul>Restriction of processing</ul>
+<ul>Objection to processing</ul>
+<ul>Data portability</ul>
+</li>
       </div>
       </div>
       <Footer/>
