@@ -1,5 +1,5 @@
 import React from 'react';
-import Pg7 from '@/app/components/Pg7/Page7';
+import Pg9 from "@/app/components/Pg9/Pg9"
 import initTranslations from '@/app/i18n';
 import TranslationsProvider from '@/app/components/TranslationProvider';
 
@@ -20,7 +20,7 @@ export default async function Page({ params }: { params: Promise<{ locale?: stri
   return (
     <div>
       <TranslationsProvider resources={resources} locale={locale} namespaces={['landing']}>
-        <Pg7 />
+        <Pg9 />
       </TranslationsProvider>
     </div>
   );
