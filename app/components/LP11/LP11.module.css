@@ -4,7 +4,12 @@
   font-weight: normal;
   font-style: normal;
 } 
-
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'ConLight';
   src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
@@ -132,6 +137,7 @@
  margin: auto;
 }
 .rightmc11 {
+  font-family: "Regular", sans-serif;
   font-size: 17px;
   width: 85%;
   opacity: 0.75;

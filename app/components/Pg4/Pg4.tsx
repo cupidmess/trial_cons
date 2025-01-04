@@ -6,6 +6,7 @@ import F1 from "./Group 1597885749-2.svg"
 import F2 from "./Frame2.svg"
 import F3 from "./Frame3.svg"
 import F4 from "./Frame4.svg"
+import Link from 'next/link'
 import F5 from "./Frame5.svg"
 import Foot from "../Footer/Footer"
 import style from "./Pg4.module.css"
@@ -31,7 +32,7 @@ const Pg4 = () => {
           </div>
         </div>
         <div className = {style.right}>
-          <Image src = {F4} alt = "worker"/>
+          <Image src = {F4} alt = "worker" height={720}/>
         </div>
       </div>
       <div className = {style.bottom}>
@@ -176,9 +177,11 @@ Platinum
     </div>
 </div>
 </div>
+<Link href = '/users/Page2'>
 <button className = {style.butt1}>{t('144')} 
 <FaChevronRight className={style.ic2}/>
 </button>
+</Link>
 
 <div className = {style.st}>*Guaranteed response time for emergencies</div>
       </div>

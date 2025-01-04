@@ -4,7 +4,9 @@ import style from "./Pg8.module.css"
 import Nav from "@/app/components/Nav/Nav"
 import Foot from "@/app/components/Footer/Footer"
 import Image from 'next/image'
-import img23 from "./image 23.svg"
+import { useTranslation } from 'react-i18next';
+import Link from 'next/link';
+import img23 from "./margin-left 2rem;-2.svg"
 import frame5 from "./Frame 1249186731.svg"
 import frame6 from "./Frame 1249186731-2.svg"
 import frame7 from "./Frame 1249186731-3.svg"
@@ -23,6 +25,7 @@ import img22 from "./image 22.svg"
 import rect2 from "./Rectangle 34625456-5.svg"
 import { FaChevronRight } from 'react-icons/fa';
 const Pg8 = () => {
+  const {t} = useTranslation();
   return (
     <div className={style.mainish}>
       <Nav/>
@@ -31,11 +34,9 @@ const Pg8 = () => {
         <div className = {style.logo1}>
         <Image src = {img19} alt = "logo" className={style.logo}/>
         </div>
-      <div className = {style.tit1}> The cloud has no opening hours</div>
+      <div className = {style.tit1}> {t('258')}</div>
       <div className = {style.lin1}></div>
-        <div className = {style.subtxt1}>Meet your customers’ expectations even better.
-        Today, customers expect digital service around the clock.
-        Comprehensive self-service and short response times are just as essential as the ability to provide feedback with a single click.
+        <div className = {style.subtxt1}>{t('259')}
         </div>
         <div className = {style.box1}>
           <div className = {style.l1}>
@@ -43,11 +44,10 @@ const Pg8 = () => {
           </div>
           <div className = {style.r1}>
             <div className={style.titr1}>
-            Transforming the way you work
+            {t('260')}
             </div>
             <div className = {style.rl1}></div>
-              <div className = {style.stxt1}>Web Office provides optimal support for your digital transformation.
-            By integrating a wide range of digital services, it optimizes processes, reduces the workload on your employees, and positions your company as a future-oriented, digitally driven organization.
+              <div className = {style.stxt1}>{t('261')}
             </div>
           </div>
         </div>
@@ -56,11 +56,11 @@ const Pg8 = () => {
       <div className = {style.box2}>
           <div className = {style.r2}>
             <div className={style.titr1}>
-            Your digital department in the cloud
+            {t('262')}
             </div>
             <div className = {style.rl1}></div>
-              <div className = {style.stxt1}>Web Office provides optimal support for your digital transformation. A variety of digital services are transferred to the Web Office. 
-              This eases the workload on your employees and positions your company as a digital and therefore progressive organization.
+              <div className = {style.stxt1}>
+              {t('261')}
             </div>
           </div>
           <div className = {style.l1}> 
@@ -79,12 +79,12 @@ const Pg8 = () => {
                   <div className={style.fboxtop}>
                     <div>
                     <Image src ={frame1} alt = "headphones" height={50}/></div>
-                    <div className={style.htxt}>RELIABLE, EFFICIENT, AND TIRELESS</div>
+                    <div className={style.htxt}>{t('264')}</div>
                   </div>
                   <div className = {style.fboxl}></div>
-                  <div className={style.fboxtit}>Digital Employee</div>
+                  <div className={style.fboxtit}>{t('265')}</div>
                   <div className={style.fboxmaincon}>
-                  Unlike human employees, digital employees in Web Office are tireless, working around the clock without errors or downtime. They require no recruitment, onboarding, or personal management. Additionally, they are highly flexible, scalable, and demand neither salary increases nor further training. In challenging times, they remain loyal to the company, never switch to competitors, and eliminate the risk of knowledge loss or the leakage of sensitive business information. An ideal complement for your modern enterprise.
+                  {t('266')}
                   </div>
                 </div>
               </div>
@@ -98,12 +98,12 @@ const Pg8 = () => {
                   <div className={style.fboxtop2}>
                     <div>
                     <Image src ={frame2} alt = "writing" height={50}/></div>
-                    <div className={style.htxt2}>MORE TIME FOR WHAT MATTERS</div>
+                    <div className={style.htxt2}>{t('268')}</div>
                   </div>
                   <div className = {style.fboxl2}></div>
-                  <div className={style.fboxtit2}>Human Employee</div>
+                  <div className={style.fboxtit2}>{t('267')}</div>
                   <div className={style.fboxmaincon2}>
-                  Thanks to the relief provided by Web Office, your employees gain valuable time to focus on what truly matters: acquiring new mandates and providing optimal support to your clients throughout the entire mandate phase. Prospective clients in the decision-making stage can be guided to closure through additional viewings and well-prepared consultations. This boosts both efficiency and customer satisfaction equally.
+                  {t('269')}
                   </div>
                 </div>
               </div>
@@ -118,12 +118,12 @@ const Pg8 = () => {
                   <div className={style.fboxtop21}>
                     <div>
                     <Image src ={frame3} alt = "magnifying" height={50}/></div>
-                    <div className={style.htxt21}>THE SYMBIOSIS OF DIGITAL AND ANALOG</div>
+                    <div className={style.htxt21}>{t('271')}</div>
                   </div>
                   <div className = {style.fboxl21}></div>
-                  <div className={style.fboxtit21}>Hybrid Customer Service</div>
+                  <div className={style.fboxtit21}>{t('270')}</div>
                   <div className={style.fboxmaincon21}>
-                  Each type of employee—digital and human—has unique strengths that, when combined, create an unbeatable team. Digital employees provide 24/7 reliability, are pandemic-resistant, flexibly scalable, and cost-efficient. On the other hand, human employees bring valuable qualities such as interaction, personality, expertise, intuition, and instinct. Together, they create the perfect balance to ensure the long-term success of your business.
+                  {t('272')}
                   </div>
                 </div>
               </div>
@@ -141,7 +141,7 @@ const Pg8 = () => {
             </div> 
           </div>
           <div className = {style.rightchange2}>
-        <div className={style.tit3}>Overview of the Modules</div>
+        <div className={style.tit3}>{t('273')}</div>
         <div className={style.lin3}></div>
         <div className = {style.stit3}>Meet your customers&apos; expectations even better.
         Today, customers expect digital service around the clock.
@@ -161,20 +161,20 @@ const Pg8 = () => {
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div className={style.htxt3}>Feedback Favorite</div>
+                    <div className={style.htxt3}>{t('274')}</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit31}>Scope of Application</div>
+                  <div className={style.fboxtit31}>{t('275')}</div>
                   <div className={style.fboxmaincon31}>
-                  Clients expect their real estate agent to provide clear insights into the status of prospective buyers—especially the reasons for declines. However, traditional follow-ups via phone or email are time-consuming and taxing. This creates a dilemma: the agent must balance providing the client with the requested information while focusing resources on prospects who are close to scheduling a viewing or making a decision.
+                  {t('276')}
                   </div>
                   <div className={style.fboxtit31}>Practical Application</div>
                   <div className={style.fboxmaincon31}>
-                  With Feedback Favorite, prospective buyers can communicate their reasons for declining directly from an email. This provides the agent with valuable feedback on each property automatically. The feedback helps the agent fine-tune their marketing strategy and provide the client with well-informed updates.
+                  {t('275A')}
                   </div>
                   <div className={style.fboxtit31}>Behind the Scenes</div>
                   <div className={style.fboxmaincon31}>
-                  The reasons for declines are transmitted to Propertybase in real-time, and the favorite is automatically closed. This ensures the process is efficient and seamlessly integrated into the agent&apos;s daily workflow.
+                  {t('276A')}
                   </div>
                 </div>
               </div>
@@ -191,20 +191,20 @@ const Pg8 = () => {
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div className={style.htxt3}>Feedback Closing</div>
+                    <div className={style.htxt3}>{t('277')}</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit31}>Scope of Application</div>
+                  <div className={style.fboxtit31}>{t('278A')}</div>
                   <div className={style.fboxmaincon31}>
-                  The sale or purchase of a property is an emotional journey for both buyers and sellers. To fulfill their role as a mediator professionally and comprehensively, continuous improvement is crucial for real estate agents. Feedback from both parties after a successful transaction provides valuable insights that can help optimize processes and strengthen client relationships.
+                  {t('279')}
                   </div>
                   <div className={style.fboxtit31}>Practical Application</div>
                   <div className={style.fboxmaincon31}>
-                  With Feedback Closing, both sellers and buyers can provide ratings for the various stages of the mediation process. This gives the agent key insights to refine their workflows and improve personal interactions with clients and prospects.
+                  {t('279C')}
                   </div>
-                  <div className={style.fboxtit31}>Behind the Scenes</div>
+                  <div className={style.fboxtit31}>{t('279A')}</div>
                   <div className={style.fboxmaincon31}>
-                  The feedback from both parties is recorded as a star rating directly on the transaction. This standardized and easy-to-read format makes the results easy to analyze and supports the agent&apos;s continuous professional development.
+                  {t('279B')}
                   </div>
                 </div>
               </div>
@@ -221,20 +221,20 @@ const Pg8 = () => {
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div className={style.htxt3}>Campaign To Favorite</div>
+                    <div className={style.htxt3}>{t('280')}</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit31}>Scope of Application</div>
+                  <div className={style.fboxtit31}>{t('281')}</div>
                   <div className={style.fboxmaincon31}>
-                  Generating prospective clients is the first step toward a successful transaction and holds significant potential for acquiring new mandates—for example, when prospects are property owners themselves. Effective campaigns for client acquisition are therefore essential for sustainable success.
+                  {t('282')}
                   </div>
                   <div className={style.fboxtit31}>Practical Application</div>
                   <div className={style.fboxmaincon31}>
-                  With Campaign To Favorite, real estate agents can easily generate property inquiries (favorites). The module is highly flexible: whether using the campaign tool integrated in Propertybase or third-party platforms like Mailchimp or Campaign Monitor, sending campaigns is seamless. This flexibility allows agents to choose the tools that best suit their business needs.
+                  {t('282C')}
                   </div>
-                  <div className={style.fboxtit31}>Behind the Scenes</div>
+                  <div className={style.fboxtit31}>{t('282A')}</div>
                   <div className={style.fboxmaincon31}>
-                  To evaluate the success of campaigns, the origin of the inquiry is recorded directly on the favorite. For more detailed analysis, additional parameters, such as those provided by Google Analytics, can be included in the campaign. This enables precise tracking and targeted optimization of future campaigns.
+                  {t('282B')}
                   </div>
                 </div>
               </div>
@@ -251,20 +251,20 @@ const Pg8 = () => {
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div className={style.htxt3}>Subscription Settings</div>
+                    <div className={style.htxt3}>{t('283')}</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit31}>Scope of Application</div>
+                  <div className={style.fboxtit31}>{t('284')}</div>
                   <div className={style.fboxmaincon31}>
-                  The flood of newsletters and untargeted messages is becoming increasingly burdensome for many clients. This makes it all the more important for real estate agents to send targeted and relevant information. Otherwise, they risk clients unsubscribing from their communication and no longer receiving updates.
+                  {t('285')}
                   </div>
-                  <div className={style.fboxtit31}>Practical Application</div>
+                  <div className={style.fboxtit31}>{t('285A')}</div>
                   <div className={style.fboxmaincon31}>
-                  With Subscription Settings, clients can individually choose the type of information they wish to receive from their agent. While some clients prefer to receive only relevant property offers, others appreciate additional insights, such as updates about the real estate agency or market trends. This ensures that communication is tailored to each client&apos;s specific needs.
+                  {t('286')}
                   </div>
-                  <div className={style.fboxtit31}>Behind the Scenes</div>
+                  <div className={style.fboxtit31}>{t('287A')}</div>
                   <div className={style.fboxmaincon31}>
-                  Clients&apos; preferences - including their consent to the privacy policy and the timestamp of this consent - are stored directly on their contact record. This ensures that the data remains organized and traceable at all times, enabling professional and legally compliant communication.
+                  {t('287B')}
                   </div>
                 </div>
               </div>
@@ -274,9 +274,9 @@ const Pg8 = () => {
       </div>
       </div>
       <div className = {style.page4}>
-        <div className = {style.tit4}>In Preparation</div>
+        <div className = {style.tit4}>{t('288')}</div>
         <div className = {style.line4}></div>
-          <div className = {style.stxt4}>We are continuously expanding WEB OFFICE and are currently working on the following modules:
+          <div className = {style.stxt4}>{t('289')}
           </div>
           <div className = {style.bot4}>
           <div className = {style.boxes4}>
@@ -285,13 +285,13 @@ const Pg8 = () => {
                 <div className = {style.titb4}>
                   <Image src = {frame5} alt = "logo12" className={style.img41}/>
                   <div className = {style.ttxt4}>
-                  Search Profile
+                  {t('290')}
                   </div>
                 </div>
                 <div className = {style.cont4}>
                   <div className={style.maincont4}>
                   <div className = {style.contxt4}>
-                  Creation and management of search profiles via self-service
+                  {t('291')}
                   </div>
                   </div>
                   <div className = {style.fakebutton}></div>
@@ -301,13 +301,13 @@ const Pg8 = () => {
                 <div className = {style.titb4}>
                   <Image src = {frame6} alt = "logo13" className={style.img41}/>
                   <div className = {style.ttxt4}>
-                  Auto Matching
+                  {t('294')}
                   </div>
                 </div>
                 <div className = {style.cont4}>
                 <div className={style.maincont4}>
                   <div className = {style.contxt4}>
-                  Using AI, the inquiries and search profiles of a prospective client are continuously analyzed. Based on this analysis, an email with suitable property suggestions is automatically sent, enabling targeted and personalized engagement with the client.
+                  {t('295')}
                   </div></div>
                   <div className = {style.fakebutton}></div>
                 </div>
@@ -318,13 +318,12 @@ const Pg8 = () => {
                 <div className = {style.titb4}>
                   <Image src = {frame7} alt = "logo14" className={style.img41}/>
                   <div className = {style.ttxt4}>
-                  Feedback Favorite PRO
-                  </div>
+                  {t('292')}                  </div>
                 </div>
                 <div className = {style.cont4}>
                 <div className={style.maincont4}>
                   <div className = {style.contxt4}>
-                  Enhanced functionality of Feedback Favorite: Prospective clients can not only provide their feedback but also directly view the provided documents and take the next steps, such as scheduling a viewing or submitting a decline. This intuitive feature streamlines interactions and accelerates the process for all parties involved.</div>
+                  {t('293')}</div>
                   </div>
                   <div className = {style.fakebutton}></div>
                 </div>
@@ -336,9 +335,9 @@ const Pg8 = () => {
       <div className = {style.page5}>
         <div className={style.top5}>
           <div className = {style.lefttop5}>
-            <div className={style.lefttit5}>Why choose WEB OFFICE</div>
+            <div className={style.lefttit5}>{t('296')}</div>
             <div className = {style.changeline}></div>
-            <div className={style.lefttst5}>WEB OFFICE is the ideal solution to enhance efficiency, flexibility, and quality in your business sustainably.</div>
+            <div className={style.lefttst5}>{t('297')}</div>
           </div>
 
         </div>
@@ -347,60 +346,60 @@ const Pg8 = () => {
             <div className = {style.box51}>
 
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Real-Time Self-Service for Clients</div>
-                <div className = {style.mainstit5}>Instant access to information and features anytime, anywhere.</div>
+                <div className = {style.mbtit5}>{t('298')}</div>
+                <div className = {style.mainstit5}>{t('299')}</div>
               </div>
             </div>
             <div className = {style.box51}>
   
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Available 24/7 </div>
-                <div className = {style.mainstit5}>Continuous support without interruptions.</div>
+                <div className = {style.mbtit5}>{t('300')}</div>
+                <div className = {style.mainstit5}>{t('301')}</div>
               </div>
             </div> <div className = {style.box51}>
      
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Scalability at the Push of a Button</div>
-                <div className = {style.mainstit5}>Easily and quickly adjust capacity to meet current demands.</div>
+                <div className = {style.mbtit5}>{t('302')}</div>
+                <div className = {style.mainstit5}>{t('303')}</div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Supports Business Growth </div>
-                <div className = {style.mainstit5}>Facilitates expansion through efficient digital processes.</div>
+                <div className = {style.mbtit5}>{t('304')}</div>
+                <div className = {style.mainstit5}>{t('305')}</div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>More Time for What Matters </div>
-                <div className = {style.mainstit5}>Frees up advisors for focused client care and strategic tasks..</div>
+                <div className = {style.mbtit5}>{t('305A')} </div>
+                <div className = {style.mainstit5}>{t('305B')}</div>
               </div>
             </div>
           </div>
           <div className = {style.botleft5}>
             <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Standardized Processes  </div>
-                <div className = {style.mainstit5}>Ensures consistent quality by adhering to predefined standards.</div>
+                <div className = {style.mbtit5}>{t('306')}</div>
+                <div className = {style.mainstit5}>{t('307')}</div>
               </div>
             </div>
             <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Solves Staffing Challenges  </div>
-                <div className = {style.mainstit5}>Reduces personnel shortages and prevents employee overload.</div>
+                <div className = {style.mbtit5}>{t('308')} </div>
+                <div className = {style.mainstit5}>{t('309')} </div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Enhanced Client Information </div>
-                <div className = {style.mainstit5}>Provides precise and up-to-date data to improve client satisfaction.</div>
+                <div className = {style.mbtit5}>{t('310')} </div>
+                <div className = {style.mainstit5}>{t('310A')} </div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Pandemic-Resilient </div>
-                <div className = {style.mainstit5}>Maintains reliable operations regardless of external disruption.</div>
+                <div className = {style.mbtit5}>{t('311')}  </div>
+                <div className = {style.mainstit5}>{t('312')} </div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>Cost Efficiency </div>
-                <div className = {style.mainstit5}>Saves resources through automated and digital workflows.</div>
+                <div className = {style.mbtit5}>{t('313')}  </div>
+                <div className = {style.mainstit5}>{t('314')} </div>
               </div>
             </div>
           </div>
@@ -408,15 +407,17 @@ const Pg8 = () => {
       </div>
       <div className = {style.page6}>
         <div className = {style.box6}>
-        <div className = {style.tit6}>These companies have already hired digital employees</div>
+        <div className = {style.tit6}>{t('316')} </div>
         <div className = {style.line6}></div>
         <Image src = {img23} alt = "companies" className = {style.img23}/>
         <Image src = {company2} alt = "companies" className = {style.img24}/>
         </div> 
         <div className = {style.lastpage}>
-          <div className = {style.lasttit}>Ready for the next step?</div>
-          <div className = {style.con5}>We are happy to provide you with more information or arrange a consultation.</div>
+          <div className = {style.lasttit}>{t('317')} </div>
+          <div className = {style.con5}>{t('318')} </div>
+          <Link href = '/users/Page1'>
           <button className = {style.but5}>Get Started <FaChevronRight className={style.iconlast}/> </button>
+          </Link>
         </div>
       </div>
       </div>

@@ -4,7 +4,24 @@
   font-weight: normal;
   font-style: normal;
 } 
-
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiCondFont';
+  src: url('/fonts/NotoSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'ConLight';
   src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
@@ -96,6 +113,7 @@
 
 }
 .subtxt1{
+  font-family: "Regular", sans-serif;
   font-size: 16px;
   width: 60%;
   margin-bottom: 2rem;
@@ -160,6 +178,7 @@
 
 
 .stxt1{
+  font-family: "Regular", sans-serif;
   width: 80%;
 }
 .tit2{
@@ -264,7 +283,7 @@
 
 
 .fboxtop,.fboxtop21,.fboxtop2{
-  font-family: "ConBoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -282,12 +301,13 @@
   border-color: #433878;
 }
 .fboxtit,.fboxtit21,.fboxtit2{
-  font-family: "BoldFont", sans-serif;
+  font-family:"SemiBold", sans-serif;
   color: #433878;
   font-size: 23px;
   margin-bottom: 0.5rem;
 }
 .fboxmaincon,.fboxmaincon21,.fboxmaincon2,.fboxmaincon22{
+  font-family: "Regular", sans-serif;
   width: 92%;
   font-size: 13px;
 }
@@ -312,7 +332,7 @@
   border-color: #433878;
 }
 .fboxtit22{
-  font-family: "BoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   color: #433878;
   font-size: 23px;
   margin-bottom: 0.5rem;
@@ -334,6 +354,7 @@
   gap: 35px;
 }
 .stit3{
+  font-family: "Regular", sans-serif;
   width: 75%;
   font-size: 18px;
 }
@@ -404,6 +425,7 @@
   margin-bottom: 1rem;
 }
 .fboxmaincon31{
+  font-family: "Regular", sans-serif;
   width: 85%;
   font-size: 14px;
 }
@@ -471,7 +493,7 @@
 }
 
 .contxt4{
-  font-family: "SemiConReg", sans-serif;
+  font-family: "Regular", sans-serif;
   font-size: 16.5px;
   width: 93%;
 }
@@ -494,6 +516,7 @@
   margin-left: 2rem;
 }
 .stxt4{
+  font-family: "Regular", sans-serif;
   width: 75%;
   font-size: 17px;
   margin-bottom: 2rem;
@@ -527,6 +550,7 @@
   font-size: 40px;
 }
 .lefttst5{
+  font-family: "Regular", sans-serif;
   font-size: 14px;
   margin-top: 1.5rem;
 
@@ -556,8 +580,12 @@
   font-size: 21px;
 }
 .mainstit5{
+  font-family: "Regular", sans-serif;
   font-size: 13px;
   margin-top: 1rem;
+}
+.con5{
+  font-family: "Regular", sans-serif;
 }
 .behindbox51{
   position: absolute;
@@ -594,6 +622,7 @@
   margin-bottom: 0.6rem;
 }
 .but5{
+  font-family: "Medium", sans-serif;
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
@@ -621,9 +650,9 @@
   padding-top: 2.5rem;
 }
 .img23{
-  width: 1150px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1255px;
+
+
 }
 .tit6{
 color: #433878;
@@ -818,7 +847,9 @@ margin-left: 2.5rem;
      margin-top: 2rem;
      background-color: white;
      height: max-content;
-     padding: 2rem;
+     padding: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
    }
    .boxes2,.boxes22{
      width: 100%;
@@ -833,7 +864,7 @@ margin-left: 2.5rem;
      margin-top: 0rem;
      /* position: absolute; */
      width: 100%;
-     height: 460px;
+     height: max-content;
      padding: 2rem; 
      z-index: 2;
      margin-bottom: 2rem;
@@ -880,7 +911,7 @@ margin-left: 2.5rem;
    
    
    .fboxtop,.fboxtop21,.fboxtop2{
-     font-family: "ConBoldFont", sans-serif;
+   
      display: flex;
      flex-direction: row;
      align-items: center;
@@ -898,19 +929,19 @@ margin-left: 2.5rem;
      border-color: #433878;
    }
    .fboxtit,.fboxtit21,.fboxtit2{
-     font-family: "BoldFont", sans-serif;
+
      color: #433878;
      font-size: 23px;
      margin-bottom: 0.5rem;
    }
    .fboxmaincon,.fboxmaincon21,.fboxmaincon2,.fboxmaincon22{
-     width: 96%;
+     width: 100%;
      font-size: 12px;
    }
    
    
    .fboxtop22{
-     font-family: "ConBoldFont", sans-serif;
+ 
      display: flex;
      flex-direction: row;
      align-items: center;
@@ -928,7 +959,7 @@ margin-left: 2.5rem;
      border-color: #433878;
    }
    .fboxtit22{
-     font-family: "BoldFont", sans-serif;
+     font-family: "SemiBold", sans-serif;
      color: #433878;
      font-size: 23px;
      margin-bottom: 0.5rem;
@@ -1062,7 +1093,7 @@ margin-left: 2.5rem;
      padding-top: 1.5rem;
      border-radius: 30px;
      width: 90%;
-     height: 22rem;
+     height: 23.5rem;
      box-shadow: 0px 3px 6px rgb(211, 211, 211);
    }
    .box42{
@@ -1103,9 +1134,9 @@ margin-left: 2.5rem;
    }
    
    .contxt4{
-     font-family: "SemiConReg", sans-serif;
+     font-family: "Regular", sans-serif;
      font-size: 12.5px;
-     width: 93%;
+     width: 95%;
    }
    .tit4{
      margin-top: 3rem;
@@ -1178,15 +1209,17 @@ margin-left: 2.5rem;
      margin-right: 1.5rem;
      background-color: #433878;
      color: white;
-     padding: 1.5rem;
+     padding: 1rem;
+     padding-left: 1.5rem;
+     padding-right: 1.5rem;
      border-radius: 30px;
      z-index: 2;
      padding-bottom: 1rem;
-     height: 160px;
+     height: 170px;
    }
    .mbtit5{
      font-family: "SemiBold", sans-serif;
-     font-size: 21px;
+     font-size: 18px;
    }
    .mainstit5{
      font-size: 13px;
@@ -1261,14 +1294,17 @@ margin-left: 2.5rem;
    }
    .img24{
     display:block;
-    width: 270px;
-    margin: auto;
+    width: 310px;
+    margin-left: 0.2rem;
+
    }
    .tit6{
    color: #433878;
    font-family: "SemiBold", sans-serif;
-   font-size: 30px;
+   font-size: 25px;
    margin-left: 1.5rem;
+   margin-right: 1.5rem;
+  
    }
    .line6{
      border: 0.5px;

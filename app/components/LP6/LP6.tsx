@@ -5,6 +5,7 @@ import back from "./Image 2-2.svg"
 import st6 from "./LP6.module.css"
 import { useTranslation } from 'react-i18next'
 import { FaChevronRight } from 'react-icons/fa';
+import Link from 'next/link';
 const LP6 = () => {
   const{t} = useTranslation();
   return (
@@ -52,9 +53,11 @@ const LP6 = () => {
           </div>
           </div>
         </div>
+        <Link href = '/users/Page4/'>
         <button className = {st6.button6}>Get Started
           <FaChevronRight className={st6.ic2}/>
           </button>
+          </Link>
       </div>
     </div>
   )

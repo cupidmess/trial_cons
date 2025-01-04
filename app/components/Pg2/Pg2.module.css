@@ -237,6 +237,17 @@ flex-direction: row;
 display: flex;
 flex-direction: row;
 }
+.righttxt31{
+  margin-top: 1.7rem;
+}
+@media (max-width: 768px) {
+  .popupss {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 90%; /* Occupy most of the viewport width */
+    max-width: 90vw; /* Ensure it doesn't exceed the viewport width */
+  }
+}
 .right2{
   display: none;
   margin-left: 2.5rem;

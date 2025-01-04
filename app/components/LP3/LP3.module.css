@@ -11,6 +11,30 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiCondFont';
+  src: url('/fonts/NotoSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;}
+
+  @font-face {
+    font-family: 'SemiBold';
+    src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 @font-face {
   font-family: 'ShortBold';

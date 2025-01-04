@@ -4,6 +4,30 @@
   font-weight: normal;
   font-style: normal;
 } 
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiCondFont';
+  src: url('/fonts/NotoSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;}
+
+  @font-face {
+    font-family: 'SemiBold';
+    src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 .leftwa{
   display: flex;
   flex-direction: column;
@@ -54,8 +78,8 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'ExtraBold';
-  src: url('/fonts/NotoSans_SemiCondensed-ExtraBold.ttf') format('truetype');
+  font-family: 'SemiConBold';
+  src: url('/fonts/NotoSans_SemiCondensed-Bold.ttf') format('truetype');
   font-weight: 1000;
   font-style: normal;
 }
@@ -79,15 +103,15 @@
   padding-bottom: 1.9rem;
 }
 .lt1{
+  font-family: "SemiConBold", sans-serif;
   text-transform: uppercase;
-  font-stretch: condensed;
   font-weight: 800;
   font-size: 16px;
   margin-bottom: 2rem;
   width: 80%;
 }
 .lt2{
-  font-family: "BoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   font-size: 54px;
   width: 90%;
 }
@@ -100,12 +124,14 @@
   margin-bottom: 1rem;
 }
 .lt3{
+  font-family: "Regular", sans-serif;
   width: 75%;
   font-size: 19px;
   opacity: 0.8;
   margin-bottom: 3rem;
 }
 .button6{
+  font-family: "Medium", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -158,6 +184,8 @@
 }
 
 .ctxt2 {
+  font-family: "Regular", sans-serif
+  ;
   font-size: 17px;
 }
 .ctxt1{ 
@@ -209,14 +237,12 @@
   }
   .lt1{
     text-transform: uppercase;
-    font-stretch: condensed;
     font-weight: 800;
     font-size: 12px;
     margin-bottom: 1rem;
     width: 80%;
   }
   .lt2{
-    font-family: "BoldFont", sans-serif;
     font-weight: 700;
     font-size: 28px;
     line-height: 0.4in;

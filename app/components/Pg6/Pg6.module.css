@@ -4,7 +4,24 @@
   font-weight: normal;
   font-style: normal;
 } 
-
+@font-face {
+  font-family: 'SemiConBold';
+  src: url('/fonts/NotoSans_SemiCondensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'ConLight';
   src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
@@ -69,8 +86,8 @@
   padding-right: 3rem;
 }
 .top1{ 
-  font-family: "BoldFont", sans-serif;
-  font-size: 40px;
+  font-family: "SemiBold", sans-serif;
+  font-size: 50px;
   color: #433878;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -91,9 +108,12 @@
 .box1img{
   border-radius: 0;
 }
+.con5{
+  font-family: "Regular", sans-serif;
+}
 .topcont{
-  font-family: "Font", sans-serif;
-  font-size: 16px;
+  font-family: "Regular", sans-serif;
+  font-size: 20px;
   width: 74%;
   margin-bottom: 3.5rem;
   padding-left: 4rem;
@@ -127,8 +147,8 @@
   padding-left: 2rem;
 }
 .box1tit,.box2tit{
-  font-family: "BoldFont", sans-serif;
-  font-size: 45px;
+  font-family: "SemiBold", sans-serif;
+  font-size: 50px;
   margin-bottom: 1.5rem;
 }
 .box1line,.box2line{
@@ -141,8 +161,8 @@
 }
 .box1main,.box2main{
   width: 85%;
-  font-family:"SemiConReg", sans-serif;
-  font-weight: 600;
+  font-family:"Regular", sans-serif;
+  font-size: 16px;
 }
 .page2{
   height: max-content;
@@ -168,7 +188,7 @@
   margin-top: 0.8rem;
   /* position: absolute; */
   width: 48%;
-  height: 17rem;
+  height: 19rem;
   padding: 2rem; 
   z-index: 2;
 }
@@ -230,12 +250,13 @@
 
 
 .fboxtop,.fboxtop21,.fboxtop2{
-  font-family: "ConBoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .htxt,.htxt21,.htxt2{
+  font-family: "SemiBold", sans-serif;
   margin-left: 1rem;
   font-size: 16px;
 }
@@ -248,12 +269,13 @@
   border-color: #433878;
 }
 .fboxtit,.fboxtit21,.fboxtit2{
-  font-family: "BoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   color: #433878;
   font-size: 23px;
   margin-bottom: 0.5rem;
 }
 .fboxmaincon,.fboxmaincon21,.fboxmaincon2,.fboxmaincon22{
+  font-family: "Regular", sans-serif;
   width: 82%;
   font-size: 13px;
 }
@@ -278,7 +300,7 @@
   border-color: #433878;
 }
 .fboxtit22{
-  font-family: "BoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   color: #433878;
   font-size: 23px;
   margin-bottom: 0.5rem;
@@ -315,8 +337,8 @@
   margin-left: 3rem;
 }
 .right2tit{
-  font-family: "BoldFont", sans-serif;
-  font-size: 44px;
+  font-family: "SemiBold", sans-serif;
+  font-size: 48px;
 }
 .right2line{
   border: 0.5px;
@@ -328,6 +350,7 @@
   margin-bottom: 0.7rem;
 }
 .right2maincon{
+  font-family: "Regular", sans-serif;
   width: 85%;
   font-size: 15px;
   color: #FFFFFF;
@@ -347,7 +370,7 @@
   color: #433878;
   position: relative;
   width: 40.5%;
-  height: 18rem;
+  height: 19rem;
   padding: 2rem;
   margin-left: 3.5rem;
   z-index: 2;
@@ -364,7 +387,7 @@
 
 
 .fboxtop3{
-  font-family: "ConBoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -386,14 +409,14 @@
 }
 
 .fboxtit3{
-  font-family: "BoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   color: #433878;
   font-size: 23px;
   margin-bottom: 0.5rem;
 }
 
 .fboxmaincon3{
-  width: 82%;
+  width: 95%;
   font-size: 13.5px;
 }
 
@@ -420,7 +443,7 @@
 }
 
 .fboxtop32{
-  font-family: "ConBoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -441,13 +464,14 @@
 }
 
 .fboxtit32{
-  font-family: "BoldFont", sans-serif;
+  font-family: "SemiBold", sans-serif;
   color: #433878;
   font-size: 23px;
   margin-bottom: 0.5rem;
 }
 .fboxmaincon32{
-  width: 82%;
+  font-family: "Regular", sans-serif;
+  width: 95%;
   font-size: 13.5px;
 }
 .top4{
@@ -478,7 +502,7 @@
 }
 .lstit4{
   position: relative;
-  font-family: "SemiConReg", sans-serif;
+  font-family: "Regular", sans-serif;
   font-size: 20px;
 }
 .un1{
@@ -560,6 +584,7 @@
   font-size: 26px;
 }
 .contxt4{
+  font-family: "Regular", sans-serif;
   font-size: 13px;
 
 }
@@ -729,6 +754,7 @@
   margin-bottom: 0.6rem;
 }
 .but5{
+  font-family: "Medium", sans-serif;
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
@@ -768,7 +794,7 @@
 .headingnew{
   font-family: "SemiBold", sans-serif;
   color: #433878;
-  font-size: 40px;
+  font-size: 50px;
   padding-left: 3rem;
 }
 .headline{
@@ -825,7 +851,7 @@
     border-radius: 0;
   }
   .topcont{
-    font-family: "Font", sans-serif;
+
     font-size: 16px;
     width: 94%;
     margin-bottom: 3.5rem;
@@ -860,7 +886,7 @@
     padding-left: 2rem;
   }
   .box1tit,.box2tit{
-    font-family: "BoldFont", sans-serif;
+    font-family: "SemiBold", sans-serif;
     font-size: 20px;
     margin-bottom: 1.5rem;
     width: 89%;
@@ -875,8 +901,7 @@
   }
   .box1main,.box2main{
     width: 85%;
-    font-family:"SemiConReg", sans-serif;
-    font-weight: 600;
+
     font-size: 12px;
   }
   .page2{
@@ -906,7 +931,7 @@
     margin-top: 0rem;
     /* position: absolute; */
     width: 98%;
-    height: 26rem;
+    height: 27.5rem;
     padding: 2rem; 
     z-index: 2;
     margin-bottom: 0;
@@ -963,7 +988,7 @@
     border-color: #433878;
   }
   .fboxtit,.fboxtit21,.fboxtit2{
-    font-family: "BoldFont", sans-serif;
+
     color: #433878;
     font-size: 23px;
     margin-bottom: 0.5rem;
@@ -993,7 +1018,6 @@
     border-color: #433878;
   }
   .fboxtit22{
-    font-family: "BoldFont", sans-serif;
     color: #433878;
     font-size: 23px;
     margin-bottom: 0.5rem;
@@ -1017,12 +1041,18 @@
   }
   .unionimg{
     position: absolute;
+    border-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
   }
   .shiny{
     margin-top: 0rem;
     position: absolute;
     width:106%;
     right: 0;
+    border-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
   }
   .leftimg2{
     position: relative;
@@ -1036,9 +1066,9 @@
     display: none;
     margin-top: 1rem;
     margin-left: 0rem;
+
   }
   .right2tit{
-    font-family: "BoldFont", sans-serif;
     font-size: 44px;
   }
   .right2line{
@@ -1070,7 +1100,7 @@
     color: #433878;
     position: relative;
     width: 90%;
-    height: 24rem;
+    height: 26rem;
     padding: 2rem;
     margin-left: 1rem;
     z-index: 2;
@@ -1087,7 +1117,6 @@
   
   
   .fboxtop3{
-    font-family: "ConBoldFont", sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1108,7 +1137,6 @@
   }
   
   .fboxtit3{
-    font-family: "BoldFont", sans-serif;
     color: #433878;
     font-size: 20px;
     margin-bottom: 0.5rem;
@@ -1122,7 +1150,6 @@
   
   
   .fboxtop32{
-    font-family: "ConBoldFont", sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1144,7 +1171,6 @@
   }
   
   .fboxtit32{
-    font-family: "BoldFont", sans-serif;
     color: #433878;
     font-size: 20px;
     margin-bottom: 0.5rem;
@@ -1180,7 +1206,7 @@
   }
   .lstit4{
     position: relative;
-    font-family: "SemiConReg", sans-serif;
+   
     font-size: 17px;
   }
   .un1{
@@ -1225,7 +1251,7 @@
     padding-top: 1.5rem;
     border-radius: 30px;
     width: 100%;
-    height: 430px;
+    height: 455px;
     padding-bottom: 1.5rem;
     box-shadow: 0px 3px 6px rgb(211, 211, 211);
     margin-bottom: 1.5rem;

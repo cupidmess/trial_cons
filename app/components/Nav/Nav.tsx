@@ -106,7 +106,9 @@ const Nav = () => {
             <Link href = '/users/WebOffice'>
             <li className = {`${styles.wE} ${isActiveLink2('/users/WebOffice')}`}>WEB OFFICE for Propertybase</li>
             </Link>
-            <li>EXPOSE for Propertybase</li>
+            <Link href = '/users/PropertyBase'>
+            <li className = {`${styles.E} ${isActiveLink2('/users/PropertyBase')}`}>EXPOSE for Propertybase</li>
+            </Link>
           </ul>
         </div>
       )}
@@ -174,8 +176,10 @@ const Nav = () => {
        
               WEB OFFICE for Propertybase</li>
             </Link>
+            <Link href = '/users/PropertyBase' className = {`${styles.wE} ${isActiveLink2('/users/PropertyBase')}`}>
             <li>
             EXPOSE for Propertybase</li>
+            </Link>
           </ul>
 
                   <Link href='/users/Page1'>

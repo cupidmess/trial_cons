@@ -3,6 +3,74 @@
   src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
   font-weight: normal;
   font-style: normal;
+} 
+
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConBold';
+  src: url('/fonts/NotoSans_SemiCondensed-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiBold';
+  src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ShortBold';
+  src: url('/fonts/NotoSans-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraCond';
+  src: url('/fonts/NotoSans_ExtraCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 .main12{
   font-family: 'Font', sans-serif;
@@ -50,10 +118,12 @@
 
 }
 .bottext12{
+  font-family: "BoldFont", sans-serif;
   font-size: 13px;
-  font-weight: 600;
+
 }
 .bots1,.bots2 {
+  font-family: "Regular", sans-serif;
   font-size: 12px;
 }
 .bots1{
@@ -79,11 +149,13 @@
 }
 .bots21{ 
   text-transform: uppercase;
+  font-family: "Regular", sans-serif;
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 0.8rem;
 }
 .bots22,.bots223,.bots224,.bots23,.bots23{
+  font-family: "Regular", sans-serif;
 font-size: 9px;
 line-height: 0.2in;
 }
@@ -107,7 +179,11 @@ line-height: 0.2in;
   font-size: 13px;
   width: 100%;
 }
+.footdiv1{
+  font-family: "BoldFont", sans-serif;
+}
 .footdiv2{
+  font-family: "BoldFont", sans-serif;
   margin-left: auto;
 }
 @media (max-width: 768px){

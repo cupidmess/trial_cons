@@ -4,7 +4,24 @@
   font-weight: normal;
   font-style: normal;
 } 
-
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiCondFont';
+  src: url('/fonts/NotoSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'ConLight';
   src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
@@ -15,6 +32,12 @@
 @font-face {
   font-family: 'ConThin';
   src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiBold';
+  src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -44,7 +67,7 @@
   font-style: normal;
 }
 .t {
-  font-family: 'ExtraBold', sans-serif;
+  font-family: 'SemiBold', sans-serif;
   color:#FDFDFD ;
   padding: 2.5rem;
 }
@@ -56,18 +79,16 @@
   width: 80%;
 }
 .t2{
-  font-family: "Font", sans-serif;
+  font-family: "Regular", sans-serif;
   font-size: 25px;
   width: 55%;
 }
 @media (max-width: 768px) {
   .t {
-    font-family: 'Font', sans-serif;
     color:#FDFDFD ;
 
   }
   .t1{ 
-    font-family: 'ExtraBold', sans-serif;
     font-size: 38px;
     font-weight: 700;
     margin-top: 25%;
@@ -87,12 +108,10 @@
   .t {
     width: 1440px;
     margin: auto;
-    font-family: 'Font', sans-serif;
     color:#FDFDFD ;
 
   }
   .t1{ 
-    font-family: 'ExtraBold', sans-serif;
     font-size: 98px;
     font-weight: 700;
     margin-top: 15%;

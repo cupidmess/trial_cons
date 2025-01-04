@@ -49,7 +49,14 @@ const Pg2 = () => {
     e.preventDefault();
 
     console.log('Form Data Submitted:', formData);
-
+    const response = await fetch('http://localhost:8000/api/form/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData), // Send form data as JSON
+    });
+    console.log(response); 
     // Show the popup
     setPopupVisible(true);
 
@@ -190,7 +197,8 @@ const Pg2 = () => {
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
             zIndex: 1000,
             paddingLeft: "4rem",
-            paddingRight : "4rem"
+            paddingRight : "4rem",
+            textAlign : "center",
           }}
         >
           

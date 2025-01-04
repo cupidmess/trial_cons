@@ -15,6 +15,7 @@ import man from "./young-man-brown-bob-hair-team-leader-celebrate-victory-compet
 import tick from "./Union.svg"
 import { useTranslation } from 'react-i18next'
 import group from "./Rectangle 34625457.svg"
+import Link from 'next/link';
 import { useState } from 'react'
 const Pg5 = () => {
   const [selectedOption, setSelectedOption] = useState('first');
@@ -188,9 +189,11 @@ optimal management of the CRM system. These services include user support, adjus
   </div>
 </div>
          </div>
+         <Link href = "/users/Page1">
          <button className = {style.button15}>Get Started
          <FaChevronRight className={style.ic1}/>
          </button>
+         </Link>
          </div>
          </div>
     <Footer/>

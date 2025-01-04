@@ -5,6 +5,7 @@ import Image from 'next/image'
 import bg10 from "./bg10.png"
 import { useTranslation } from 'react-i18next';
 import { FaChevronRight } from 'react-icons/fa'
+import Link from 'next/link';
 const LP10 = () => {
   const {t} = useTranslation();
   return (
@@ -22,7 +23,11 @@ const LP10 = () => {
         <div className = {st10.righttit10}>{t('72')}</div>
         <div className = {st10.llime}></div>
         <div className = {st10.rightmc10}>{t('73')}</div>
-        <div className = {st10.but10}><button className = {st10.rightbut10}>{t('70')}<FaChevronRight style={{margin: '14px', fontSize : '12px'}}/> </button></div>
+        <div className = {st10.but10}>
+          <Link href = '/users/WebOffice'>
+          <button className = {st10.rightbut10}>{t('70')}<FaChevronRight style={{margin: '14px', fontSize : '12px'}}/> </button>
+          </Link>
+          </div>
         </div>
       </div>
     </div>

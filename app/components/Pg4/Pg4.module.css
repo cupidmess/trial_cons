@@ -4,9 +4,22 @@
   font-weight: normal;
   font-style: normal;
 } 
+
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: 'SemiCondFont';
   src: url('/fonts/NotoSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiBoldFont';
+  src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,6 +38,12 @@
 @font-face {
   font-family: 'SemiConFont';
   src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConBoldFont';
+  src: url('/fonts/NotoSans_SemiCondensed-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -65,11 +84,11 @@
   padding-left: 2rem;
   padding-top: 3rem;
   padding-right: 4rem;
+  padding-bottom: 3rem;
 }
 .ltop { 
   font-size: 44px;
-  font-family: 'BoldFont' , sans-serif;
-  font-weight:bolder;
+  font-family: 'SemiBoldFont' , sans-serif;
 }
 .lbox{ 
   height: 0;
@@ -83,17 +102,19 @@
 }
 .lmid{ 
   width: 90%;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: "Font", sans-serif;
 }
 .bottop {
-  font-family: 'ConBoldFont' , sans-serif;
-  color: #252525;
+
+  font-family: 'SemiConBoldFont' , sans-serif;
+  color: #433878;
   font-weight:bolder; 
   font-size: 18px;
   text-transform: uppercase; 
 }
 .botmid{
-  font-family: 'BoldFont', sans-serif;
+  font-family: "SemiBoldFont", sans-serif;
   color: #433878;
   font-size: 40px;
   margin-top: 1rem;
@@ -108,9 +129,9 @@
   color: #433878;
 }
 .botbot{
-  font-family: 'SemiCondFont' , sans-serif;
+  font-family: 'Font' , sans-serif;
   width: 43%;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 0.5rem;
   margin-bottom: 3.5rem;
 }
@@ -151,28 +172,30 @@
   color: #433878;
 }
 .head{
-  font-size: 23px;
+  font-size: 24px;
   width: 80%;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-family: 'BoldFont', sans-serif;
 }
 .head3{
-  font-size: 23px;
+  font-size: 24px;
   width: 80%;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-family: 'BoldFont', sans-serif;
 }
 .down{
+  font-family: "Medium", sans-serif;
   font-size: 13px;
-  width: 93%;
+  width: 95%;
   color: #6355C3;
 }
 .down3{
+  font-family: "Medium", sans-serif;
   color: #6355C3;
   font-size: 13px;
-  width: 93%;
+  width: 95%;
 }
 .donlin,.donlin3,.donlin2,.donlin4{
   height: 0;
@@ -211,6 +234,7 @@
   margin-bottom: 0.8rem;
 }
 .butt1{
+  font-family: "Medium", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -340,8 +364,6 @@
   }
   .ltop { 
     font-size: 34px;
-    font-family: 'BoldFont' , sans-serif;
-    font-weight:bolder;
   }
   .lbox{ 
     height: 0;
@@ -358,14 +380,14 @@
     font-size: 10px;
   }
   .bottop {
-    font-family: 'ConBoldFont' , sans-serif;
+    
     color: #252525;
     font-weight:bolder; 
     font-size: 14px;
     text-transform: uppercase; 
   }
   .botmid{
-    font-family: 'BoldFont', sans-serif;
+    font-family: 'SemiBoldFont', sans-serif;
     color: #433878;
     font-size: 30px;
     margin-top: 1rem;

@@ -6,6 +6,36 @@
 } 
 
 @font-face {
+  font-family: 'SemiConBold';
+  src: url('/fonts/NotoSans_SemiCondensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiBoldFont';
+  src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'ConLight';
   src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
   font-weight: normal;
@@ -43,9 +73,9 @@
   font-family: "Font", sans-serif;
 }
 .topt{
-  font-family: "BoldFont", sans-serif;
+  font-family: "SemiBoldFont", sans-serif;
   color: #433878;
-  font-size: 44px;
+  font-size: 54px;
   font-weight: 300;
 }
 .line{ 
@@ -59,9 +89,9 @@
   margin-bottom: 1rem;
 }
 .topst,.l2{
-  font-family: "SemiConFont", sans-serif;
-  font-size: 17px;
-  font-weight: 600;
+  font-family: "Regular", sans-serif;
+  font-size: 20px;
+
   width: 90%;
   margin-bottom: 3rem;
   margin-top: 3rem;
@@ -101,15 +131,16 @@
   margin-top: 1.5rem;
 }
 .s1{
-  font-family: "ConLight", sans-serif;
+  font-family: "SemiConBold", sans-serif;
   margin-bottom: 1.6rem;
-  font-weight: 1000;
+  font-size: 18px;
 }
 .s2{
-  font-family: "BoldFont", sans-serif;
+  font-family: "SemiBoldFont", sans-serif;
   font-size: 42px;
 }
 .button15{
+  font-family: "Medium", sans-serif;
   background-color: #433878;
   color: white;
   display: flex;
@@ -120,6 +151,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 2rem;
+  font-size: 22px;
 }
 .ic1{
   font-size: 17px;
@@ -136,13 +168,14 @@
   margin-bottom: 0.5rem;
 }
 .s3{
-  font-size: 14px;
+  font-family: "Regular", sans-serif;
+  font-size: 18px;
   width: 80%;
 }
 .l1{ 
-  font-family: "BoldFont", sans-serif;
+  font-family: "SemiBoldFont", sans-serif;
   color: #433878;
-  font-size: 44px;
+  font-size: 54px;
 }
 .boxes{
   display: flex;
@@ -175,17 +208,15 @@
 .tit{
   margin-top: 1rem;
   color: #433878;
-  font-family: "ConBoldFont", sans-serif;
+  font-family: "SemiBoldFont", sans-serif;
   font-size: 24px;
-  font-weight: 100;
 }
 
 .tit5{
   margin-top: 1rem;
   color: #433878;
-  font-family: "ConBoldFont", sans-serif;
-  font-size: 24px;
-  font-weight: 100;
+  font-family: "SemiBoldFont", sans-serif;  font-size: 24px;
+
 }
 .lline5{
   width: 70%;
@@ -213,7 +244,8 @@
   margin-bottom: 0.7rem;
 }
 .maincon1{
-  font-size: 13px;
+  font-family: "Regular", sans-serif;
+  font-size: 15px;
   width: 95%;
   margin-bottom: 1.2rem;
 }
@@ -284,7 +316,7 @@
 
 }
 .accordion label {
-  font-family: "BoldFont", sans-serif;
+  font-family: "SemiBoldFont", sans-serif;
   color: #433878;
   display: flex;
   flex-direction: row;
@@ -306,6 +338,7 @@
   margin-top: 0.5rem;
 }
 .showContent {
+  font-family: "Medium", sans-serif;
   max-height: 300px; /* Adjust based on content height */
 }
 .accordionItem{
@@ -395,10 +428,11 @@
     font-family: "Font", sans-serif;
   }
   .topt{
-    font-family: "BoldFont", sans-serif;
+
+    
     color: #433878;
     font-size: 36px;
-    font-weight: 300;
+
   }
   .line{ 
     width: 38%;
@@ -411,9 +445,9 @@
     margin-bottom: 0.5rem;
   }
   .topst,.l2{
-    font-family: "SemiConFont", sans-serif;
+  
     font-size: 14px;
-    font-weight: 600;
+
     width: 100%;
     margin-bottom: 2rem;
   }
@@ -448,7 +482,7 @@
     width: 0;
   }
   .mg1,.mg2{
-    width: 78%;
+    width: 71%;
     position: absolute;
     margin-left: 0rem;
   }
@@ -461,12 +495,12 @@
     margin-left: 1rem;
   }
   .s1{
-    font-family: "ConLight", sans-serif;
+
     margin-bottom: 1.6rem;
-    font-weight: 1000;
+
   }
   .s2{
-    font-family: "BoldFont", sans-serif;
+
     font-size: 32px;
   }
   .line1{
@@ -484,7 +518,7 @@
     width: 80%;
   }
   .l1{ 
-    font-family: "BoldFont", sans-serif;
+   
     color: #433878;
     font-size: 34px;
   }
@@ -508,9 +542,9 @@
   .tit,.tit5{
     margin-top: 1rem;
     color: #433878;
-    font-family: "ConBoldFont", sans-serif;
+
     font-size: 20px;
-    font-weight: 100;
+
   }
   
   
@@ -525,7 +559,7 @@
     margin-bottom: 0.7rem;
   }
   .maincon,.maincon3{
-    font-family: "ConBoldFont", sans-serif;
+
     font-size: 14px;
     margin-bottom: 0.7rem;
   }
@@ -600,7 +634,7 @@
   
   }
   .accordion label {
-    font-family: "BoldFont", sans-serif;
+    font-family: "SemiBoldFont", sans-serif;
     color: #433878;
     display: flex;
     flex-direction: row;

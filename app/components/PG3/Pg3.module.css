@@ -309,6 +309,14 @@ flex-direction: row;
 .right31mob{
   display: block;
 }
+@media (max-width: 768px) {
+  .popupss {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 90%; /* Occupy most of the viewport width */
+    max-width: 90vw; /* Ensure it doesn't exceed the viewport width */
+  }
+}
 .righttxt3{
   display: flex;
   flex-direction: column;
@@ -320,6 +328,9 @@ flex-direction: row;
   font-size: 14px;
   align-items: center;
   margin-top: 0.5rem;
+}
+.righttxt31{
+  margin-top: 1.7rem;
 }
 .rt31,.rt32,.rt33{
   margin-left: 0.5rem;

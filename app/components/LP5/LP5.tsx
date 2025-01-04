@@ -3,6 +3,7 @@ import React from 'react'
 import st5 from "./LP5.module.css"
 import { FaChevronRight } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link';
 const LP5 = () => {
   const {t} = useTranslation();
   return (
@@ -57,7 +58,9 @@ const LP5 = () => {
           </div> 
           </div>
           </div>
+          <Link href = '/users/Page1'>
           <button className = {st5.butt5}>Request a Demo <FaChevronRight className = {st5.ic5}/> </button>
+          </Link>
         </div>
       </div>
       </div>
