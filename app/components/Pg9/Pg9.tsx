@@ -1,91 +1,97 @@
+'use client';
 import React from 'react'
 import style from "./Pg9.module.css"
 import Nav from "@/app/components/Nav/Nav"
 import Footer from '../Footer/Footer'
+import { useTranslation } from 'react-i18next'
 const Pg9 = () => {
+   const {t} = useTranslation();
   return (
     <div className = {style.body}>
       <Nav/>
       <div className = {style.main}>
-      <div className = {style.heading}>Privacy Policy</div>
+      <div className = {style.heading}>{t('400')}</div>
       <div className = {style.underline}></div>
       <div className = {style.content}>
-        <div className = {style.h1}>1. General Information</div>
-        <div className = {style.txt}>Protecting your personal data is important to us. This privacy policy provides information about the processing of your personal data when you visit our website.</div>
-        <div className = {style.h1}>2. Data Controller</div>
-        <div className = {style.txt2}>Consennse GmbH
-          Ringwilerstrasse 4, 8620 Wetzikon ZH, Switzerland
-          Mr. Urs Senn
-          urs.senn@consennse.com
+        <div className = {style.h1}>{t('401')}</div>
+        <div className = {style.txt}>{t('402')}</div>
+        <div className = {style.h1}>{t('403')}</div>
+        <div className = {style.txt3}>Consennse GmbH 
+         <div> Ringwilerstrasse 4, 8620 Wetzikon ZH, {t('407')} </div>
+         <div> {t('408')} </div>
+          <div>urs.senn@consennse.com</div>
           +41 79 441 0017</div>
-          <div className = {style.h1}>3. Collection and Storage of Personal Data</div>
-          <div className = {style.listh}> a) when visiting the Website</div>
-        <div className = {style.txt2}>When you visit our website, the following data is automatically collected by the server:</div>
-<li className = {style.list}>
-<ul>IP address</ul>
-<ul>Date and time of access</ul>
-<ul>Visited pages</ul>
-<ul>Browser and operating system used</ul>
-</li>
-       <div className = {style.txt2}>   This data is collected solely to ensure the operation of the website and to improve our offerings.</div>
-       <div className = {style.listh}> b) when using the Contact Forms</div>
-        <div className = {style.txt2}>If you contact us via the contact form, the following data will be collected:</div>
-<li className = {style.list}>
-<ul>Name</ul>
-<ul>Email address</ul>
-<ul>Visited pages</ul>
-<ul>Message text</ul>
-</li>
+          <div className = {style.h1}>{t('404')}</div>
+          <div className = {style.listh}>{t('405')}</div>
+        <div className = {style.txt2}>{t('406')}</div>
+<ul className = {style.list}>
+<li>{t('409')}</li>
+<li>{t('410')}</li>
+<li>{t('411')}</li>
+<li>{t('412')}</li>
+</ul>
+       <div className = {style.txt2}>{t('413')}</div>
+       <div className = {style.listh}> {t('414')}</div>
+<div className = {style.txt2}>    {t('415')} </div>
+<ul className = {style.list}>
+<li>{t('416')}</li>
+<li>{t('417')}</li>
+<li>{t('419')}</li>
+</ul>
 
-<div className = {style.txt2}>This data is necessary to process your inquiry and to contact you. The legal basis for processing your data is:</div>
-<li className = {style.list}>
-<ul> <b>Under GDPR:</b> Art. 6(1)(b) (performance of a contract) or Art. 6(1)(f) (legitimate interest).</ul>
-<ul><b>Under Swiss DSG:</b> Art. 6 DSG (processing personal data to fulfill a contract or to take pre-contractual measures at the request of the data subject).</ul>
-  </li>
+<div className = {style.txt2}>{t('420')}</div>
+<ul className = {style.list}>
+<li> <b>{t('421')}</b> {t('422')}</li>
+<li><b>{t('423')}</b> {t('424')}</li>
+  </ul>
 <div className = {style.text}>
 <b>
-Data Retention:</b>
+{t('425')}</b>
 <div className = {style.txt2}>
-The data collected via the contact form will only be stored for as long as necessary to process your request or as required by statutory retention periods. After these periods expire, the data will be deleted.
+{t('426')}
 </div>
 </div>
 <div className = {style.text}>
 <b>
-Transfer to Third Countries:</b>
+{t('427')}</b>
 <div className = {style.txt2}>
-Data collected via the contact form is processed exclusively on servers located in Switzerland, the EU, or third countries that meet the adequate data protection standards under Swiss data protection law. Transfers to countries without an adequate level of data protection will only occur with your explicit consent or based on contractual safeguards.
+{t('428')}
 </div></div>
 <div className = {style.text}>
 <b>
-Your Rights under Swiss Data Protection Law:</b>
+{t('429')}</b>
 <div className = {style.txt2}>
-In addition to the rights already mentioned (see Section 7), you have the right under the Swiss DSG to request information about the processing of your data and its purpose directly from us.
+{t('430')}
 </div></div>
 <div className = {style.text3}>
-To exercise these rights or if you have questions about data processing, you can contact us using the information provided in Section 2.</div>
-<div className = {style.h1}>4. Cookies</div>
-<div className = {style.txt2}>We use cookies to facilitate the use of our website. You can restrict or disable the use of cookies in your browser settings.</div>
-<div className = {style.h1}>5. Use of Google Analytics</div>
-<div className = {style.txt2}>This website uses Google Analytics, a web analytics service provided by Google LLC (“Google”). Google Analytics uses cookies that enable the analysis of your use of the website.
+{t('431')}</div>
+<div className = {style.h1}>{t('432')}</div>
+<div className = {style.txt2}>{t('433')}</div>
+<div className = {style.h1}>{t('434')}</div>
+<div className = {style.txt2}>{t('435')}
 <div className = {style.text4}>
-The information generated by the cookies about your use of this website (including your IP address) is generally transmitted to and stored on a Google server in the United States. We use Google Analytics exclusively with IP anonymization enabled, so your IP address is truncated within the member states of the European Union.
+{t('436')}
 </div>
 <div className = {style.text4}>
-Processing is based on Art. 6(1)(f) GDPR (legitimate interest in analyzing and optimizing our website).</div>
+{t('437')}</div>
 <div className = {style.text4}>
-You can prevent Google Analytics from collecting your data by downloading and installing the browser add-on for disabling Google Analytics: https://tools.google.com/dlpage/gaoptout.</div></div>
-<div className = {style.h1}>6. Data Sharing</div>
-<div className = {style.txt2}>Your data will not be shared with third parties unless required by law, necessary for fulfilling a contract, or as described in the context of Google services.</div>
-<div className = {style.h1}>7. Rights of Data Subjects</div>
-<div className = {style.txt2}>You have the following rights:</div>
-<li className = {style.list}>
-<ul>Access to your stored data </ul>
-<ul>Correction of incorrect data </ul>
-<ul>Deletion of your data</ul>
-<ul>Restriction of processing</ul>
-<ul>Objection to processing</ul>
-<ul>Data portability</ul>
-</li>
+{t('438')}</div></div>
+<div className = {style.h1}>{t('439')}</div>
+<div className = {style.txt2}>{t('440')}</div>
+<div className = {style.h1}>{t('441')}</div>
+<div className = {style.txt2}>{t('442')}</div>
+<ul className = {style.list}>
+<li>{t('443')}</li>
+<li>{t('444')}</li>
+<li>{t('445')}</li>
+<li>{t('446')}</li>
+<li>{t('447')}</li>
+<li>{t('448')}</li>
+</ul>
+<div className = {style.text4}>{t('449')}</div>
+<div className = {style.h1}>{t('450')}</div>
+<div className = {style.txt2}>{t('451')}</div>
+<div className = {style.text}>{t('452')}</div>
       </div>
       </div>
       <Footer/>

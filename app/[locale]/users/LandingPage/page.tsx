@@ -1,4 +1,5 @@
 import React from 'react'
+import CookieConsent from '@/app/components/Cookie/CookieConsent'
 import Nav from '@/app/components/Nav/Nav'
 import style from "./page.module.css"
 import NavMid from '@/app/components/NavMid/NavMid'
@@ -22,6 +23,7 @@ export default async function page () {
       <NavMid/>
       </div>
       <div className={style.content}>
+      <CookieConsent/>
       <LP2/>
       <LP6/>
       <LP3/>
