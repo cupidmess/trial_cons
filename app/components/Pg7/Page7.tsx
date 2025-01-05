@@ -4,7 +4,7 @@ import Nav from "@/app/components/Nav/Nav"
 import Image from 'next/image'
 import Footer from '../Footer/Footer'
 import style from "./Pg7.module.css"
-import image from "./Rectangle 34625456-3.svg"
+import image from "./Rectangle 34625456-6.svg"
 import hourglass from "./anxiety-induced-by-hourglass 1.svg"
 import logo from "./image 17.svg"
 import { useTranslation } from 'react-i18next'
