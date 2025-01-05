@@ -49,7 +49,7 @@ const Pg2 = () => {
     e.preventDefault();
 
     console.log('Form Data Submitted:', formData);
-    const response = await fetch('http://localhost:8000/api/form/', {
+    const response = await fetch('https://cupidmess.pythonanywhere.com/api/form/?', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
