@@ -13,7 +13,7 @@ import LP8 from '@/app/components/LP8/LP8'
 import LP9 from '@/app/components/LP9/LP9'
 import LP10 from '@/app/components/LP10/LP10'
 import LP11 from '@/app/components/LP11/LP11'
-import LP12 from '@/app/components/LP12/LP12'
+import Footer from '@/app/components/Footer/Footer'
 export default async function page () {
 
   return (
@@ -36,7 +36,7 @@ export default async function page () {
       <LP11/>
       </div>
       <div className={style.footpg}>
-      <LP12/>
+      <Footer/>
       </div>
     </div>
   )

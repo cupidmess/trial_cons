@@ -13,7 +13,8 @@ import img11 from "./image 11.svg"
 import img12 from "./image 12.svg"
 import img13 from "./image 13.svg"
 import img14 from "./image 15.svg"
-
+import Link from 'next/link'
+import { FaChevronRight } from 'react-icons/fa'
 const Page7 = () => {
   const {t} = useTranslation();
   return (
@@ -140,8 +141,8 @@ const Page7 = () => {
           </div>
         </div>
       </div>
-      {/* <div className = {style.page4}>
-      <div className = {style.subsection3}>
+       <div className = {style.page4}>
+      {/* <div className = {style.subsection3}>
           <div className = {style.left32}>
             <div className = {style.tit32}>Why choose EXPOSE</div>
             <div className = {style.line32}></div>
@@ -150,8 +151,8 @@ const Page7 = () => {
              <div className = {style.right32}>
               <Image src = {img15} alt = "girl" className = {style.img153}/>
              </div>
-        </div>
-      <div className = {style.bot4}>
+        </div> */}
+      {/* <div className = {style.bot4}>
           <div className = {style.boxes4}>
             <div className = {style.boxtop4}>
               <div className = {style.box41}>
@@ -220,13 +221,16 @@ const Page7 = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className = {style.lastpage}>
           <div className = {style.lasttit}>Ready for the next step?</div>
           <div className = {style.con5}>We are happy to provide you with more information or arrange a consultation.</div>
-          <button className = {style.but5}>Get Started <FaChevronRight className={style.iconlast}/> </button>
+          <Link href = '/users/Page1'>
+          <button className = {style.but5}>
+            Get Started <FaChevronRight className={style.iconlast}/> </button>
+            </Link>
         </div>
-      </div> */}
+      </div> 
       </div>
       <Footer/>
     </div>

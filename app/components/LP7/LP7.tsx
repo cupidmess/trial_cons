@@ -2,7 +2,7 @@
 import React from 'react'
 import st7 from "./LP7.module.css"
 import Image from 'next/image'
-import rext from "./Rext2.svg"
+import rext from "./team.png"
 import { useTranslation } from 'react-i18next';
 const LP7 = () => {
   const {t} = useTranslation();

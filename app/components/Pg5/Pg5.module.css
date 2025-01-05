@@ -147,11 +147,12 @@
   flex-direction: row;
   align-items: center;
   border-radius: 5px;
-  padding-left: 2rem;
+  padding-left: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-right: 2rem;
+  padding-right: 3rem;
   font-size: 22px;
+
 }
 .ic1{
   font-size: 17px;
@@ -426,6 +427,21 @@
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     font-family: "Font", sans-serif;
+  }
+  .button15{
+    font-family: "Medium", sans-serif;
+    background-color: #433878;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2.5rem;
+    font-size: 18px;
+  
   }
   .topt{
 

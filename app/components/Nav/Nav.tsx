@@ -6,12 +6,12 @@ import { usePathname } from 'next/navigation'; // Import usePathname hook
 import styles from "./Nav.module.css";
 import Image from 'next/image';
 import Name from "./Name.svg";
-import { FaChevronDown, FaBars } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
+import LanguageChanger from '@/app/components/LanguageChanger/LanguageChanger'; 
 const Nav = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
-  const [language, setLanguage] = useState('en');
   const [menuOpen, setMenuOpen] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
   const [isDropdownVisible2, setDropdownVisible2] = useState(false);
@@ -47,11 +47,7 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
 
-  const changeLanguage = (lang: string) => {
-    i18n.changeLanguage(lang);
-    setLanguage(lang);
-    setIsOpen(false);
-  };
+ 
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -77,17 +73,17 @@ const Nav = () => {
           </div>
           <div className={styles.right}>
             <Link href='/'>
-              <div className={`${styles.home} ${isActiveLink('/')}`}>
+              <div className={`${styles.home}  ${isActiveLink('/') || isActiveLink('/de')}` }>
                 Home
               </div>
             </Link>
             <Link href='/users/Page4'>
-              <div className={`${styles.serv} ${isActiveLink('/users/Page4')}`}>
+              <div className={`${styles.serv} ${isActiveLink('/users/Page4') || isActiveLink('/de/users/Page4')}`}>
                 Services
               </div>
             </Link>
             <Link href='/users/Page3'>
-              <div className={`${styles.sup} ${isActiveLink('/users/Page3')}`}>
+              <div className={`${styles.sup} ${isActiveLink('/users/Page3')  || isActiveLink('/de/users/Page3')}`}>
                 Support
               </div>
             </Link>
@@ -119,7 +115,7 @@ const Nav = () => {
               </div>
             </Link>
           </div>
-          <div className={styles.but}>
+          {/* <div className={styles.but}>
             <button className={styles.drop} onClick={toggleDropdown}>
               {language === 'en' ? 'EN' : 'DE'}
               <div className={styles.ic2}>
@@ -135,7 +131,8 @@ const Nav = () => {
                 )}
               </ul>
             )}
-          </div>
+          </div> */}
+                    <LanguageChanger/>
           <div className={styles.menu}>
             <div className={styles.menuIcon}>
               <FaBars className={styles.menustyle} onClick={toggleMenu} />

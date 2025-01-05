@@ -112,7 +112,7 @@
 }
 .left7txt1,.left7txt2{
   font-size: 18px;
-  opacity: 0.7;
+
 }
 .left7txt2{
   margin-bottom: 1.4rem;
@@ -120,6 +120,11 @@
 
 .imgbox{
   height: 100%;
+}
+.brimg{
+  height: 100%;
+  width: auto;
+  object-fit: cover;
 }
 .right7 {
   width: 50%;
@@ -178,7 +183,7 @@
   }
   .left7txt1,.left7txt2{
     font-size: 18px;
-    opacity: 0.7;
+
   }
   .left7txt2{
     margin-bottom: 1.4rem;

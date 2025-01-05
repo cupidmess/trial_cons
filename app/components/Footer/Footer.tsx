@@ -4,6 +4,7 @@ import Image from 'next/image';
 import lin from "./Facebook.svg"
 import st12 from "./Footer.module.css"
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link';
 const Footer = () => {
   const {t} = useTranslation();
   return (
@@ -42,7 +43,11 @@ const Footer = () => {
         <div className = {st12.footdiv1}>
         2025 © Consennse - {t('89')}
         </div>
-        <div className = {st12.footdiv2}>{t('90')}</div>
+        <div className = {st12.footdiv2}>
+          <Link href = '/users/PrivacyPolicy'>
+          {t('90')}
+          </Link>
+          </div>
         </footer>
         </div>
       </div>
