@@ -177,13 +177,12 @@ const Pg5 = () => {
     </div><div className = {style.box}>
       <div className = {style.boxt}>
         <Image src = {m5} alt = "magnifier"height ={55}/>
-        <div className={style.tit}>Support</div>
+        <div className={style.tit}>{t('455')}</div>
         <div className = {style.lline}></div>
-        <div className = {style.maincon}>Content</div>
-        <div className={style.maincon1}>The support phase includes comprehensive services for the
-optimal management of the CRM system. These services include user support, adjustments to new requirements in business processes, the creation and optimization of reports, dashboards, and analytics, as well as regular updates for Salesforce/Propertybase.</div>
-        <div className={style.maincon}>Result</div>
-        <div className={style.maincon1}>The result is stable system availability without downtime , reduces costs through automation and optimized processes, and increased efficiency. Improved data quality and more accurate decision-making foundations drive sustainable success, while user-friendliness and system adoption are enhnced</div>
+        <div className = {style.maincon}>{t('456')}</div>
+        <div className={style.maincon1}>{t('457')}</div>
+        <div className={style.maincon}>{t('458')}</div>
+        <div className={style.maincon1}>{t('459')}</div>
       </div>
     </div>
   </div>

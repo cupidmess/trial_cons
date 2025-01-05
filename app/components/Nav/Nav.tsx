@@ -1,5 +1,4 @@
 "use client"; // Ensure the component runs on the client side
-
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation'; // Import usePathname hook
@@ -99,8 +98,8 @@ const Nav = () => {
             <Link href = '/users/WebOffice'>
             <li className = {`${styles.wE} ${isActiveLink2('/users/WebOffice')|| isActiveLink2('/de/users/WebOffice')}`}>WEB OFFICE for Propertybase</li>
             </Link>
-            <Link href = '/users/PropertyBase'>
-            <li className = {`${styles.E} ${isActiveLink2('/users/PropertyBase') || isActiveLink2('/de/users/PropertyBase')}`}>EXPOSE for Propertybase</li>
+            <Link href = '/users/Expose'>
+            <li className = {`${styles.E} ${isActiveLink2('/users/Expose') || isActiveLink2('/de/users/Expose')}`}>EXPOSE for Propertybase</li>
             </Link>
           </ul>
         </div>
@@ -170,7 +169,7 @@ const Nav = () => {
        
               WEB OFFICE for Propertybase</li>
             </Link>
-            <Link href = '/users/PropertyBase' className = {`${styles.wE} ${isActiveLink2('/users/PropertyBase')|| isActiveLink2('/de/users/PropertyBase')}`}>
+            <Link href = '/users/Expose' className = {`${styles.wE} ${isActiveLink2('/users/Expose')|| isActiveLink2('/de/users/Expose')}`}>
             <li>
             EXPOSE for Propertybase</li>
             </Link>
