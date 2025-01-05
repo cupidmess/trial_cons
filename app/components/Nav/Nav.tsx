@@ -95,20 +95,20 @@ const Nav = () => {
         <div className={styles.dropdown2}>
           <ul>
             <Link href = '/users/SwissEdition'>
-            <li className = {`${styles.sE} ${isActiveLink2('/users/SwissEdition')}`}>Propertybase SWISS EDITION</li>
+            <li className = {`${styles.sE} ${isActiveLink2('/users/SwissEdition') || isActiveLink2('/de/users/SwissEdition')}`}>Propertybase SWISS EDITION</li>
             </Link>
             <Link href = '/users/WebOffice'>
-            <li className = {`${styles.wE} ${isActiveLink2('/users/WebOffice')}`}>WEB OFFICE for Propertybase</li>
+            <li className = {`${styles.wE} ${isActiveLink2('/users/WebOffice')|| isActiveLink2('/de/users/WebOffice')}`}>WEB OFFICE for Propertybase</li>
             </Link>
             <Link href = '/users/PropertyBase'>
-            <li className = {`${styles.E} ${isActiveLink2('/users/PropertyBase')}`}>EXPOSE for Propertybase</li>
+            <li className = {`${styles.E} ${isActiveLink2('/users/PropertyBase') || isActiveLink2('/de/users/PropertyBase')}`}>EXPOSE for Propertybase</li>
             </Link>
           </ul>
         </div>
       )}
 
             <Link href='/users/Page1'>
-              <div className={`${styles.con} ${isActiveLink('/users/Page1')}`}>
+              <div className={`${styles.con} ${isActiveLink('/users/Page1') || isActiveLink('/de/users/Page1')}`}>
                 {t('6')}
               </div>
             </Link>
@@ -161,17 +161,17 @@ const Nav = () => {
                   </Link>
                   <li className={isActiveLink('/sol')} onClick={toggleDropdown2}>{t('5')} </li>
           <ul className = {styles.menu2}>
-            <Link href = '/users/SwissEdition' className = {`${styles.sE} ${isActiveLink2('/users/SwissEdition')}`} >
+            <Link href = '/users/SwissEdition' className = {`${styles.sE} ${isActiveLink2('/users/SwissEdition')|| isActiveLink2('/de/users/SwissEdition')}`} >
             <li>
           
               Propertybase SWISS EDITION</li>
             </Link>
-            <Link href = '/users/WebOffice' className = {`${styles.wE} ${isActiveLink2('/users/WebOffice')}`}>
+            <Link href = '/users/WebOffice' className = {`${styles.wE} ${isActiveLink2('/users/WebOffice')|| isActiveLink2('/de/users/WebOffice')}`}>
             <li>
        
               WEB OFFICE for Propertybase</li>
             </Link>
-            <Link href = '/users/PropertyBase' className = {`${styles.wE} ${isActiveLink2('/users/PropertyBase')}`}>
+            <Link href = '/users/PropertyBase' className = {`${styles.wE} ${isActiveLink2('/users/PropertyBase')|| isActiveLink2('/de/users/PropertyBase')}`}>
             <li>
             EXPOSE for Propertybase</li>
             </Link>
