@@ -11,7 +11,6 @@ import { useTranslation } from 'react-i18next';
 import LanguageChanger from '@/app/components/LanguageChanger/LanguageChanger'; 
 const Nav = () => {
   const { t } = useTranslation();
-  const [isOpen, setIsOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
   const [isDropdownVisible2, setDropdownVisible2] = useState(false);
